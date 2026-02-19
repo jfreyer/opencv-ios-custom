@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.source = {
     :http => 'https://github.com/jfreyer/opencv-ios-custom/releases/download/4.10.0/opencv2.xcframework.zip',
-    :sha256 => 'REPLACE_WITH_CHECKSUM_FROM_BUILD_SCRIPT'
+    :sha256 => '4982d00fec85350facad5dc32f5e0679ee091a1aba4b4527a7907959dbc97a80'
   }
 
   s.platform              = :ios, '13.0'
