@@ -1,0 +1,7 @@
+#message("Load TOOLCHAIN config...")
+set(ARCH arm64)
+set(CMAKE_SYSTEM_NAME iOS)
+set(CMAKE_SYSTEM_PROCESSOR arm64)
+set(CMAKE_SYSTEM_VERSION 13.0)
+set(DEPLOYMENT_TARGET 13.0)
+set(IOS_ARCH arm64)

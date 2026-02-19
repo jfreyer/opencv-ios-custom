@@ -1,0 +1,245 @@
+#use_cache "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/.cache"
+#do_unpack "v0.1.2d.zip" "dbb095a8bf3008e91edbbf45d8d34885" "https://github.com/opencv/ade/archive/v0.1.2d.zip" "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/ade"
+#cmake_download "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/.cache/ade/dbb095a8bf3008e91edbbf45d8d34885-v0.1.2d.zip" "https://github.com/opencv/ade/archive/v0.1.2d.zip"
+#try 1
+# Host github.com:443 was resolved.
+# IPv6: (none)
+# IPv4: 140.82.121.4
+#   Trying 140.82.121.4:443...
+# Connected to github.com (140.82.121.4) port 443
+# ALPN: curl offers http/1.1
+# (304) (OUT), TLS handshake, Client hello (1):
+# [308 bytes data]
+#  CAfile: /etc/ssl/cert.pem
+#  CApath: none
+# (304) (IN), TLS handshake, Server hello (2):
+# [122 bytes data]
+# (304) (IN), TLS handshake, Unknown (8):
+# [25 bytes data]
+# (304) (IN), TLS handshake, Certificate (11):
+# [2740 bytes data]
+# (304) (IN), TLS handshake, CERT verify (15):
+# [78 bytes data]
+# (304) (IN), TLS handshake, Finished (20):
+# [36 bytes data]
+# (304) (OUT), TLS handshake, Finished (20):
+# [36 bytes data]
+# SSL connection using TLSv1.3 / AEAD-CHACHA20-POLY1305-SHA256 / [blank] / UNDEF
+# ALPN: server accepted http/1.1
+# Server certificate:
+#  subject: CN=github.com
+#  start date: Jan  6 00:00:00 2026 GMT
+#  expire date: Apr  5 23:59:59 2026 GMT
+#  subjectAltName: host "github.com" matched cert's "github.com"
+#  issuer: C=GB; O=Sectigo Limited; CN=Sectigo Public Server Authentication CA DV E36
+#  SSL certificate verify ok.
+# using HTTP/1.x
+# GET /opencv/ade/archive/v0.1.2d.zip HTTP/1.1
+# Host: github.com
+# User-Agent: curl/8.7.1
+# Accept: */*
+# 
+# Request completely sent off
+# HTTP/1.1 302 Found
+# Date: Thu, 19 Feb 2026 14:43:22 GMT
+# Content-Type: text/html; charset=utf-8
+# Content-Length: 0
+# Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With, Sec-Fetch-Site,Accept-Encoding, Accept, X-Requested-With
+# Location: https://codeload.github.com/opencv/ade/zip/refs/tags/v0.1.2d
+# Cache-Control: max-age=0, private
+# Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+# X-Frame-Options: deny
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 0
+# Referrer-Policy: no-referrer-when-downgrade
+# Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+# Server: github.com
+# X-GitHub-Request-Id: 2997:BD1D5:108B7B7:D84C80:69972189
+# 
+# Ignoring the response-body
+# Connection #0 to host github.com left intact
+# Issue another request to this URL: 'https://codeload.github.com/opencv/ade/zip/refs/tags/v0.1.2d'
+# Host codeload.github.com:443 was resolved.
+# IPv6: (none)
+# IPv4: 140.82.121.9
+#   Trying 140.82.121.9:443...
+# Connected to codeload.github.com (140.82.121.9) port 443
+# ALPN: curl offers http/1.1
+# (304) (OUT), TLS handshake, Client hello (1):
+# [317 bytes data]
+# (304) (IN), TLS handshake, Server hello (2):
+# [122 bytes data]
+# (304) (IN), TLS handshake, Unknown (8):
+# [25 bytes data]
+# (304) (IN), TLS handshake, Certificate (11):
+# [2742 bytes data]
+# (304) (IN), TLS handshake, CERT verify (15):
+# [79 bytes data]
+# (304) (IN), TLS handshake, Finished (20):
+# [36 bytes data]
+# (304) (OUT), TLS handshake, Finished (20):
+# [36 bytes data]
+# SSL connection using TLSv1.3 / AEAD-CHACHA20-POLY1305-SHA256 / [blank] / UNDEF
+# ALPN: server accepted http/1.1
+# Server certificate:
+#  subject: CN=*.github.com
+#  start date: Jan  6 00:00:00 2026 GMT
+#  expire date: Apr  5 23:59:59 2026 GMT
+#  subjectAltName: host "codeload.github.com" matched cert's "*.github.com"
+#  issuer: C=GB; O=Sectigo Limited; CN=Sectigo Public Server Authentication CA DV E36
+#  SSL certificate verify ok.
+# using HTTP/1.x
+# GET /opencv/ade/zip/refs/tags/v0.1.2d HTTP/1.1
+# Host: codeload.github.com
+# User-Agent: curl/8.7.1
+# Accept: */*
+# 
+# Request completely sent off
+# HTTP/1.1 200 OK
+# Access-Control-Allow-Origin: https://render.githubusercontent.com
+# content-disposition: attachment; filename=ade-0.1.2d.zip
+# Content-Length: 168110
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# Content-Type: application/zip
+# cross-origin-resource-policy: cross-origin
+# ETag: "aa49c93bf852a0db1614aaa500e0ca76bbcc6785e3ae244dcbb667b6b231447d"
+# Strict-Transport-Security: max-age=31536000
+# Vary: Authorization,Accept-Encoding
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# Date: Thu, 19 Feb 2026 14:43:22 GMT
+# X-GitHub-Request-Id: 299A:24632C:153ECE:177FB8:6997218A
+# 
+# [707 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1295 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [84 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [24 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [230 bytes data]
+# Connection #1 to host codeload.github.com left intact
+# 
+
+#check_md5 "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/.cache/ade/dbb095a8bf3008e91edbbf45d8d34885-v0.1.2d.zip"
+#mkdir "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/ade"
+#unpack "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/ade" "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/.cache/ade/dbb095a8bf3008e91edbbf45d8d34885-v0.1.2d.zip"

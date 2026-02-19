@@ -1,0 +1,109 @@
+#!/usr/bin/env bash
+#
+# build_opencv_ios.sh
+#
+# Builds OpenCV 4.10.0 for iOS as a static XCFramework
+#   - arm64 device only (no simulator)
+#   - SIFT, imread/imwrite, full stitching pipeline
+#   - No Java bindings
+#
+set -euo pipefail
+
+OPENCV_VERSION="4.10.0"
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+WORK_DIR="${SCRIPT_DIR}/work"
+OPENCV_SRC="${WORK_DIR}/opencv-${OPENCV_VERSION}"
+OUTPUT_DIR="${PROJECT_ROOT}/output"
+
+log()  { echo -e "\n\033[1;32m>>> $*\033[0m"; }
+warn() { echo -e "\n\033[1;33m!!! $*\033[0m"; }
+err()  { echo -e "\n\033[1;31mERR $*\033[0m" >&2; exit 1; }
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Step 1: Check dependencies
+# ──────────────────────────────────────────────────────────────────────────────
+log "Checking dependencies..."
+for cmd in cmake python3 git xcodebuild; do
+    command -v "$cmd" &>/dev/null || err "Missing: $cmd — install via brew install $cmd"
+done
+xcodebuild -version &>/dev/null || err "Xcode not configured. Run: sudo xcode-select --switch /Applications/Xcode.app"
+
+PARALLEL_JOBS=$(sysctl -n hw.ncpu 2>/dev/null || echo 4)
+log "Using $PARALLEL_JOBS parallel jobs"
+mkdir -p "$WORK_DIR" "$OUTPUT_DIR"
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Step 2: Clone OpenCV
+# ──────────────────────────────────────────────────────────────────────────────
+if [ ! -d "$OPENCV_SRC" ]; then
+    log "Cloning OpenCV ${OPENCV_VERSION}..."
+    git clone --depth 1 --branch "${OPENCV_VERSION}" \
+        https://github.com/opencv/opencv.git "$OPENCV_SRC"
+else
+    log "Using existing OpenCV source at $OPENCV_SRC"
+fi
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Step 3: Build XCFramework
+# ──────────────────────────────────────────────────────────────────────────────
+log "Building OpenCV XCFramework for iOS arm64 (device only)..."
+
+BUILD_OUT="${WORK_DIR}/xcframework-build"
+rm -rf "$BUILD_OUT"
+
+python3 "${OPENCV_SRC}/platforms/apple/build_xcframework.py" \
+    --out "$BUILD_OUT" \
+    --iphoneos_archs arm64 \
+    --iphoneos_deployment_target 13.0 \
+    --disable-bitcode \
+    --build_only_specified_archs \
+    --enable_nonfree \
+    --without dnn \
+    --without gapi \
+    --without highgui \
+    --without java \
+    --without js \
+    --without ml \
+    --without objc \
+    --without objdetect \
+    --without python \
+    --without ts \
+    --without video \
+    --without world \
+    2>&1 | tee "${WORK_DIR}/build.log"
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Step 4: Find and copy XCFramework
+# ──────────────────────────────────────────────────────────────────────────────
+XCFRAMEWORK=$(find "$BUILD_OUT" -name "opencv2.xcframework" -type d | head -1)
+[ -z "$XCFRAMEWORK" ] && err "opencv2.xcframework not found — check ${WORK_DIR}/build.log"
+
+log "Found XCFramework at: $XCFRAMEWORK"
+cp -r "$XCFRAMEWORK" "$OUTPUT_DIR/"
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Step 5: Zip for GitHub release
+# ──────────────────────────────────────────────────────────────────────────────
+log "Creating zip for GitHub release..."
+cd "$OUTPUT_DIR"
+rm -f opencv2.xcframework.zip
+zip -r opencv2.xcframework.zip opencv2.xcframework
+
+CHECKSUM=$(swift package compute-checksum opencv2.xcframework.zip 2>/dev/null \
+    || shasum -a 256 opencv2.xcframework.zip | awk '{print $1}')
+
+echo "$CHECKSUM" > opencv2.xcframework.zip.sha256
+log "Checksum (save this for the podspec): $CHECKSUM"
+
+log "Done!"
+echo ""
+echo "Artifacts in ${OUTPUT_DIR}:"
+echo "  opencv2.xcframework.zip"
+echo "  opencv2.xcframework.zip.sha256"
+echo ""
+echo "Next steps:"
+echo "  1. Create GitHub release tagged '4.10.0'"
+echo "  2. Upload opencv2.xcframework.zip as release asset"
+echo "  3. Update podspec with the checksum: $CHECKSUM"
