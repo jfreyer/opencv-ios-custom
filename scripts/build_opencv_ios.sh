@@ -3,7 +3,8 @@
 # build_opencv_ios.sh
 #
 # Builds OpenCV 4.10.0 for iOS as a static XCFramework
-#   - arm64 device only (no simulator)
+#   - arm64 device
+#   - arm64 + x86_64 simulator
 #   - SIFT, imread/imwrite, full stitching pipeline
 #   - No Java bindings
 #
@@ -46,9 +47,10 @@ else
 fi
 
 # ──────────────────────────────────────────────────────────────────────────────
-# Step 3: Build XCFramework
+# Step 3: Build XCFramework (device + simulator)
 # ──────────────────────────────────────────────────────────────────────────────
-log "Building OpenCV XCFramework for iOS arm64 (device only)..."
+log "Building OpenCV XCFramework for iOS (arm64 device + arm64/x86_64 simulator)..."
+log "Note: This builds 3 slices and will take ~2x longer than device-only."
 
 BUILD_OUT="${WORK_DIR}/xcframework-build"
 rm -rf "$BUILD_OUT"
@@ -56,6 +58,7 @@ rm -rf "$BUILD_OUT"
 python3 "${OPENCV_SRC}/platforms/apple/build_xcframework.py" \
     --out "$BUILD_OUT" \
     --iphoneos_archs arm64 \
+    --iphonesimulator_archs arm64,x86_64 \
     --iphoneos_deployment_target 13.0 \
     --disable-bitcode \
     --build_only_specified_archs \
@@ -81,6 +84,22 @@ XCFRAMEWORK=$(find "$BUILD_OUT" -name "opencv2.xcframework" -type d | head -1)
 [ -z "$XCFRAMEWORK" ] && err "opencv2.xcframework not found — check ${WORK_DIR}/build.log"
 
 log "Found XCFramework at: $XCFRAMEWORK"
+
+# Verify all expected slices are present
+for slice in "ios-arm64" "ios-arm64-simulator" "ios-x86_64-simulator"; do
+    if [ -d "${XCFRAMEWORK}/${slice}" ]; then
+        echo "  ✓ Slice present: ${slice}"
+    else
+        # x86_64 and arm64 simulator are merged into a single ios-arm64_x86_64-simulator slice
+        warn "  Slice not found as separate dir: ${slice} (may be merged)"
+    fi
+done
+
+# List actual slices
+echo "  Actual slices:"
+ls "${XCFRAMEWORK}/" | grep -v "Info.plist" | while read s; do echo "    - $s"; done
+
+rm -rf "${OUTPUT_DIR}/opencv2.xcframework"
 cp -r "$XCFRAMEWORK" "$OUTPUT_DIR/"
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -104,6 +123,6 @@ echo "  opencv2.xcframework.zip"
 echo "  opencv2.xcframework.zip.sha256"
 echo ""
 echo "Next steps:"
-echo "  1. Create GitHub release tagged '4.10.0'"
+echo "  1. Create GitHub release tagged '4.10.0-3'"
 echo "  2. Upload opencv2.xcframework.zip as release asset"
-echo "  3. Update podspec with the checksum: $CHECKSUM"
+echo "  3. Update podspec with the new checksum: $CHECKSUM"

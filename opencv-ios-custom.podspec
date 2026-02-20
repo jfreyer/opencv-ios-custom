@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name             = 'opencv-ios-custom'
-  s.version          = '4.10.0-2'
-  s.summary          = 'OpenCV 4.10.0 for iOS — SIFT and full stitching pipeline, arm64 device'
+  s.version          = '4.10.0-3'
+  s.summary          = 'OpenCV 4.10.0 for iOS — SIFT and full stitching pipeline, device + simulator'
   s.homepage         = 'https://github.com/jfreyer/opencv-ios-custom'
   s.license          = { :type => 'Apache 2.0' }
   s.author           = { 'jfreyer' => 'j.freyer@forstify.de' }
 
   s.source = {
-    :http => 'https://github.com/jfreyer/opencv-ios-custom/releases/download/4.10.0-2/opencv2.xcframework.zip',
+    :http => 'https://github.com/jfreyer/opencv-ios-custom/releases/download/4.10.0-3/opencv2.xcframework.zip',
     :sha256 => '4982d00fec85350facad5dc32f5e0679ee091a1aba4b4527a7907959dbc97a80'
   }
 
@@ -30,12 +30,7 @@ Pod::Spec.new do |s|
   s.libraries = 'c++', 'stdc++'
 
   s.pod_target_xcconfig = {
-    'CLANG_CXX_LANGUAGE_STANDARD'              => 'c++17',
-    'CLANG_CXX_LIBRARY'                        => 'libc++',
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]'     => 'arm64 x86_64'
-  }
-
-  s.user_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]'     => 'arm64 x86_64'
+    'CLANG_CXX_LANGUAGE_STANDARD' => 'c++17',
+    'CLANG_CXX_LIBRARY'           => 'libc++'
   }
 end
