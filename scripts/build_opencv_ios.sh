@@ -84,13 +84,14 @@ python3 "${OPENCV_SRC}/platforms/apple/build_xcframework.py" \
     --without ts \
     --without video \
     --without world \
-    2>&1 | tee "${WORK_DIR}/build.log" || true
+    2>&1 | tee "${WORK_DIR}/build.log"
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Step 3b: Fix missing Modules (--without objc skips modulemap generation)
 # ──────────────────────────────────────────────────────────────────────────────
-log "Ensuring module maps exist in built frameworks..."
-for fw in "${BUILD_OUT}"/*/opencv2.framework; do
+log "Ensuring module maps exist in platform frameworks..."
+for fw in "${BUILD_OUT}"/iphoneos/opencv2.framework "${BUILD_OUT}"/iphonesimulator/opencv2.framework; do
+    [ ! -d "$fw" ] && continue
     if [ ! -d "${fw}/Modules" ]; then
         mkdir -p "${fw}/Modules"
         cat > "${fw}/Modules/module.modulemap" <<'EOF'
@@ -99,19 +100,11 @@ framework module opencv2 {
     export *
 }
 EOF
-        echo "  ✓ Created Modules in $(basename "$(dirname "$fw")")"
+        echo "  ✓ Created Modules in $fw"
+    else
+        echo "  ✓ Modules already exists in $fw"
     fi
 done
-
-# Re-run xcframework creation now that Modules exist
-log "Re-creating XCFramework with fixed module maps..."
-rm -rf "${BUILD_OUT}/opencv2.xcframework"
-FRAMEWORK_ARGS=""
-for fw in "${BUILD_OUT}"/*/opencv2.framework; do
-    FRAMEWORK_ARGS="$FRAMEWORK_ARGS -framework $fw"
-done
-xcodebuild -create-xcframework $FRAMEWORK_ARGS \
-    -output "${BUILD_OUT}/opencv2.xcframework"
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Step 4: Find and copy XCFramework
