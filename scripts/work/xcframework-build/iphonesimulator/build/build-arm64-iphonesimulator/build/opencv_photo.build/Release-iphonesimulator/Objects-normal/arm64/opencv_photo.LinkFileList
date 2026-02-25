@@ -1,0 +1,14 @@
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/build/opencv_photo.build/Release-iphonesimulator/Objects-normal/arm64/align.o
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/build/opencv_photo.build/Release-iphonesimulator/Objects-normal/arm64/calibrate.o
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/build/opencv_photo.build/Release-iphonesimulator/Objects-normal/arm64/contrast_preserve.o
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/build/opencv_photo.build/Release-iphonesimulator/Objects-normal/arm64/denoise_tvl1.o
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/build/opencv_photo.build/Release-iphonesimulator/Objects-normal/arm64/denoising.o
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/build/opencv_photo.build/Release-iphonesimulator/Objects-normal/arm64/denoising.cuda.o
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/build/opencv_photo.build/Release-iphonesimulator/Objects-normal/arm64/hdr_common.o
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/build/opencv_photo.build/Release-iphonesimulator/Objects-normal/arm64/inpaint.o
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/build/opencv_photo.build/Release-iphonesimulator/Objects-normal/arm64/merge.o
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/build/opencv_photo.build/Release-iphonesimulator/Objects-normal/arm64/npr.o
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/build/opencv_photo.build/Release-iphonesimulator/Objects-normal/arm64/seamless_cloning.o
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/build/opencv_photo.build/Release-iphonesimulator/Objects-normal/arm64/seamless_cloning_impl.o
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/build/opencv_photo.build/Release-iphonesimulator/Objects-normal/arm64/tonemap.o
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/build/opencv_photo.build/Release-iphonesimulator/Objects-normal/arm64/opencl_kernels_photo.o

@@ -1,0 +1,96 @@
+name: Build OpenCV iOS
+
+on:
+  push:
+    paths:
+      - 'version.env'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-14
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Load version
+        run: |
+          source version.env
+          echo "OPENCV_VERSION=$OPENCV_VERSION" >> $GITHUB_ENV
+          echo "RELEASE_TAG=$RELEASE_TAG" >> $GITHUB_ENV
+
+      - name: Check tag does not already exist
+        run: |
+          if git ls-remote --tags origin | grep -q "refs/tags/${{ env.RELEASE_TAG }}$"; then
+            echo "Tag ${{ env.RELEASE_TAG }} already exists"
+            exit 1
+          fi
+
+      - name: Install dependencies
+        run: |
+          brew install cmake ninja
+
+      - name: Build OpenCV XCFramework
+        run: |
+          chmod +x scripts/build_opencv_ios.sh
+          scripts/build_opencv_ios.sh
+
+      - name: Compute checksum
+        run: |
+          cd output
+          CHECKSUM=$(shasum -a 256 opencv2.xcframework.zip | awk '{print $1}')
+          echo "CHECKSUM=$CHECKSUM" >> $GITHUB_ENV
+          echo "Checksum: $CHECKSUM"
+
+      - name: Create release tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git tag "${{ env.RELEASE_TAG }}"
+          git push origin "${{ env.RELEASE_TAG }}"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.RELEASE_TAG }}
+          name: "OpenCV ${{ env.OPENCV_VERSION }} iOS"
+          body: |
+            OpenCV ${{ env.OPENCV_VERSION }} for iOS as XCFramework.
+
+            **Includes:**
+            - Full stitching detail pipeline
+            - SIFT feature detection
+            - imread/imwrite (JPEG, PNG, WebP, TIFF)
+            - arm64 device + arm64/x86_64 simulator
+            - iOS 13.0+ deployment target
+
+            **Checksum (sha256):** `${{ env.CHECKSUM }}`
+
+            **Usage via CocoaPods:**
+            ```ruby
+            pod 'opencv-ios-custom', '~> ${{ env.RELEASE_TAG }}'
+            ```
+          files: |
+            output/opencv2.xcframework.zip
+          draft: false
+          prerelease: false
+
+      - name: Update podspec checksum
+        run: |
+          sed -i '' "s/:sha256 => '.*'/:sha256 => '${{ env.CHECKSUM }}'/" opencv-ios-custom.podspec
+          sed -i '' "s|/download/.*/opencv2|/download/${{ env.RELEASE_TAG }}/opencv2|" opencv-ios-custom.podspec
+          sed -i '' "s/s\.version.*=.*/s.version          = '${{ env.RELEASE_TAG }}'/" opencv-ios-custom.podspec
+
+          git add opencv-ios-custom.podspec
+          git diff --cached --quiet \
+            && echo "No podspec changes" \
+            || git commit -m "build: update podspec for ${{ env.RELEASE_TAG }} [ci skip]"
+          git push
+
+      - name: Push to CocoaPods trunk
+        if: env.COCOAPODS_TRUNK_TOKEN != ''
+        env:
+          COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+        run: |
+          pod trunk push opencv-ios-custom.podspec --allow-warnings

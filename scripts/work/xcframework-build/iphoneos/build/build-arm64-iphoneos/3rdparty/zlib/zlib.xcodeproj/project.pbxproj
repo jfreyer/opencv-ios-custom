@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		01C65101F907E9BB1C14098B /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 7E7777A7AACD4BA085907B47 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 66CFE5D8A722422C96392A8A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				00746ABBDB33CDCD2C6AA0F1 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,31 +20,31 @@
 		};
 		771FD8AEB39D811E2BC9B426 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 4D00692CA32C45CE864A5FAC /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 6DA7BD127D984F1E9A9E3942 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				91E9402F88EB487C91AE89AA /* PBXTargetDependency */,
+				0086B771B5D34316B9270E70 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		86736DDDED1F0A92597C9165 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 87EB2831915745C6B40EBC3B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 48B0FB426CB445048BF3F5D1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				131B3421D52A8D7E63DC5E38 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				A70F64A5749E46B09B349CE6 /* PBXTargetDependency */,
+				993E9E62511547B884F47135 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		A0A668F13D19F048AB9F8B68 /* RUN_TESTS */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = AD7A9908915C454A8B281925 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildConfigurationList = 5D15A4A283094B5D933F0CBE /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
 			buildPhases = (
 				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
 			);
@@ -55,12 +55,12 @@
 		};
 		E3A0E307AE475F45B5997A27 /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E2ACF961956E4F5F82D99B5B /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = 00DAB627D5464C5B882B04A3 /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				05D8B651EEAC44B093983F1C /* PBXTargetDependency */,
+				3884B9719297488FA6926975 /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
@@ -68,45 +68,45 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		01BD0FE61AFC476A934FE5CA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.c */ = {isa = PBXBuildFile; fileRef = A8A3DC8EC51043A385E43168 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.c */; };
-		08C12CA0C43945929857B945 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8DB7B6CD60F747FDBA30D956 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/CMakeLists.txt */; };
-		30DE0377E4A944E38FAF78F9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/infback.c */ = {isa = PBXBuildFile; fileRef = 03799F350C1643F8BAEFEB35 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/infback.c */; };
-		39BC787F1749496C9AFD798B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/adler32.c */ = {isa = PBXBuildFile; fileRef = D07D834D52F34004AEED9EF7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/adler32.c */; };
-		4341118830A347D4AD237C11 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/zconf.h */ = {isa = PBXBuildFile; fileRef = 08AA6349400F41A8AF0097EA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/zconf.h */; };
-		5003A7258A2A4735900D9BEB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.c */ = {isa = PBXBuildFile; fileRef = 03CE81A54520493CBF920EF6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.c */; };
-		615D99802D1349D98244DA6F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.h */ = {isa = PBXBuildFile; fileRef = 5D7A31AD0CCA4F348FDF041F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.h */; };
-		64B86B2518F443CE8917525B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzread.c */ = {isa = PBXBuildFile; fileRef = C59FAADB87D24C72A9598789 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzread.c */; };
-		6AEE7A5AD820445097B2D3AC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.h */ = {isa = PBXBuildFile; fileRef = 2E0F4A94C2384E3189A43460 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.h */; };
-		711D6E95C55B49A2AD4D18EA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzwrite.c */ = {isa = PBXBuildFile; fileRef = 2B843C961B48447EA942075F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzwrite.c */; };
-		740A6FE97D224F3686D8BAEE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.h */ = {isa = PBXBuildFile; fileRef = 73D303629BEF463EBFBE428F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.h */; };
-		74247E7806494067AC1BDE20 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/compress.c */ = {isa = PBXBuildFile; fileRef = 4DF8C7B63153437D8F15B246 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/compress.c */; };
-		74A674ABC55D4998A90A3FDA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.c */ = {isa = PBXBuildFile; fileRef = 3926D63A785E4CE28501AF8B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.c */; };
-		757DDFE5A59F47D185AEB868 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffixed.h */ = {isa = PBXBuildFile; fileRef = AA928300F7A745A88D7BE0FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffixed.h */; };
-		7595002C63F54DB99A0825C4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzlib.c */ = {isa = PBXBuildFile; fileRef = A682BC3C4C31441A9E96021F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzlib.c */; };
-		7B94E43CF080457A99F61703 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.c */ = {isa = PBXBuildFile; fileRef = 418F16E6A4704B13B1B3E73A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.c */; };
-		8068E2BFDE0C46CE8E38D2BB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.c */ = {isa = PBXBuildFile; fileRef = FED1B3CD66E84529835A0EB9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.c */; };
-		944D7EE1E9BD45BBB5A927DD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzclose.c */ = {isa = PBXBuildFile; fileRef = 17AA73A6E9CC460CBC32D5CF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzclose.c */; };
-		957B4292F53B4CD79573F578 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zlib.h */ = {isa = PBXBuildFile; fileRef = FCA5AEF7D54B4826907DA4AC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zlib.h */; };
-		9C39738FC9E84179B4B4C64E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.h */ = {isa = PBXBuildFile; fileRef = C888EE027BB74AF8981022F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.h */; };
-		D8306D5C4F8944BB9BCDE5E5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.c */ = {isa = PBXBuildFile; fileRef = 3E9D6C9298BC4C2EA80D87AC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.c */; };
-		DF05F5AEFF834AC1A089541D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.h */ = {isa = PBXBuildFile; fileRef = 71BB2DCE3E9949409CA52BE6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.h */; };
-		E1070E80173449CE9FF9F6C0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/uncompr.c */ = {isa = PBXBuildFile; fileRef = DA74BA94137148FAB91B6ED4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/uncompr.c */; };
-		EC7E4207A62645C8A2B50B65 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.c */ = {isa = PBXBuildFile; fileRef = 82411DD272284F0590D5FB88 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.c */; };
-		F3C2128058A44377A832E166 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.h */ = {isa = PBXBuildFile; fileRef = A4CD7BADDEAB45D4AA42FBE5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.h */; };
-		F3DDFE32C6424A2AB4D5BCB1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.h */ = {isa = PBXBuildFile; fileRef = E29E021550D248F5A06CFA80 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.h */; };
-		F775FEF8E1164BFE8D3073AD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/CMakeFiles/zlib.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 5ACE41A977A14DC6B97B5D41 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/CMakeFiles/zlib.dir/Info.plist */; };
-		F7EC470CD78D461EAB83B8A8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzguts.h */ = {isa = PBXBuildFile; fileRef = 42E319E2B4F9490C8E3C0490 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzguts.h */; };
+		04A39E1072A342B885693F16 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.c */ = {isa = PBXBuildFile; fileRef = 387E1E1D9C2A491FB2FEB526 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.c */; };
+		07DECD81359144CCBBD7723D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.h */ = {isa = PBXBuildFile; fileRef = 81DE61C1075E48B5807F4CF9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.h */; };
+		1F0F5744D98C4D3899711DB0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.h */ = {isa = PBXBuildFile; fileRef = 44F5C9DF8EBF4A7BBA26C21E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.h */; };
+		2C266A9EEA604FC1BED272D0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.h */ = {isa = PBXBuildFile; fileRef = 5F84EE0946714986B20C028A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.h */; };
+		3C1EAA69BB774EE3B8CC9FF0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.c */ = {isa = PBXBuildFile; fileRef = E8EBD2CCFCA847E58FD2325B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.c */; };
+		441C9D2E2DE14ED8AB78E562 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/uncompr.c */ = {isa = PBXBuildFile; fileRef = FD3BC258781A4503A81E8236 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/uncompr.c */; };
+		442BAC08DB3F4C1AB8D3C665 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zlib.h */ = {isa = PBXBuildFile; fileRef = D91B6A8FCB1F4E8CB841779F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zlib.h */; };
+		476E896AA46940BEB1CDC9F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffixed.h */ = {isa = PBXBuildFile; fileRef = F91EE707A694408F9A61573B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffixed.h */; };
+		4ACBE54A9C354DB7A64338BE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.h */ = {isa = PBXBuildFile; fileRef = 0F1E5C21C1CE4B2E87A32662 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.h */; };
+		5785541101CA47FB8E7BDC48 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.h */ = {isa = PBXBuildFile; fileRef = 91F8B03744FA42CD880E358F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.h */; };
+		5A6BF6857DC64BD1A22A73A7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzguts.h */ = {isa = PBXBuildFile; fileRef = 9C105324F0F849BEBCB44F11 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzguts.h */; };
+		732101E7DB9C400FBD26EA79 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzlib.c */ = {isa = PBXBuildFile; fileRef = 2A82105BCECC49BA96D245E6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzlib.c */; };
+		7369E1115816476B94F33C85 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/infback.c */ = {isa = PBXBuildFile; fileRef = 605D9B8F08EE416680B35AF8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/infback.c */; };
+		73EA0D59E17C42F19FD2DE92 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.h */ = {isa = PBXBuildFile; fileRef = 8891BEA84C35422FAF5705A3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.h */; };
+		8A52AF48FDC84DF5925FD551 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/zconf.h */ = {isa = PBXBuildFile; fileRef = 39E497018A3D487BACB93E5C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/zconf.h */; };
+		93999D55D7AA43CBB8E7A6CD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzclose.c */ = {isa = PBXBuildFile; fileRef = 6826294506F14E5997233A3F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzclose.c */; };
+		9D3B4C3D8944414AAAF865C3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.c */ = {isa = PBXBuildFile; fileRef = D1EEE3895DD4440B8DD37556 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.c */; };
+		A622D8855BD542F7AB3234C6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.c */ = {isa = PBXBuildFile; fileRef = 1446DDC494354A5194CF9828 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.c */; };
+		A6A44598F6374AD09C1ABF3F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.c */ = {isa = PBXBuildFile; fileRef = C7F2E414D5074D8BA1C7CFAA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.c */; };
+		A87BA7C9C5EB46369A997DB5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzread.c */ = {isa = PBXBuildFile; fileRef = 9E92A773FE204B94B73EB264 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzread.c */; };
+		AEC63053863E4374967EB727 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzwrite.c */ = {isa = PBXBuildFile; fileRef = DCB404AA0AF449B6B86C14B0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzwrite.c */; };
+		AECA0FCBDD91410E86BBEAE9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.h */ = {isa = PBXBuildFile; fileRef = 1475FA5E4B2C49D184D67314 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.h */; };
+		C1EC5B4400294E38908B3816 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/compress.c */ = {isa = PBXBuildFile; fileRef = D155893A2CA8475397E23F24 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/compress.c */; };
+		C90E025661AC48F49FFBF0EB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/adler32.c */ = {isa = PBXBuildFile; fileRef = 58E217564E254B62A196F69A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/adler32.c */; };
+		DD7BC96777CF445993CC2B47 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AA3C2BE626E9464D99F52F75 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/CMakeLists.txt */; };
+		DDD98D1BD1F249DD931D4AD8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.c */ = {isa = PBXBuildFile; fileRef = 7425B95E012E4E0F942005B5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.c */; };
+		F1AAEE0ECB3448A48DAF4860 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/CMakeFiles/zlib.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 0169AF01BEBD442B84834604 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/CMakeFiles/zlib.dir/Info.plist */; };
+		FB88D90F44CA4099A18A20FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.c */ = {isa = PBXBuildFile; fileRef = 4CA86F53824949AE825FFCBF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		55E1E23047FB48E7A6C10514 /* Release */ = {
+		596C56A6C23E440FAD764C91 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		65CD15BDD156444AA05E134A /* Debug */ = {
+		9900E3F7C7C6465D85269D39 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -116,30 +116,30 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		0DACEB0120CD47DE9D7C96A2 /* PBXContainerItemProxy */ = {
+		5333CF156A8B47DE91C6AA52 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ADD97163254D4769997FB5A3 /* Project object */;
+			containerPortal = 53B36C2582A841A49C13D6D7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
 			remoteInfo = ALL_BUILD;
 		};
-		434DB0C55E734E968A9471E4 /* PBXContainerItemProxy */ = {
+		69959A4E96AB48D6B70C58D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ADD97163254D4769997FB5A3 /* Project object */;
+			containerPortal = 53B36C2582A841A49C13D6D7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
 			remoteInfo = ALL_BUILD;
 		};
-		909AD21EABD146E8AC1C0AA3 /* PBXContainerItemProxy */ = {
+		75A655121E2A40F5AFF83AB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ADD97163254D4769997FB5A3 /* Project object */;
+			containerPortal = 53B36C2582A841A49C13D6D7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
 			remoteInfo = ZERO_CHECK;
 		};
-		98CB4295F2EB41EF9B13CD56 /* PBXContainerItemProxy */ = {
+		A3CAFA750DDE43589D62E0EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ADD97163254D4769997FB5A3 /* Project object */;
+			containerPortal = 53B36C2582A841A49C13D6D7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
 			remoteInfo = ZERO_CHECK;
@@ -147,40 +147,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03799F350C1643F8BAEFEB35 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/infback.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = infback.c; path = infback.c; sourceTree = SOURCE_ROOT; };
-		03CE81A54520493CBF920EF6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = crc32.c; path = crc32.c; sourceTree = SOURCE_ROOT; };
-		08AA6349400F41A8AF0097EA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/zconf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zconf.h; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/zconf.h"; sourceTree = "<absolute>"; };
-		17AA73A6E9CC460CBC32D5CF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzclose.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gzclose.c; path = gzclose.c; sourceTree = SOURCE_ROOT; };
-		2B843C961B48447EA942075F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gzwrite.c; path = gzwrite.c; sourceTree = SOURCE_ROOT; };
-		2E0F4A94C2384E3189A43460 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = deflate.h; path = deflate.h; sourceTree = SOURCE_ROOT; };
-		3926D63A785E4CE28501AF8B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inflate.c; path = inflate.c; sourceTree = SOURCE_ROOT; };
-		3E9D6C9298BC4C2EA80D87AC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = zutil.c; path = zutil.c; sourceTree = SOURCE_ROOT; };
-		418F16E6A4704B13B1B3E73A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = trees.c; path = trees.c; sourceTree = SOURCE_ROOT; };
-		42E319E2B4F9490C8E3C0490 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzguts.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gzguts.h; path = gzguts.h; sourceTree = SOURCE_ROOT; };
-		4DF8C7B63153437D8F15B246 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/compress.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = compress.c; path = compress.c; sourceTree = SOURCE_ROOT; };
-		5ACE41A977A14DC6B97B5D41 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/CMakeFiles/zlib.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/CMakeFiles/zlib.dir/Info.plist"; sourceTree = "<absolute>"; };
-		5D7A31AD0CCA4F348FDF041F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = crc32.h; path = crc32.h; sourceTree = SOURCE_ROOT; };
-		71BB2DCE3E9949409CA52BE6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inftrees.h; path = inftrees.h; sourceTree = SOURCE_ROOT; };
-		73D303629BEF463EBFBE428F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inflate.h; path = inflate.h; sourceTree = SOURCE_ROOT; };
-		82411DD272284F0590D5FB88 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inftrees.c; path = inftrees.c; sourceTree = SOURCE_ROOT; };
-		8DB7B6CD60F747FDBA30D956 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		A4CD7BADDEAB45D4AA42FBE5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inffast.h; path = inffast.h; sourceTree = SOURCE_ROOT; };
-		A682BC3C4C31441A9E96021F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gzlib.c; path = gzlib.c; sourceTree = SOURCE_ROOT; };
-		A8A3DC8EC51043A385E43168 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inffast.c; path = inffast.c; sourceTree = SOURCE_ROOT; };
-		AA928300F7A745A88D7BE0FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffixed.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inffixed.h; path = inffixed.h; sourceTree = SOURCE_ROOT; };
-		C59FAADB87D24C72A9598789 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gzread.c; path = gzread.c; sourceTree = SOURCE_ROOT; };
-		C888EE027BB74AF8981022F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = trees.h; path = trees.h; sourceTree = SOURCE_ROOT; };
-		D07D834D52F34004AEED9EF7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/adler32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = adler32.c; path = adler32.c; sourceTree = SOURCE_ROOT; };
-		DA74BA94137148FAB91B6ED4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/uncompr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = uncompr.c; path = uncompr.c; sourceTree = SOURCE_ROOT; };
-		E29E021550D248F5A06CFA80 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zutil.h; path = zutil.h; sourceTree = SOURCE_ROOT; };
-		F19A91290134489DB34899EB /* zlib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libzlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F65FC6423E524CA5B089B885 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		FCA5AEF7D54B4826907DA4AC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zlib.h; path = zlib.h; sourceTree = SOURCE_ROOT; };
-		FED1B3CD66E84529835A0EB9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = deflate.c; path = deflate.c; sourceTree = SOURCE_ROOT; };
+		0169AF01BEBD442B84834604 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/CMakeFiles/zlib.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/CMakeFiles/zlib.dir/Info.plist"; sourceTree = "<absolute>"; };
+		0F1E5C21C1CE4B2E87A32662 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inftrees.h; path = inftrees.h; sourceTree = SOURCE_ROOT; };
+		1446DDC494354A5194CF9828 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = deflate.c; path = deflate.c; sourceTree = SOURCE_ROOT; };
+		1475FA5E4B2C49D184D67314 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = trees.h; path = trees.h; sourceTree = SOURCE_ROOT; };
+		2A82105BCECC49BA96D245E6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gzlib.c; path = gzlib.c; sourceTree = SOURCE_ROOT; };
+		387E1E1D9C2A491FB2FEB526 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = zutil.c; path = zutil.c; sourceTree = SOURCE_ROOT; };
+		39E497018A3D487BACB93E5C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/zconf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zconf.h; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/zconf.h"; sourceTree = "<absolute>"; };
+		44F5C9DF8EBF4A7BBA26C21E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = crc32.h; path = crc32.h; sourceTree = SOURCE_ROOT; };
+		4CA86F53824949AE825FFCBF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = crc32.c; path = crc32.c; sourceTree = SOURCE_ROOT; };
+		58E217564E254B62A196F69A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/adler32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = adler32.c; path = adler32.c; sourceTree = SOURCE_ROOT; };
+		5F84EE0946714986B20C028A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inflate.h; path = inflate.h; sourceTree = SOURCE_ROOT; };
+		605D9B8F08EE416680B35AF8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/infback.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = infback.c; path = infback.c; sourceTree = SOURCE_ROOT; };
+		6826294506F14E5997233A3F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzclose.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gzclose.c; path = gzclose.c; sourceTree = SOURCE_ROOT; };
+		7227A2551A8F4EE0981E7B43 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7425B95E012E4E0F942005B5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inflate.c; path = inflate.c; sourceTree = SOURCE_ROOT; };
+		81DE61C1075E48B5807F4CF9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zutil.h; path = zutil.h; sourceTree = SOURCE_ROOT; };
+		8891BEA84C35422FAF5705A3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = deflate.h; path = deflate.h; sourceTree = SOURCE_ROOT; };
+		91F8B03744FA42CD880E358F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inffast.h; path = inffast.h; sourceTree = SOURCE_ROOT; };
+		9C105324F0F849BEBCB44F11 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzguts.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gzguts.h; path = gzguts.h; sourceTree = SOURCE_ROOT; };
+		9E92A773FE204B94B73EB264 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gzread.c; path = gzread.c; sourceTree = SOURCE_ROOT; };
+		AA3C2BE626E9464D99F52F75 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B0FC1FD4FE444892883A5FEC /* zlib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libzlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F2E414D5074D8BA1C7CFAA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inftrees.c; path = inftrees.c; sourceTree = SOURCE_ROOT; };
+		D155893A2CA8475397E23F24 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/compress.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = compress.c; path = compress.c; sourceTree = SOURCE_ROOT; };
+		D1EEE3895DD4440B8DD37556 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inffast.c; path = inffast.c; sourceTree = SOURCE_ROOT; };
+		D91B6A8FCB1F4E8CB841779F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zlib.h; path = zlib.h; sourceTree = SOURCE_ROOT; };
+		DCB404AA0AF449B6B86C14B0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gzwrite.c; path = gzwrite.c; sourceTree = SOURCE_ROOT; };
+		E8EBD2CCFCA847E58FD2325B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = trees.c; path = trees.c; sourceTree = SOURCE_ROOT; };
+		F91EE707A694408F9A61573B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffixed.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inffixed.h; path = inffixed.h; sourceTree = SOURCE_ROOT; };
+		FD3BC258781A4503A81E8236 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/uncompr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = uncompr.c; path = uncompr.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EE7825C13D6A45CB8561E6CD /* Frameworks */ = {
+		914A05707E104F5CAFED7541 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,120 +190,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4AA0D20C4F7D45768BCDCFCC /* Products */ = {
+		08169E36E9524F648A445D39 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				F19A91290134489DB34899EB /* zlib */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		77F34B4479C04B529252BC8A = {
-			isa = PBXGroup;
-			children = (
-				A8A987CDC1A5483FAC7086FF /* 3rdparty */,
-				84FA38B3C1BF448EAD9BCBEC /* ALL_BUILD */,
-				4AA0D20C4F7D45768BCDCFCC /* Products */,
-				CF21A3ED788444A1BE6A592A /* Frameworks */,
-				8D2BB399F49B4F1F9A41A09A /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		7BB72C83E6B14260B3A60D30 /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				5D7A31AD0CCA4F348FDF041F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.h */,
-				2E0F4A94C2384E3189A43460 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.h */,
-				42E319E2B4F9490C8E3C0490 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzguts.h */,
-				A4CD7BADDEAB45D4AA42FBE5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.h */,
-				AA928300F7A745A88D7BE0FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffixed.h */,
-				73D303629BEF463EBFBE428F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.h */,
-				71BB2DCE3E9949409CA52BE6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.h */,
-				C888EE027BB74AF8981022F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.h */,
-				FCA5AEF7D54B4826907DA4AC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zlib.h */,
-				E29E021550D248F5A06CFA80 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.h */,
-				08AA6349400F41A8AF0097EA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/zconf.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		82519DFB6C4D477997B26C58 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		84FA38B3C1BF448EAD9BCBEC /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				82519DFB6C4D477997B26C58 /* CMake Rules */,
-				F65FC6423E524CA5B089B885 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		8D2BB399F49B4F1F9A41A09A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A8A987CDC1A5483FAC7086FF /* 3rdparty */ = {
-			isa = PBXGroup;
-			children = (
-				DF0168BCA0434D5EBA4E2107 /* zlib */,
-			);
-			name = 3rdparty;
-			sourceTree = "<group>";
-		};
-		B7548C3AF9AA40CEAA9C3524 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				D07D834D52F34004AEED9EF7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/adler32.c */,
-				4DF8C7B63153437D8F15B246 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/compress.c */,
-				03CE81A54520493CBF920EF6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.c */,
-				FED1B3CD66E84529835A0EB9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.c */,
-				17AA73A6E9CC460CBC32D5CF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzclose.c */,
-				A682BC3C4C31441A9E96021F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzlib.c */,
-				C59FAADB87D24C72A9598789 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzread.c */,
-				2B843C961B48447EA942075F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzwrite.c */,
-				03799F350C1643F8BAEFEB35 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/infback.c */,
-				A8A3DC8EC51043A385E43168 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.c */,
-				3926D63A785E4CE28501AF8B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.c */,
-				82411DD272284F0590D5FB88 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.c */,
-				418F16E6A4704B13B1B3E73A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.c */,
-				DA74BA94137148FAB91B6ED4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/uncompr.c */,
-				3E9D6C9298BC4C2EA80D87AC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.c */,
+				58E217564E254B62A196F69A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/adler32.c */,
+				D155893A2CA8475397E23F24 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/compress.c */,
+				4CA86F53824949AE825FFCBF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.c */,
+				1446DDC494354A5194CF9828 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.c */,
+				6826294506F14E5997233A3F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzclose.c */,
+				2A82105BCECC49BA96D245E6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzlib.c */,
+				9E92A773FE204B94B73EB264 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzread.c */,
+				DCB404AA0AF449B6B86C14B0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzwrite.c */,
+				605D9B8F08EE416680B35AF8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/infback.c */,
+				D1EEE3895DD4440B8DD37556 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.c */,
+				7425B95E012E4E0F942005B5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.c */,
+				C7F2E414D5074D8BA1C7CFAA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.c */,
+				E8EBD2CCFCA847E58FD2325B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.c */,
+				FD3BC258781A4503A81E8236 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/uncompr.c */,
+				387E1E1D9C2A491FB2FEB526 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.c */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		CF21A3ED788444A1BE6A592A /* Frameworks */ = {
+		331CED3620DB4AFD9B214AD8 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				44F5C9DF8EBF4A7BBA26C21E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.h */,
+				8891BEA84C35422FAF5705A3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.h */,
+				9C105324F0F849BEBCB44F11 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzguts.h */,
+				91F8B03744FA42CD880E358F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.h */,
+				F91EE707A694408F9A61573B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffixed.h */,
+				5F84EE0946714986B20C028A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.h */,
+				0F1E5C21C1CE4B2E87A32662 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.h */,
+				1475FA5E4B2C49D184D67314 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.h */,
+				D91B6A8FCB1F4E8CB841779F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zlib.h */,
+				81DE61C1075E48B5807F4CF9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.h */,
+				39E497018A3D487BACB93E5C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/zconf.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		3505B09908D44161ABBA6966 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C54AB4300CE248FF965AFA5C /* CMake Rules */,
+				7227A2551A8F4EE0981E7B43 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		759E656F8FF44E5BA3C29F3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0169AF01BEBD442B84834604 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/CMakeFiles/zlib.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		94BD039EB2254FAAB2D860D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0FC1FD4FE444892883A5FEC /* zlib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FB0252B50024CEC8A742C5F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF0168BCA0434D5EBA4E2107 /* zlib */ = {
+		A3CB8B6C64F8435BBE3A3726 /* zlib */ = {
 			isa = PBXGroup;
 			children = (
-				B7548C3AF9AA40CEAA9C3524 /* Source Files */,
-				7BB72C83E6B14260B3A60D30 /* Header Files */,
-				FF894D8FAE9240419554088A /* Resources */,
-				8DB7B6CD60F747FDBA30D956 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/CMakeLists.txt */,
+				08169E36E9524F648A445D39 /* Source Files */,
+				331CED3620DB4AFD9B214AD8 /* Header Files */,
+				759E656F8FF44E5BA3C29F3F /* Resources */,
+				AA3C2BE626E9464D99F52F75 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/CMakeLists.txt */,
 			);
 			name = zlib;
 			sourceTree = "<group>";
 		};
-		FF894D8FAE9240419554088A /* Resources */ = {
+		AF2BFEC7A15349348BC279A1 = {
 			isa = PBXGroup;
 			children = (
-				5ACE41A977A14DC6B97B5D41 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/zlib/CMakeFiles/zlib.dir/Info.plist */,
+				BB42A1FE610644D9A759886C /* 3rdparty */,
+				3505B09908D44161ABBA6966 /* ALL_BUILD */,
+				94BD039EB2254FAAB2D860D2 /* Products */,
+				9FB0252B50024CEC8A742C5F /* Frameworks */,
+				B4D4D3953AD14E099A632BBB /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		B4D4D3953AD14E099A632BBB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		BB42A1FE610644D9A759886C /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				A3CB8B6C64F8435BBE3A3726 /* zlib */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		C54AB4300CE248FF965AFA5C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,40 +311,40 @@
 /* Begin PBXNativeTarget section */
 		FBFC5B1FE9EFD9B7FA1AC065 /* zlib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86CC93943E2743ACAB6EF499 /* Build configuration list for PBXNativeTarget "zlib" */;
+			buildConfigurationList = CD6473DC59A4405386E361BB /* Build configuration list for PBXNativeTarget "zlib" */;
 			buildPhases = (
-				B4A8A194C0B34454A8BC3D77 /* Sources */,
-				EE7825C13D6A45CB8561E6CD /* Frameworks */,
+				4A83850ADA7C485F903B1DF0 /* Sources */,
+				914A05707E104F5CAFED7541 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F3288A5E36DD4900BFFE3610 /* PBXTargetDependency */,
+				A27C3882D7C148828A70C06B /* PBXTargetDependency */,
 			);
 			name = zlib;
 			productName = zlib;
-			productReference = F19A91290134489DB34899EB /* zlib */;
+			productReference = B0FC1FD4FE444892883A5FEC /* zlib */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ADD97163254D4769997FB5A3 /* Project object */ = {
+		53B36C2582A841A49C13D6D7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 2620;
 			};
-			buildConfigurationList = 44372B982CF34372B988B046 /* Build configuration list for PBXProject "zlib" */;
+			buildConfigurationList = 8CC8BEBBA3654BD3A02C7E79 /* Build configuration list for PBXProject "zlib" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				65CD15BDD156444AA05E134A /* Debug */,
-				55E1E23047FB48E7A6C10514 /* Release */,
+				9900E3F7C7C6465D85269D39 /* Debug */,
+				596C56A6C23E440FAD764C91 /* Release */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 77F34B4479C04B529252BC8A;
+			mainGroup = AF2BFEC7A15349348BC279A1;
 			projectDirPath = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib";
 			projectRoot = "";
 			targets = (
@@ -562,55 +562,105 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B4A8A194C0B34454A8BC3D77 /* Sources */ = {
+		4A83850ADA7C485F903B1DF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39BC787F1749496C9AFD798B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/adler32.c */,
-				74247E7806494067AC1BDE20 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/compress.c */,
-				5003A7258A2A4735900D9BEB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.c */,
-				8068E2BFDE0C46CE8E38D2BB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.c */,
-				944D7EE1E9BD45BBB5A927DD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzclose.c */,
-				7595002C63F54DB99A0825C4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzlib.c */,
-				64B86B2518F443CE8917525B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzread.c */,
-				711D6E95C55B49A2AD4D18EA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzwrite.c */,
-				30DE0377E4A944E38FAF78F9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/infback.c */,
-				01BD0FE61AFC476A934FE5CA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.c */,
-				74A674ABC55D4998A90A3FDA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.c */,
-				EC7E4207A62645C8A2B50B65 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.c */,
-				7B94E43CF080457A99F61703 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.c */,
-				E1070E80173449CE9FF9F6C0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/uncompr.c */,
-				D8306D5C4F8944BB9BCDE5E5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.c */,
+				C90E025661AC48F49FFBF0EB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/adler32.c */,
+				C1EC5B4400294E38908B3816 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/compress.c */,
+				FB88D90F44CA4099A18A20FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/crc32.c */,
+				A622D8855BD542F7AB3234C6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/deflate.c */,
+				93999D55D7AA43CBB8E7A6CD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzclose.c */,
+				732101E7DB9C400FBD26EA79 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzlib.c */,
+				A87BA7C9C5EB46369A997DB5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzread.c */,
+				AEC63053863E4374967EB727 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/gzwrite.c */,
+				7369E1115816476B94F33C85 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/infback.c */,
+				9D3B4C3D8944414AAAF865C3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inffast.c */,
+				DDD98D1BD1F249DD931D4AD8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inflate.c */,
+				A6A44598F6374AD09C1ABF3F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/inftrees.c */,
+				3C1EAA69BB774EE3B8CC9FF0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/trees.c */,
+				441C9D2E2DE14ED8AB78E562 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/uncompr.c */,
+				04A39E1072A342B885693F16 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/zlib/zutil.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		05D8B651EEAC44B093983F1C /* PBXTargetDependency */ = {
+		0086B771B5D34316B9270E70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
-			targetProxy = 0DACEB0120CD47DE9D7C96A2 /* PBXContainerItemProxy */;
+			targetProxy = 5333CF156A8B47DE91C6AA52 /* PBXContainerItemProxy */;
 		};
-		91E9402F88EB487C91AE89AA /* PBXTargetDependency */ = {
+		3884B9719297488FA6926975 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
-			targetProxy = 434DB0C55E734E968A9471E4 /* PBXContainerItemProxy */;
+			targetProxy = 69959A4E96AB48D6B70C58D7 /* PBXContainerItemProxy */;
 		};
-		A70F64A5749E46B09B349CE6 /* PBXTargetDependency */ = {
+		993E9E62511547B884F47135 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
-			targetProxy = 909AD21EABD146E8AC1C0AA3 /* PBXContainerItemProxy */;
+			targetProxy = A3CAFA750DDE43589D62E0EC /* PBXContainerItemProxy */;
 		};
-		F3288A5E36DD4900BFFE3610 /* PBXTargetDependency */ = {
+		A27C3882D7C148828A70C06B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
-			targetProxy = 98CB4295F2EB41EF9B13CD56 /* PBXContainerItemProxy */;
+			targetProxy = 75A655121E2A40F5AFF83AB8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06214270A40D4642B27C39BC /* Debug */ = {
+		08FFFD48A11D420883117FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0AD99FAE60C04A1FBEAA89D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
+			};
+			name = Debug;
+		};
+		4D84F03349284DE2936482A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		528F697AE0A040F4B5F6CAAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -630,7 +680,27 @@ exit 0";
 			};
 			name = Debug;
 		};
-		23B622BC12904603952945E8 /* Debug */ = {
+		5B24A933CF314A3C90342CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5B9DD3D473C84A88B0CA52A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -660,7 +730,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		36BD789C68FA4ECFA8A77A71 /* Debug */ = {
+		6E154B04E17F40398B7E050E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -678,9 +748,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = Release;
 		};
-		4C7667DC7A1B47439CA1EDCC /* Release */ = {
+		81EECDCFE4EE4E8994F75B1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -693,14 +763,45 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		871B1991E8454C79AC9F325F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
+			};
+			name = Release;
+		};
+		8EA5445F6E164311AA591B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		8DC140A2D3EA4B0491B6F0C8 /* Release */ = {
+		A05E73F7A6AC4A44A0C63505 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -730,7 +831,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		9AE5A00F7E3D4AB487F009FF /* Debug */ = {
+		CD7ABE64DD6D43EBAB28D4DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -748,9 +849,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = Release;
 		};
-		A3F394D199DC445682B178B1 /* Release */ = {
+		DBB63DA91BDA47F683C54527 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -763,25 +864,14 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
+				PRODUCT_NAME = package;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		AE418A54BCFE48EEBBA6CF55 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CODE_SIGNING_REQUIRED = NO;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
-			};
-			name = Release;
-		};
-		B761A8EC71B945E283690824 /* Release */ = {
+		F59AD3462FD446699878A808 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -799,165 +889,75 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
-		};
-		B9BD03D298EF45E3AD130E8F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		DAF7A15E5B464CBCB7168BD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		E145E52B350D49F6A19A17DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		E40DF8B322D749648B744819 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CODE_SIGNING_REQUIRED = NO;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
-			};
-			name = Debug;
-		};
-		EB5BE6AAD6454688A3122EBF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44372B982CF34372B988B046 /* Build configuration list for PBXProject "zlib" */ = {
+		00DAB627D5464C5B882B04A3 /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E40DF8B322D749648B744819 /* Debug */,
-				AE418A54BCFE48EEBBA6CF55 /* Release */,
+				528F697AE0A040F4B5F6CAAF /* Debug */,
+				DBB63DA91BDA47F683C54527 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		4D00692CA32C45CE864A5FAC /* Build configuration list for PBXAggregateTarget "install" */ = {
+		48B0FB426CB445048BF3F5D1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36BD789C68FA4ECFA8A77A71 /* Debug */,
-				B761A8EC71B945E283690824 /* Release */,
+				81EECDCFE4EE4E8994F75B1E /* Debug */,
+				8EA5445F6E164311AA591B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7E7777A7AACD4BA085907B47 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		5D15A4A283094B5D933F0CBE /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9AE5A00F7E3D4AB487F009FF /* Debug */,
-				DAF7A15E5B464CBCB7168BD9 /* Release */,
+				5B24A933CF314A3C90342CE7 /* Debug */,
+				4D84F03349284DE2936482A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		86CC93943E2743ACAB6EF499 /* Build configuration list for PBXNativeTarget "zlib" */ = {
+		66CFE5D8A722422C96392A8A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23B622BC12904603952945E8 /* Debug */,
-				8DC140A2D3EA4B0491B6F0C8 /* Release */,
+				08FFFD48A11D420883117FC1 /* Debug */,
+				CD7ABE64DD6D43EBAB28D4DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		87EB2831915745C6B40EBC3B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		6DA7BD127D984F1E9A9E3942 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E145E52B350D49F6A19A17DD /* Debug */,
-				B9BD03D298EF45E3AD130E8F /* Release */,
+				F59AD3462FD446699878A808 /* Debug */,
+				6E154B04E17F40398B7E050E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		AD7A9908915C454A8B281925 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+		8CC8BEBBA3654BD3A02C7E79 /* Build configuration list for PBXProject "zlib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB5BE6AAD6454688A3122EBF /* Debug */,
-				A3F394D199DC445682B178B1 /* Release */,
+				0AD99FAE60C04A1FBEAA89D3 /* Debug */,
+				871B1991E8454C79AC9F325F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E2ACF961956E4F5F82D99B5B /* Build configuration list for PBXAggregateTarget "package" */ = {
+		CD6473DC59A4405386E361BB /* Build configuration list for PBXNativeTarget "zlib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06214270A40D4642B27C39BC /* Debug */,
-				4C7667DC7A1B47439CA1EDCC /* Release */,
+				5B9DD3D473C84A88B0CA52A0 /* Debug */,
+				A05E73F7A6AC4A44A0C63505 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ADD97163254D4769997FB5A3 /* Project object */;
+	rootObject = 53B36C2582A841A49C13D6D7 /* Project object */;
 }

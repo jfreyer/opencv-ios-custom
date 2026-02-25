@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		01C65101F907E9BB1C14098B /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E1AE5177638D49EDBB7F295B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 0B80AE23E04B4E8697550C76 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				7C0670FEE82C39A0EED8EF99 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,31 +20,31 @@
 		};
 		771FD8AEB39D811E2BC9B426 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 36FE531199304E2AAAD0588C /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 392BB3A62FD24ED98DF17A96 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				B13C6BD4DA7D476C8832929B /* PBXTargetDependency */,
+				0F3C852F8B824E2DA8245F29 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		86736DDDED1F0A92597C9165 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C43107088B8F4502A0AF25B2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 8A59585D1C314954B5299879 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				06DBA91A5BD9A139B5BEBF8E /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				66E76E4B18A9419BA12A19ED /* PBXTargetDependency */,
+				03A45AB2D0B047B2B804A915 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		A0A668F13D19F048AB9F8B68 /* RUN_TESTS */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9953FE98B96E4729BB9E2DB1 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildConfigurationList = 8726E56843AA4015A707A63B /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
 			buildPhases = (
 				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
 			);
@@ -55,12 +55,12 @@
 		};
 		E3A0E307AE475F45B5997A27 /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2D5BCF68DD75495698D9FFC8 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = F53309C151CC43CD894B54D2 /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				C572C9521AF54953B732C455 /* PBXTargetDependency */,
+				EB71F8CADB0540D39E2C89EC /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
@@ -68,60 +68,60 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		14D7C17FDFAD42AE84657B3D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */ = {isa = PBXBuildFile; fileRef = FB1A40AD4FCF4B92B0CF8FDB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */; };
-		15C00A2FD0964E2192254AB2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */ = {isa = PBXBuildFile; fileRef = 486ECF7490854D199A055C42 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */; };
-		1A66850482C14497AD06D01B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */ = {isa = PBXBuildFile; fileRef = 528CAEA4028843BB8B6A037E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */; };
-		1BF76027CACC41FBBA112C66 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message.cc */ = {isa = PBXBuildFile; fileRef = 717122621EE240B99F402532 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message.cc */; };
-		1C430ECE3B1943D589545F4D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */ = {isa = PBXBuildFile; fileRef = A47DBDF8851746F89B01C377 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */; };
-		37E16FE95CF545C68D08C3A0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arena.cc */ = {isa = PBXBuildFile; fileRef = 245698D5372240B5943ED656 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arena.cc */; };
-		39BC7EE074844502B5246CEF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */ = {isa = PBXBuildFile; fileRef = B006EC35D6A844629C032536 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */; };
-		47A4DCA86B124614BF26EFBB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */ = {isa = PBXBuildFile; fileRef = 581A1151C2974633999E10F5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */; };
-		4D023683A2A445A9B99C8B08 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */ = {isa = PBXBuildFile; fileRef = E0D67D2FA6F349E6B182983C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */; };
-		4DDBD6B44E4F411BBBD9A21C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map_field.cc */ = {isa = PBXBuildFile; fileRef = C1A6248700FF4C179E32B489 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map_field.cc */; };
-		50D45100C291419185036580 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */ = {isa = PBXBuildFile; fileRef = 41CC363B84F54105869739FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */; };
-		50F52575E13645A28134A3CE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_ptr_field.cc */ = {isa = PBXBuildFile; fileRef = 8FEBB1EF940D4F72A171CB30 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_ptr_field.cc */; };
-		55E6ED9647694FD6B4DE6427 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format.cc */ = {isa = PBXBuildFile; fileRef = D25E04A5012841B0A78B9FB8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format.cc */; };
-		5CBAC5C35BD24AB994866F88 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */ = {isa = PBXBuildFile; fileRef = 79C2E69FFB9D428CABFFFC8A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */; };
-		5E1B42EE82964F3BBED2364C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */ = {isa = PBXBuildFile; fileRef = 22BB3B0868B94D8CB94C81B7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */; };
-		5F9747C6BF0C44418A1C58CF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */ = {isa = PBXBuildFile; fileRef = 873FA94AD990465A9C453E2C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */; };
-		64D64BED34674843AA028BCC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */ = {isa = PBXBuildFile; fileRef = BBEE688E0BC541CCB52E3C3E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */; };
-		6875AB5FC3EB4B788C0D92EB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any_lite.cc */ = {isa = PBXBuildFile; fileRef = DD617E4204814CEB8F083C86 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any_lite.cc */; };
-		739FB2ACC5A7457DA4D29217 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */ = {isa = PBXBuildFile; fileRef = 31CE4246FF3149BFB390E894 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */; };
-		7AE1B27FEB04472BA6A727D6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */ = {isa = PBXBuildFile; fileRef = F7D80E2F642540649A78D145 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */; };
-		7B37230433484C7B93A2491B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B49419DBB55548C8AB616B1A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/CMakeLists.txt */; };
-		840494B220444F209D04C676 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/parse_context.cc */ = {isa = PBXBuildFile; fileRef = 1F648AAEBD924A78BA08833C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/parse_context.cc */; };
-		8754177B26924E7A8E230EA5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/io_win32.cc */ = {isa = PBXBuildFile; fileRef = 58DDF9D3886E4BB08694490D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/io_win32.cc */; };
-		9953929C35C74BC18F5EDEC1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map.cc */ = {isa = PBXBuildFile; fileRef = D4FAF27BF27146DF9D4EA8C7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map.cc */; };
-		AB2216CE49FE47D0A46CDCC4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = A9282F043ECB4B63AFFC238F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */; };
-		ABE2A34C15684BD8A074CBDC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message_lite.cc */ = {isa = PBXBuildFile; fileRef = 21CC2FF2EBD943B897EF3962 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message_lite.cc */; };
-		B41B2EF5C425434FA9D1CBBD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */ = {isa = PBXBuildFile; fileRef = 4597A37A5A194028ADAE9D57 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */; };
-		B651137951CC4D7298B05980 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */ = {isa = PBXBuildFile; fileRef = 78C438487B6446A88BA6A216 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */; };
-		B9A34FA4F47C42429AE416F4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arenastring.cc */ = {isa = PBXBuildFile; fileRef = 18E7BA9634BC4FFEA79AD147 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arenastring.cc */; };
-		BCF44E986E214281AD9777FC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/implicit_weak_message.cc */ = {isa = PBXBuildFile; fileRef = 3843814E14B84524AE359408 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/implicit_weak_message.cc */; };
-		BF8B0E3D3E1D4FF2B8E465AD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any.cc */ = {isa = PBXBuildFile; fileRef = CD6ED320D28B4DB6AE61C81A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any.cc */; };
-		C4367334EDEA4B529C64D268 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set.cc */ = {isa = PBXBuildFile; fileRef = 3B123A1AE9C84AD48519EDC4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set.cc */; };
-		CDDA65E8553749348C506FBD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */ = {isa = PBXBuildFile; fileRef = 7C13400C3E134B5C9B9A2ADA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */; };
-		CE70AE796C234314BA7C2CF0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */ = {isa = PBXBuildFile; fileRef = B7D28D15B36846BFBF5CC5AF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */; };
-		CF2B0DA92DF148819A5732C2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */ = {isa = PBXBuildFile; fileRef = 5F2AC78A8D0F4192BA6129E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */; };
-		DA8E80DF4D61498487713937 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */ = {isa = PBXBuildFile; fileRef = 81B9E28FC52249CF91D62C98 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */; };
-		DB386675A0524AB98F92A2DE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */ = {isa = PBXBuildFile; fileRef = A0BA8A4392F74CAAA945BC35 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */; };
-		E286B439B1BD4BC4BB3CE643 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/text_format.cc */ = {isa = PBXBuildFile; fileRef = 456BF6F342AB4F9584ADF2F3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/text_format.cc */; };
-		E6D3E51F60D24B26AE4ACE36 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc */ = {isa = PBXBuildFile; fileRef = A96667C1ADF34D5E953A6772 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc */; };
-		ED9AE08E5D414F2B88A5BD30 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */ = {isa = PBXBuildFile; fileRef = 363AB411034243F4898D879C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */; };
-		F53B5B356B384CF08D9E3CE7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */ = {isa = PBXBuildFile; fileRef = F53A1B8F95F042D0B8FC6B3A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */; };
-		F573B463CA094892A8988918 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */ = {isa = PBXBuildFile; fileRef = 6B0DCB75AA414E0298B63A03 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */; };
-		F5DB1AC49B674003B9E3161C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */ = {isa = PBXBuildFile; fileRef = 933AB2CD863A443F8E20C877 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */; };
+		07CB3433EE7A433DB0437498 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */ = {isa = PBXBuildFile; fileRef = C719D27BE29E41308B8BF9F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */; };
+		0845999F1A1644DC9BBCED32 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map.cc */ = {isa = PBXBuildFile; fileRef = 71ECB00D88E042CAB6E9850F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map.cc */; };
+		141466BC12DF48F0A7727EC4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arenastring.cc */ = {isa = PBXBuildFile; fileRef = 367C584DB99448378D2D4D45 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arenastring.cc */; };
+		1B753D1E01C64BF091FA22DC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */ = {isa = PBXBuildFile; fileRef = 84E39101ADF54D75A04E5069 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */; };
+		1F7697F85C974D3AAFE92537 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_ptr_field.cc */ = {isa = PBXBuildFile; fileRef = F7B3222C195641FEA2738F41 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_ptr_field.cc */; };
+		1FA7E746123E4857BD52306C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */ = {isa = PBXBuildFile; fileRef = 92F5C02C775F4774A4DF896B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */; };
+		1FCF362B567C4579A2640033 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 809237149B4C4870BC10B36D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */; };
+		3392C00D71EA4EB891447B52 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */ = {isa = PBXBuildFile; fileRef = 4BD41779EE1A49239D996D60 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */; };
+		3F444F09DED84AEA81C27DDD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */ = {isa = PBXBuildFile; fileRef = 5A860120CBAD42E7BDE00829 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */; };
+		403C995E46334F418F57DA43 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */ = {isa = PBXBuildFile; fileRef = F4DC6A3937154EBEA1A07B48 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */; };
+		48CA3633D0634D1F8126BAAA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any_lite.cc */ = {isa = PBXBuildFile; fileRef = 15528A465A2847B8B3B5DC58 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any_lite.cc */; };
+		494944FC96ED4938AFF22DE8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/parse_context.cc */ = {isa = PBXBuildFile; fileRef = 2FCBC751FE9B44B69110EE65 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/parse_context.cc */; };
+		4BDA695E42E34DA08A7B26E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set.cc */ = {isa = PBXBuildFile; fileRef = BBC7D24C704C41B4BDAA6616 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set.cc */; };
+		4E9B7DC910C64AE48256F78D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */ = {isa = PBXBuildFile; fileRef = 0DBCD0A7688E4C9AA7D0B198 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */; };
+		4F3FFB5EB0AD458F8121AB96 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */ = {isa = PBXBuildFile; fileRef = F0725282DF474160B5FDB4F3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */; };
+		58873D5BD14743749B3C5F0F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */ = {isa = PBXBuildFile; fileRef = A2E41090499F4D2698356730 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */; };
+		5A97799FD3B24F69BD5344FB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */ = {isa = PBXBuildFile; fileRef = D12FE9680B624488AF454728 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */; };
+		658EC9D6EAC846328C468C40 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arena.cc */ = {isa = PBXBuildFile; fileRef = E5EDD834EEF54C1785754A6B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arena.cc */; };
+		739A72B1BA9A426B8517A62F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */ = {isa = PBXBuildFile; fileRef = E224222CBF704804BE3E9DB5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */; };
+		7BD7BC142B1F4637B5EEF0B2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */ = {isa = PBXBuildFile; fileRef = D28BB70D44764666A6998647 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */; };
+		7D0754F30FD24025A43FE813 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc */ = {isa = PBXBuildFile; fileRef = 985D0F867C3644DEA440AD0B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc */; };
+		85298BDEF89B44E382B973E8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/text_format.cc */ = {isa = PBXBuildFile; fileRef = 610A375E5EFA4B76AA8F5AA7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/text_format.cc */; };
+		8D5601342FD545E6B37CFE59 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */ = {isa = PBXBuildFile; fileRef = E300141B6A994E328A26E6A0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */; };
+		91DF426E0E8C4E46ADEAE177 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */ = {isa = PBXBuildFile; fileRef = CC4123B947A74BE39231A873 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */; };
+		92BB321D43034474B217A39C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */ = {isa = PBXBuildFile; fileRef = 653AAC1D8C8D4348950FB5CF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */; };
+		A1D851F1407D4A308079ADFE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map_field.cc */ = {isa = PBXBuildFile; fileRef = 7A1C46EF14204E79808AA55E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map_field.cc */; };
+		A80D48D5C23F4FB4BC70207D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/implicit_weak_message.cc */ = {isa = PBXBuildFile; fileRef = 5D2C9516381F4203A8D52C36 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/implicit_weak_message.cc */; };
+		ADAE79967A674141B8B27ACD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */ = {isa = PBXBuildFile; fileRef = DDC9CFE94A5645549D0CC84B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */; };
+		B14D29BA7EA64926BC921660 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */ = {isa = PBXBuildFile; fileRef = 1FA784F81528444DAE2CBE49 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */; };
+		B342AE85D55E48B2A9683908 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message.cc */ = {isa = PBXBuildFile; fileRef = 7BFA50105FF4478BB07C8F02 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message.cc */; };
+		B368D0429D8E42F2BDF746B9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */ = {isa = PBXBuildFile; fileRef = 207FBAAA55DA4B7782EFEF2D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */; };
+		B5310087B4D545959DD5D72F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */ = {isa = PBXBuildFile; fileRef = FBA18B9B6CE54224A2B01392 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */; };
+		B5368ED96E9E4A4F94CD31A3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */ = {isa = PBXBuildFile; fileRef = 49BA224A891642A98BEF69AE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */; };
+		B7C7072638A34227846E9B3F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */ = {isa = PBXBuildFile; fileRef = A2A7F472FB02499F92574ABF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */; };
+		BBCA94B6BD9D46D8B2964302 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */ = {isa = PBXBuildFile; fileRef = 5D39506625744C2F8899F9EA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */; };
+		D34778BEDB0745A69E16919B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message_lite.cc */ = {isa = PBXBuildFile; fileRef = 58AE594CDDD94A2AAD7104DA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message_lite.cc */; };
+		D396643AC7EE4403BABF9F0E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 92523FEF36464204B55A3A01 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/CMakeLists.txt */; };
+		DAE59F30DFE241218112D223 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */ = {isa = PBXBuildFile; fileRef = 1D547EEE3FD742F48F50D061 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */; };
+		EBE0FD1459D140BB9215AC8A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format.cc */ = {isa = PBXBuildFile; fileRef = 981033DF40DF4A48A3D73413 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format.cc */; };
+		EF1664F8F5784EAAA49645F4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any.cc */ = {isa = PBXBuildFile; fileRef = 5EC902B7C57C4DDE8FBC1A8C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any.cc */; };
+		F0037CC0A51848DF957347D1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/io_win32.cc */ = {isa = PBXBuildFile; fileRef = 3B9FEF567AC341199530CF82 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/io_win32.cc */; };
+		F19838691C0A4EEB8550AD3D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */ = {isa = PBXBuildFile; fileRef = AE0F6DFCA2CE48F786E72181 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */; };
+		FCAD481799704596B141BD8F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */ = {isa = PBXBuildFile; fileRef = 570537A075AE4A40B829C8FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		7939C6C143F14E1F9A69C7B1 /* Debug */ = {
+		6E8B55932C0D4F4684BCBABC /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		8B42391162E9492E8A91909E /* Release */ = {
+		8267C1729B994BE79162C2D1 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -131,30 +131,30 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		14AD5FC14BED4B8290F4ECC0 /* PBXContainerItemProxy */ = {
+		241BE8AFC27245CD813A805C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 01DCC8B2257B4EBF9C7710F3 /* Project object */;
+			containerPortal = 9656BDD426B24CF7B5AEA092 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
 			remoteInfo = ALL_BUILD;
 		};
-		581C459BAB9F458DA1D7115A /* PBXContainerItemProxy */ = {
+		613E0034E72B4931A81F1994 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 01DCC8B2257B4EBF9C7710F3 /* Project object */;
+			containerPortal = 9656BDD426B24CF7B5AEA092 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
 			remoteInfo = ZERO_CHECK;
 		};
-		82DE8D7B2E7344EA84D7CA45 /* PBXContainerItemProxy */ = {
+		932AC5B4D68A4299894B06EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 01DCC8B2257B4EBF9C7710F3 /* Project object */;
+			containerPortal = 9656BDD426B24CF7B5AEA092 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
 			remoteInfo = ZERO_CHECK;
 		};
-		C654ED520F9C415C89192C00 /* PBXContainerItemProxy */ = {
+		F333055DA584446C90EFA59B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 01DCC8B2257B4EBF9C7710F3 /* Project object */;
+			containerPortal = 9656BDD426B24CF7B5AEA092 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
 			remoteInfo = ALL_BUILD;
@@ -162,55 +162,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18E7BA9634BC4FFEA79AD147 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arenastring.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arenastring.cc; path = src/google/protobuf/arenastring.cc; sourceTree = SOURCE_ROOT; };
-		1F648AAEBD924A78BA08833C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/parse_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parse_context.cc; path = src/google/protobuf/parse_context.cc; sourceTree = SOURCE_ROOT; };
-		21CC2FF2EBD943B897EF3962 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message_lite.cc; path = src/google/protobuf/message_lite.cc; sourceTree = SOURCE_ROOT; };
-		22BB3B0868B94D8CB94C81B7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = status.cc; path = src/google/protobuf/stubs/status.cc; sourceTree = SOURCE_ROOT; };
-		245698D5372240B5943ED656 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arena.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arena.cc; path = src/google/protobuf/arena.cc; sourceTree = SOURCE_ROOT; };
-		31CE4246FF3149BFB390E894 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unknown_field_set.cc; path = src/google/protobuf/unknown_field_set.cc; sourceTree = SOURCE_ROOT; };
-		363AB411034243F4898D879C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor_database.cc; path = src/google/protobuf/descriptor_database.cc; sourceTree = SOURCE_ROOT; };
-		3843814E14B84524AE359408 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/implicit_weak_message.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = implicit_weak_message.cc; path = src/google/protobuf/implicit_weak_message.cc; sourceTree = SOURCE_ROOT; };
-		3B123A1AE9C84AD48519EDC4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extension_set.cc; path = src/google/protobuf/extension_set.cc; sourceTree = SOURCE_ROOT; };
-		41CC363B84F54105869739FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = coded_stream.cc; path = src/google/protobuf/io/coded_stream.cc; sourceTree = SOURCE_ROOT; };
-		45641EBE93F24CED9A62FEEE /* libprotobuf */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibprotobuf.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		456BF6F342AB4F9584ADF2F3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/text_format.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = text_format.cc; path = src/google/protobuf/text_format.cc; sourceTree = SOURCE_ROOT; };
-		4597A37A5A194028ADAE9D57 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dynamic_message.cc; path = src/google/protobuf/dynamic_message.cc; sourceTree = SOURCE_ROOT; };
-		486ECF7490854D199A055C42 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_reflection.cc; path = src/google/protobuf/generated_message_reflection.cc; sourceTree = SOURCE_ROOT; };
-		528CAEA4028843BB8B6A037E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strutil.cc; path = src/google/protobuf/stubs/strutil.cc; sourceTree = SOURCE_ROOT; };
-		581A1151C2974633999E10F5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strtod.cc; path = src/google/protobuf/io/strtod.cc; sourceTree = SOURCE_ROOT; };
-		58DDF9D3886E4BB08694490D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/io_win32.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = io_win32.cc; path = src/google/protobuf/io/io_win32.cc; sourceTree = SOURCE_ROOT; };
-		5F2AC78A8D0F4192BA6129E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream.cc; path = src/google/protobuf/io/zero_copy_stream.cc; sourceTree = SOURCE_ROOT; };
-		6B0DCB75AA414E0298B63A03 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringpiece.cc; path = src/google/protobuf/stubs/stringpiece.cc; sourceTree = SOURCE_ROOT; };
-		717122621EE240B99F402532 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message.cc; path = src/google/protobuf/message.cc; sourceTree = SOURCE_ROOT; };
-		78C438487B6446A88BA6A216 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bytestream.cc; path = src/google/protobuf/stubs/bytestream.cc; sourceTree = SOURCE_ROOT; };
-		79C2E69FFB9D428CABFFFC8A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream_impl_lite.cc; path = src/google/protobuf/io/zero_copy_stream_impl_lite.cc; sourceTree = SOURCE_ROOT; };
-		7C13400C3E134B5C9B9A2ADA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tokenizer.cc; path = src/google/protobuf/io/tokenizer.cc; sourceTree = SOURCE_ROOT; };
-		81B9E28FC52249CF91D62C98 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = substitute.cc; path = src/google/protobuf/stubs/substitute.cc; sourceTree = SOURCE_ROOT; };
-		873FA94AD990465A9C453E2C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = repeated_field.cc; path = src/google/protobuf/repeated_field.cc; sourceTree = SOURCE_ROOT; };
-		8FEBB1EF940D4F72A171CB30 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_ptr_field.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = repeated_ptr_field.cc; path = src/google/protobuf/repeated_ptr_field.cc; sourceTree = SOURCE_ROOT; };
-		933AB2CD863A443F8E20C877 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wire_format_lite.cc; path = src/google/protobuf/wire_format_lite.cc; sourceTree = SOURCE_ROOT; };
-		A0BA8A4392F74CAAA945BC35 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_util.cc; path = src/google/protobuf/generated_message_util.cc; sourceTree = SOURCE_ROOT; };
-		A47DBDF8851746F89B01C377 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = int128.cc; path = src/google/protobuf/stubs/int128.cc; sourceTree = SOURCE_ROOT; };
-		A9282F043ECB4B63AFFC238F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist"; sourceTree = "<absolute>"; };
-		A96667C1ADF34D5E953A6772 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor.cc; path = src/google/protobuf/descriptor.cc; sourceTree = SOURCE_ROOT; };
-		B006EC35D6A844629C032536 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reflection_ops.cc; path = src/google/protobuf/reflection_ops.cc; sourceTree = SOURCE_ROOT; };
-		B49419DBB55548C8AB616B1A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		B7D28D15B36846BFBF5CC5AF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = structurally_valid.cc; path = src/google/protobuf/stubs/structurally_valid.cc; sourceTree = SOURCE_ROOT; };
-		BBEE688E0BC541CCB52E3C3E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream_impl.cc; path = src/google/protobuf/io/zero_copy_stream_impl.cc; sourceTree = SOURCE_ROOT; };
-		C1A6248700FF4C179E32B489 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map_field.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = map_field.cc; path = src/google/protobuf/map_field.cc; sourceTree = SOURCE_ROOT; };
-		CB7FCC4A174B432D91D9B10F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		CD6ED320D28B4DB6AE61C81A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = any.cc; path = src/google/protobuf/any.cc; sourceTree = SOURCE_ROOT; };
-		D25E04A5012841B0A78B9FB8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wire_format.cc; path = src/google/protobuf/wire_format.cc; sourceTree = SOURCE_ROOT; };
-		D4FAF27BF27146DF9D4EA8C7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = map.cc; path = src/google/protobuf/map.cc; sourceTree = SOURCE_ROOT; };
-		DD617E4204814CEB8F083C86 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = any_lite.cc; path = src/google/protobuf/any_lite.cc; sourceTree = SOURCE_ROOT; };
-		E0D67D2FA6F349E6B182983C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringprintf.cc; path = src/google/protobuf/stubs/stringprintf.cc; sourceTree = SOURCE_ROOT; };
-		F53A1B8F95F042D0B8FC6B3A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = common.cc; path = src/google/protobuf/stubs/common.cc; sourceTree = SOURCE_ROOT; };
-		F7D80E2F642540649A78D145 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extension_set_heavy.cc; path = src/google/protobuf/extension_set_heavy.cc; sourceTree = SOURCE_ROOT; };
-		FB1A40AD4FCF4B92B0CF8FDB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor.pb.cc; path = src/google/protobuf/descriptor.pb.cc; sourceTree = SOURCE_ROOT; };
+		0A62757D5D584C0A8F1A959E /* libprotobuf */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibprotobuf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBCD0A7688E4C9AA7D0B198 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = repeated_field.cc; path = src/google/protobuf/repeated_field.cc; sourceTree = SOURCE_ROOT; };
+		15528A465A2847B8B3B5DC58 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = any_lite.cc; path = src/google/protobuf/any_lite.cc; sourceTree = SOURCE_ROOT; };
+		1D547EEE3FD742F48F50D061 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream_impl_lite.cc; path = src/google/protobuf/io/zero_copy_stream_impl_lite.cc; sourceTree = SOURCE_ROOT; };
+		1FA784F81528444DAE2CBE49 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream.cc; path = src/google/protobuf/io/zero_copy_stream.cc; sourceTree = SOURCE_ROOT; };
+		207FBAAA55DA4B7782EFEF2D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream_impl.cc; path = src/google/protobuf/io/zero_copy_stream_impl.cc; sourceTree = SOURCE_ROOT; };
+		2FCBC751FE9B44B69110EE65 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/parse_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parse_context.cc; path = src/google/protobuf/parse_context.cc; sourceTree = SOURCE_ROOT; };
+		367C584DB99448378D2D4D45 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arenastring.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arenastring.cc; path = src/google/protobuf/arenastring.cc; sourceTree = SOURCE_ROOT; };
+		3B9FEF567AC341199530CF82 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/io_win32.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = io_win32.cc; path = src/google/protobuf/io/io_win32.cc; sourceTree = SOURCE_ROOT; };
+		49BA224A891642A98BEF69AE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_reflection.cc; path = src/google/protobuf/generated_message_reflection.cc; sourceTree = SOURCE_ROOT; };
+		4BD41779EE1A49239D996D60 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringprintf.cc; path = src/google/protobuf/stubs/stringprintf.cc; sourceTree = SOURCE_ROOT; };
+		570537A075AE4A40B829C8FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bytestream.cc; path = src/google/protobuf/stubs/bytestream.cc; sourceTree = SOURCE_ROOT; };
+		58AE594CDDD94A2AAD7104DA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message_lite.cc; path = src/google/protobuf/message_lite.cc; sourceTree = SOURCE_ROOT; };
+		5A860120CBAD42E7BDE00829 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = structurally_valid.cc; path = src/google/protobuf/stubs/structurally_valid.cc; sourceTree = SOURCE_ROOT; };
+		5D2C9516381F4203A8D52C36 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/implicit_weak_message.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = implicit_weak_message.cc; path = src/google/protobuf/implicit_weak_message.cc; sourceTree = SOURCE_ROOT; };
+		5D39506625744C2F8899F9EA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wire_format_lite.cc; path = src/google/protobuf/wire_format_lite.cc; sourceTree = SOURCE_ROOT; };
+		5EC902B7C57C4DDE8FBC1A8C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = any.cc; path = src/google/protobuf/any.cc; sourceTree = SOURCE_ROOT; };
+		610A375E5EFA4B76AA8F5AA7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/text_format.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = text_format.cc; path = src/google/protobuf/text_format.cc; sourceTree = SOURCE_ROOT; };
+		653AAC1D8C8D4348950FB5CF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = coded_stream.cc; path = src/google/protobuf/io/coded_stream.cc; sourceTree = SOURCE_ROOT; };
+		71ECB00D88E042CAB6E9850F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = map.cc; path = src/google/protobuf/map.cc; sourceTree = SOURCE_ROOT; };
+		7A1C46EF14204E79808AA55E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map_field.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = map_field.cc; path = src/google/protobuf/map_field.cc; sourceTree = SOURCE_ROOT; };
+		7BFA50105FF4478BB07C8F02 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message.cc; path = src/google/protobuf/message.cc; sourceTree = SOURCE_ROOT; };
+		809237149B4C4870BC10B36D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist"; sourceTree = "<absolute>"; };
+		84E39101ADF54D75A04E5069 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor_database.cc; path = src/google/protobuf/descriptor_database.cc; sourceTree = SOURCE_ROOT; };
+		92523FEF36464204B55A3A01 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		92F5C02C775F4774A4DF896B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strtod.cc; path = src/google/protobuf/io/strtod.cc; sourceTree = SOURCE_ROOT; };
+		981033DF40DF4A48A3D73413 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wire_format.cc; path = src/google/protobuf/wire_format.cc; sourceTree = SOURCE_ROOT; };
+		985D0F867C3644DEA440AD0B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor.cc; path = src/google/protobuf/descriptor.cc; sourceTree = SOURCE_ROOT; };
+		A2A7F472FB02499F92574ABF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = common.cc; path = src/google/protobuf/stubs/common.cc; sourceTree = SOURCE_ROOT; };
+		A2E41090499F4D2698356730 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extension_set_heavy.cc; path = src/google/protobuf/extension_set_heavy.cc; sourceTree = SOURCE_ROOT; };
+		AE0F6DFCA2CE48F786E72181 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor.pb.cc; path = src/google/protobuf/descriptor.pb.cc; sourceTree = SOURCE_ROOT; };
+		BBC7D24C704C41B4BDAA6616 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extension_set.cc; path = src/google/protobuf/extension_set.cc; sourceTree = SOURCE_ROOT; };
+		C719D27BE29E41308B8BF9F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = substitute.cc; path = src/google/protobuf/stubs/substitute.cc; sourceTree = SOURCE_ROOT; };
+		CC4123B947A74BE39231A873 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringpiece.cc; path = src/google/protobuf/stubs/stringpiece.cc; sourceTree = SOURCE_ROOT; };
+		D12FE9680B624488AF454728 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_util.cc; path = src/google/protobuf/generated_message_util.cc; sourceTree = SOURCE_ROOT; };
+		D28BB70D44764666A6998647 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tokenizer.cc; path = src/google/protobuf/io/tokenizer.cc; sourceTree = SOURCE_ROOT; };
+		D9D591DB2840447184E5BDF8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DDC9CFE94A5645549D0CC84B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unknown_field_set.cc; path = src/google/protobuf/unknown_field_set.cc; sourceTree = SOURCE_ROOT; };
+		E224222CBF704804BE3E9DB5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dynamic_message.cc; path = src/google/protobuf/dynamic_message.cc; sourceTree = SOURCE_ROOT; };
+		E300141B6A994E328A26E6A0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strutil.cc; path = src/google/protobuf/stubs/strutil.cc; sourceTree = SOURCE_ROOT; };
+		E5EDD834EEF54C1785754A6B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arena.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arena.cc; path = src/google/protobuf/arena.cc; sourceTree = SOURCE_ROOT; };
+		F0725282DF474160B5FDB4F3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = status.cc; path = src/google/protobuf/stubs/status.cc; sourceTree = SOURCE_ROOT; };
+		F4DC6A3937154EBEA1A07B48 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reflection_ops.cc; path = src/google/protobuf/reflection_ops.cc; sourceTree = SOURCE_ROOT; };
+		F7B3222C195641FEA2738F41 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_ptr_field.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = repeated_ptr_field.cc; path = src/google/protobuf/repeated_ptr_field.cc; sourceTree = SOURCE_ROOT; };
+		FBA18B9B6CE54224A2B01392 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = int128.cc; path = src/google/protobuf/stubs/int128.cc; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B09272107355445A9952700B /* Frameworks */ = {
+		D01A37D7C9DB4D76BD086B5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -220,127 +220,127 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36F586AD6BD04869AB816E53 /* Resources */ = {
+		1AE17796C3D2489C95110F42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				809237149B4C4870BC10B36D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		419DD207377643F98BB7ACB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A62757D5D584C0A8F1A959E /* libprotobuf */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A3847B58CD64ADEA511FC63 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		5D84AAB7897B4C77ACD57628 /* Products */ = {
+		56648C180DBB4785A05EE910 = {
 			isa = PBXGroup;
 			children = (
-				45641EBE93F24CED9A62FEEE /* libprotobuf */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		774412D8E03B430F81232ED6 /* libprotobuf */ = {
-			isa = PBXGroup;
-			children = (
-				E032CD69D83B4EC7A4C34F49 /* Source Files */,
-				D6E7DBEB62B545B889146719 /* Resources */,
-				B49419DBB55548C8AB616B1A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/CMakeLists.txt */,
-			);
-			name = libprotobuf;
-			sourceTree = "<group>";
-		};
-		81D8AAE7CA534AE9B5451E93 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		C71748A9BF5A426EB49638B3 = {
-			isa = PBXGroup;
-			children = (
-				F2E0E029BA9347B3ACBBEDE2 /* 3rdparty */,
-				DA65FB77D3C04FAAA3B70F4D /* ALL_BUILD */,
-				5D84AAB7897B4C77ACD57628 /* Products */,
-				D5264A63C3C74FB7A08BA3B3 /* Frameworks */,
-				36F586AD6BD04869AB816E53 /* Resources */,
+				9D9AB8096DE54C9D9F9A08E0 /* 3rdparty */,
+				9DD6EC3C5B0B44C18CF9F0BE /* ALL_BUILD */,
+				419DD207377643F98BB7ACB9 /* Products */,
+				586CBB757BA74140A51B4CB0 /* Frameworks */,
+				4A3847B58CD64ADEA511FC63 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
-		D5264A63C3C74FB7A08BA3B3 /* Frameworks */ = {
+		586CBB757BA74140A51B4CB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D6E7DBEB62B545B889146719 /* Resources */ = {
+		5B2BA0DE7BA44DA28F40D609 /* libprotobuf */ = {
 			isa = PBXGroup;
 			children = (
-				A9282F043ECB4B63AFFC238F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */,
+				7C7192D629584DE29A6581EF /* Source Files */,
+				1AE17796C3D2489C95110F42 /* Resources */,
+				92523FEF36464204B55A3A01 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/CMakeLists.txt */,
 			);
-			name = Resources;
+			name = libprotobuf;
 			sourceTree = "<group>";
 		};
-		DA65FB77D3C04FAAA3B70F4D /* ALL_BUILD */ = {
+		7C7192D629584DE29A6581EF /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				81D8AAE7CA534AE9B5451E93 /* CMake Rules */,
-				CB7FCC4A174B432D91D9B10F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		E032CD69D83B4EC7A4C34F49 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD6ED320D28B4DB6AE61C81A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any.cc */,
-				DD617E4204814CEB8F083C86 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any_lite.cc */,
-				245698D5372240B5943ED656 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arena.cc */,
-				18E7BA9634BC4FFEA79AD147 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arenastring.cc */,
-				A96667C1ADF34D5E953A6772 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc */,
-				FB1A40AD4FCF4B92B0CF8FDB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */,
-				363AB411034243F4898D879C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */,
-				4597A37A5A194028ADAE9D57 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */,
-				3B123A1AE9C84AD48519EDC4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set.cc */,
-				F7D80E2F642540649A78D145 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */,
-				486ECF7490854D199A055C42 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */,
-				A0BA8A4392F74CAAA945BC35 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */,
-				3843814E14B84524AE359408 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/implicit_weak_message.cc */,
-				41CC363B84F54105869739FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */,
-				58DDF9D3886E4BB08694490D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/io_win32.cc */,
-				581A1151C2974633999E10F5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */,
-				7C13400C3E134B5C9B9A2ADA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */,
-				5F2AC78A8D0F4192BA6129E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */,
-				BBEE688E0BC541CCB52E3C3E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */,
-				79C2E69FFB9D428CABFFFC8A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */,
-				D4FAF27BF27146DF9D4EA8C7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map.cc */,
-				C1A6248700FF4C179E32B489 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map_field.cc */,
-				717122621EE240B99F402532 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message.cc */,
-				21CC2FF2EBD943B897EF3962 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message_lite.cc */,
-				1F648AAEBD924A78BA08833C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/parse_context.cc */,
-				B006EC35D6A844629C032536 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */,
-				873FA94AD990465A9C453E2C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */,
-				8FEBB1EF940D4F72A171CB30 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_ptr_field.cc */,
-				78C438487B6446A88BA6A216 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */,
-				F53A1B8F95F042D0B8FC6B3A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */,
-				A47DBDF8851746F89B01C377 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */,
-				22BB3B0868B94D8CB94C81B7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */,
-				6B0DCB75AA414E0298B63A03 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */,
-				E0D67D2FA6F349E6B182983C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */,
-				B7D28D15B36846BFBF5CC5AF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */,
-				528CAEA4028843BB8B6A037E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */,
-				81B9E28FC52249CF91D62C98 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */,
-				456BF6F342AB4F9584ADF2F3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/text_format.cc */,
-				31CE4246FF3149BFB390E894 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */,
-				D25E04A5012841B0A78B9FB8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format.cc */,
-				933AB2CD863A443F8E20C877 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */,
+				5EC902B7C57C4DDE8FBC1A8C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any.cc */,
+				15528A465A2847B8B3B5DC58 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any_lite.cc */,
+				E5EDD834EEF54C1785754A6B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arena.cc */,
+				367C584DB99448378D2D4D45 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arenastring.cc */,
+				985D0F867C3644DEA440AD0B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc */,
+				AE0F6DFCA2CE48F786E72181 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */,
+				84E39101ADF54D75A04E5069 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */,
+				E224222CBF704804BE3E9DB5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */,
+				BBC7D24C704C41B4BDAA6616 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set.cc */,
+				A2E41090499F4D2698356730 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */,
+				49BA224A891642A98BEF69AE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */,
+				D12FE9680B624488AF454728 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */,
+				5D2C9516381F4203A8D52C36 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/implicit_weak_message.cc */,
+				653AAC1D8C8D4348950FB5CF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */,
+				3B9FEF567AC341199530CF82 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/io_win32.cc */,
+				92F5C02C775F4774A4DF896B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */,
+				D28BB70D44764666A6998647 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */,
+				1FA784F81528444DAE2CBE49 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */,
+				207FBAAA55DA4B7782EFEF2D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */,
+				1D547EEE3FD742F48F50D061 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */,
+				71ECB00D88E042CAB6E9850F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map.cc */,
+				7A1C46EF14204E79808AA55E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map_field.cc */,
+				7BFA50105FF4478BB07C8F02 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message.cc */,
+				58AE594CDDD94A2AAD7104DA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message_lite.cc */,
+				2FCBC751FE9B44B69110EE65 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/parse_context.cc */,
+				F4DC6A3937154EBEA1A07B48 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */,
+				0DBCD0A7688E4C9AA7D0B198 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */,
+				F7B3222C195641FEA2738F41 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_ptr_field.cc */,
+				570537A075AE4A40B829C8FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */,
+				A2A7F472FB02499F92574ABF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */,
+				FBA18B9B6CE54224A2B01392 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */,
+				F0725282DF474160B5FDB4F3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */,
+				CC4123B947A74BE39231A873 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */,
+				4BD41779EE1A49239D996D60 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */,
+				5A860120CBAD42E7BDE00829 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */,
+				E300141B6A994E328A26E6A0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */,
+				C719D27BE29E41308B8BF9F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */,
+				610A375E5EFA4B76AA8F5AA7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/text_format.cc */,
+				DDC9CFE94A5645549D0CC84B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */,
+				981033DF40DF4A48A3D73413 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format.cc */,
+				5D39506625744C2F8899F9EA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		F2E0E029BA9347B3ACBBEDE2 /* 3rdparty */ = {
+		8238F637785947DD828093F4 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				774412D8E03B430F81232ED6 /* libprotobuf */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9D9AB8096DE54C9D9F9A08E0 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				5B2BA0DE7BA44DA28F40D609 /* libprotobuf */,
 			);
 			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		9DD6EC3C5B0B44C18CF9F0BE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8238F637785947DD828093F4 /* CMake Rules */,
+				D9D591DB2840447184E5BDF8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,40 +348,40 @@
 /* Begin PBXNativeTarget section */
 		2F75BF934EB7AD4620511344 /* libprotobuf */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BDEE0C5A86E45BE85BC31DD /* Build configuration list for PBXNativeTarget "libprotobuf" */;
+			buildConfigurationList = 4F934182E44B4982AA6ACD57 /* Build configuration list for PBXNativeTarget "libprotobuf" */;
 			buildPhases = (
-				0D4E2010D29045F196552359 /* Sources */,
-				B09272107355445A9952700B /* Frameworks */,
+				04A128452A244A3A81171E3C /* Sources */,
+				D01A37D7C9DB4D76BD086B5F /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B674235CE5364002B90ECFED /* PBXTargetDependency */,
+				E1BFE1D3F6734075BBA27692 /* PBXTargetDependency */,
 			);
 			name = libprotobuf;
 			productName = libprotobuf;
-			productReference = 45641EBE93F24CED9A62FEEE /* libprotobuf */;
+			productReference = 0A62757D5D584C0A8F1A959E /* libprotobuf */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		01DCC8B2257B4EBF9C7710F3 /* Project object */ = {
+		9656BDD426B24CF7B5AEA092 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 2620;
 			};
-			buildConfigurationList = 8E4E539690D547CA998232E2 /* Build configuration list for PBXProject "libprotobuf" */;
+			buildConfigurationList = 4D1E4D4680234B9EAF7A1EDB /* Build configuration list for PBXProject "libprotobuf" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				7939C6C143F14E1F9A69C7B1 /* Debug */,
-				8B42391162E9492E8A91909E /* Release */,
+				6E8B55932C0D4F4684BCBABC /* Debug */,
+				8267C1729B994BE79162C2D1 /* Release */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = C71748A9BF5A426EB49638B3;
+			mainGroup = 56648C180DBB4785A05EE910;
 			projectDirPath = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf";
 			projectRoot = "";
 			targets = (
@@ -599,240 +599,81 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0D4E2010D29045F196552359 /* Sources */ = {
+		04A128452A244A3A81171E3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8B0E3D3E1D4FF2B8E465AD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any.cc */,
-				6875AB5FC3EB4B788C0D92EB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any_lite.cc */,
-				37E16FE95CF545C68D08C3A0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arena.cc */,
-				B9A34FA4F47C42429AE416F4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arenastring.cc */,
-				E6D3E51F60D24B26AE4ACE36 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc */,
-				14D7C17FDFAD42AE84657B3D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */,
-				ED9AE08E5D414F2B88A5BD30 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */,
-				B41B2EF5C425434FA9D1CBBD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */,
-				C4367334EDEA4B529C64D268 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set.cc */,
-				7AE1B27FEB04472BA6A727D6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */,
-				15C00A2FD0964E2192254AB2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */,
-				DB386675A0524AB98F92A2DE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */,
-				BCF44E986E214281AD9777FC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/implicit_weak_message.cc */,
-				50D45100C291419185036580 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */,
-				8754177B26924E7A8E230EA5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/io_win32.cc */,
-				47A4DCA86B124614BF26EFBB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */,
-				CDDA65E8553749348C506FBD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */,
-				CF2B0DA92DF148819A5732C2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */,
-				64D64BED34674843AA028BCC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */,
-				5CBAC5C35BD24AB994866F88 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */,
-				9953929C35C74BC18F5EDEC1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map.cc */,
-				4DDBD6B44E4F411BBBD9A21C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map_field.cc */,
-				1BF76027CACC41FBBA112C66 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message.cc */,
-				ABE2A34C15684BD8A074CBDC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message_lite.cc */,
-				840494B220444F209D04C676 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/parse_context.cc */,
-				39BC7EE074844502B5246CEF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */,
-				5F9747C6BF0C44418A1C58CF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */,
-				50F52575E13645A28134A3CE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_ptr_field.cc */,
-				B651137951CC4D7298B05980 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */,
-				F53B5B356B384CF08D9E3CE7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */,
-				1C430ECE3B1943D589545F4D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */,
-				5E1B42EE82964F3BBED2364C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */,
-				F573B463CA094892A8988918 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */,
-				4D023683A2A445A9B99C8B08 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */,
-				CE70AE796C234314BA7C2CF0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */,
-				1A66850482C14497AD06D01B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */,
-				DA8E80DF4D61498487713937 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */,
-				E286B439B1BD4BC4BB3CE643 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/text_format.cc */,
-				739FB2ACC5A7457DA4D29217 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */,
-				55E6ED9647694FD6B4DE6427 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format.cc */,
-				F5DB1AC49B674003B9E3161C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */,
+				EF1664F8F5784EAAA49645F4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any.cc */,
+				48CA3633D0634D1F8126BAAA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/any_lite.cc */,
+				658EC9D6EAC846328C468C40 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arena.cc */,
+				141466BC12DF48F0A7727EC4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/arenastring.cc */,
+				7D0754F30FD24025A43FE813 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc */,
+				F19838691C0A4EEB8550AD3D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */,
+				1B753D1E01C64BF091FA22DC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */,
+				739A72B1BA9A426B8517A62F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */,
+				4BDA695E42E34DA08A7B26E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set.cc */,
+				58873D5BD14743749B3C5F0F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */,
+				B5368ED96E9E4A4F94CD31A3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */,
+				5A97799FD3B24F69BD5344FB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */,
+				A80D48D5C23F4FB4BC70207D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/implicit_weak_message.cc */,
+				92BB321D43034474B217A39C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */,
+				F0037CC0A51848DF957347D1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/io_win32.cc */,
+				1FA7E746123E4857BD52306C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */,
+				7BD7BC142B1F4637B5EEF0B2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */,
+				B14D29BA7EA64926BC921660 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */,
+				B368D0429D8E42F2BDF746B9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */,
+				DAE59F30DFE241218112D223 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */,
+				0845999F1A1644DC9BBCED32 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map.cc */,
+				A1D851F1407D4A308079ADFE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/map_field.cc */,
+				B342AE85D55E48B2A9683908 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message.cc */,
+				D34778BEDB0745A69E16919B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message_lite.cc */,
+				494944FC96ED4938AFF22DE8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/parse_context.cc */,
+				403C995E46334F418F57DA43 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */,
+				4E9B7DC910C64AE48256F78D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */,
+				1F7697F85C974D3AAFE92537 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/repeated_ptr_field.cc */,
+				FCAD481799704596B141BD8F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */,
+				B7C7072638A34227846E9B3F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */,
+				B5310087B4D545959DD5D72F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */,
+				4F3FFB5EB0AD458F8121AB96 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */,
+				91DF426E0E8C4E46ADEAE177 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */,
+				3392C00D71EA4EB891447B52 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */,
+				3F444F09DED84AEA81C27DDD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */,
+				8D5601342FD545E6B37CFE59 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */,
+				07CB3433EE7A433DB0437498 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */,
+				85298BDEF89B44E382B973E8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/text_format.cc */,
+				ADAE79967A674141B8B27ACD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */,
+				EBE0FD1459D140BB9215AC8A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format.cc */,
+				BBCA94B6BD9D46D8B2964302 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		66E76E4B18A9419BA12A19ED /* PBXTargetDependency */ = {
+		03A45AB2D0B047B2B804A915 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
-			targetProxy = 581C459BAB9F458DA1D7115A /* PBXContainerItemProxy */;
+			targetProxy = 932AC5B4D68A4299894B06EC /* PBXContainerItemProxy */;
 		};
-		B13C6BD4DA7D476C8832929B /* PBXTargetDependency */ = {
+		0F3C852F8B824E2DA8245F29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
-			targetProxy = C654ED520F9C415C89192C00 /* PBXContainerItemProxy */;
+			targetProxy = F333055DA584446C90EFA59B /* PBXContainerItemProxy */;
 		};
-		B674235CE5364002B90ECFED /* PBXTargetDependency */ = {
+		E1BFE1D3F6734075BBA27692 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
-			targetProxy = 82DE8D7B2E7344EA84D7CA45 /* PBXContainerItemProxy */;
+			targetProxy = 613E0034E72B4931A81F1994 /* PBXContainerItemProxy */;
 		};
-		C572C9521AF54953B732C455 /* PBXTargetDependency */ = {
+		EB71F8CADB0540D39E2C89EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
-			targetProxy = 14AD5FC14BED4B8290F4ECC0 /* PBXContainerItemProxy */;
+			targetProxy = 241BE8AFC27245CD813A805C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		068ABCC860CF464E92B6A5D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		18A3F720802C450BBB15CE97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		305DBA44CFA64F258D646F0F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		40A31CF8A48241B880CCD5CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/lib/Release";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'HAVE_PTHREAD=1'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -Wno-suggest-override -Wno-inconsistent-missing-override -Wno-implicit-fallthrough -Wno-array-bounds -Wno-extra-semi -Wno-comma     -DNDEBUG  -DNDEBUG '-std=c++11' -fPIC ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = libprotobuf;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos","$(inherited)");
-				TARGET_TEMP_DIR = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build/libprotobuf.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		4B98E3FE4B734305883297E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CODE_SIGNING_REQUIRED = NO;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
-			};
-			name = Debug;
-		};
-		6E0BE58D22F1489682187F2C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		787DA6609F264F008C260AFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		87D3FBD9AC4946E5B9E4057F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		A88F52D262824F178F991862 /* Debug */ = {
+		03FEE68B50D9406A9EC2F417 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -861,7 +702,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		AEF3E14675E34BA68338802A /* Release */ = {
+		1D97254B6D43472E91A1EE8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -874,25 +715,54 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = package;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		B4F4B07F9D784B41916635C5 /* Release */ = {
+		229662B135E84901A92C98AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = arm64;
-				CODE_SIGNING_REQUIRED = NO;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		BDE53FFAB43F45B0A10CC443 /* Debug */ = {
+		40EEE431BCD34056901B0A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		454295AE5B0A417F81CF586C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -912,7 +782,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		E9326A37A311451AA0E7A579 /* Debug */ = {
+		5509FB0DB2CC4658A89E84C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -925,14 +795,45 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = package;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		FCACD9F9819348AEBF5FE62A /* Release */ = {
+		591D99F626544B3FAB51A67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
+			};
+			name = Release;
+		};
+		6C0B565326BF42A784DBC9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		749D1BFF534849B2A7937F0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -952,73 +853,172 @@ exit 0";
 			};
 			name = Release;
 		};
+		80E3218452504DC1B601753E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AEA03E15848947A9AA9B5878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BCBB944B9C2A40DD8F132A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
+			};
+			name = Debug;
+		};
+		CC33ECEB232B4DE6A5F10E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F9C2098A579C4AFCBB161FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'HAVE_PTHREAD=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -Wno-suggest-override -Wno-inconsistent-missing-override -Wno-implicit-fallthrough -Wno-array-bounds -Wno-extra-semi -Wno-comma     -DNDEBUG  -DNDEBUG '-std=c++11' -fPIC ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libprotobuf;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/3rdparty/protobuf/src","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build/libprotobuf.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D5BCF68DD75495698D9FFC8 /* Build configuration list for PBXAggregateTarget "package" */ = {
+		0B80AE23E04B4E8697550C76 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				787DA6609F264F008C260AFA /* Debug */,
-				6E0BE58D22F1489682187F2C /* Release */,
+				AEA03E15848947A9AA9B5878 /* Debug */,
+				80E3218452504DC1B601753E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		36FE531199304E2AAAD0588C /* Build configuration list for PBXAggregateTarget "install" */ = {
+		392BB3A62FD24ED98DF17A96 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BDE53FFAB43F45B0A10CC443 /* Debug */,
-				305DBA44CFA64F258D646F0F /* Release */,
+				454295AE5B0A417F81CF586C /* Debug */,
+				229662B135E84901A92C98AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8BDEE0C5A86E45BE85BC31DD /* Build configuration list for PBXNativeTarget "libprotobuf" */ = {
+		4D1E4D4680234B9EAF7A1EDB /* Build configuration list for PBXProject "libprotobuf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A88F52D262824F178F991862 /* Debug */,
-				40A31CF8A48241B880CCD5CB /* Release */,
+				BCBB944B9C2A40DD8F132A16 /* Debug */,
+				591D99F626544B3FAB51A67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8E4E539690D547CA998232E2 /* Build configuration list for PBXProject "libprotobuf" */ = {
+		4F934182E44B4982AA6ACD57 /* Build configuration list for PBXNativeTarget "libprotobuf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B98E3FE4B734305883297E6 /* Debug */,
-				B4F4B07F9D784B41916635C5 /* Release */,
+				03FEE68B50D9406A9EC2F417 /* Debug */,
+				F9C2098A579C4AFCBB161FA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9953FE98B96E4729BB9E2DB1 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+		8726E56843AA4015A707A63B /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				068ABCC860CF464E92B6A5D3 /* Debug */,
-				FCACD9F9819348AEBF5FE62A /* Release */,
+				40EEE431BCD34056901B0A4F /* Debug */,
+				749D1BFF534849B2A7937F0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C43107088B8F4502A0AF25B2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		8A59585D1C314954B5299879 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18A3F720802C450BBB15CE97 /* Debug */,
-				AEF3E14675E34BA68338802A /* Release */,
+				CC33ECEB232B4DE6A5F10E1F /* Debug */,
+				6C0B565326BF42A784DBC9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E1AE5177638D49EDBB7F295B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		F53309C151CC43CD894B54D2 /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9326A37A311451AA0E7A579 /* Debug */,
-				87D3FBD9AC4946E5B9E4057F /* Release */,
+				5509FB0DB2CC4658A89E84C5 /* Debug */,
+				1D97254B6D43472E91A1EE8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 01DCC8B2257B4EBF9C7710F3 /* Project object */;
+	rootObject = 9656BDD426B24CF7B5AEA092 /* Project object */;
 }

@@ -2,7 +2,7 @@
 #
 # build_opencv_ios.sh
 #
-# Builds OpenCV 4.10.0 for iOS as a static XCFramework
+# Builds OpenCV for iOS as a static XCFramework
 #   - arm64 device
 #   - arm64 + x86_64 simulator
 #   - SIFT, imread/imwrite, full stitching pipeline
@@ -10,10 +10,19 @@
 #
 set -euo pipefail
 
-OPENCV_VERSION="4.10.0"
-
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+
+# Load version from version.env
+VERSION_FILE="${PROJECT_ROOT}/version.env"
+if [ ! -f "$VERSION_FILE" ]; then
+    echo "ERR: version.env not found at $VERSION_FILE" >&2
+    exit 1
+fi
+source "$VERSION_FILE"
+
+# OPENCV_VERSION and RELEASE_TAG are now set from version.env
+
 WORK_DIR="${SCRIPT_DIR}/work"
 OPENCV_SRC="${WORK_DIR}/opencv-${OPENCV_VERSION}"
 OUTPUT_DIR="${PROJECT_ROOT}/output"
@@ -32,7 +41,7 @@ done
 xcodebuild -version &>/dev/null || err "Xcode not configured. Run: sudo xcode-select --switch /Applications/Xcode.app"
 
 PARALLEL_JOBS=$(sysctl -n hw.ncpu 2>/dev/null || echo 4)
-log "Using $PARALLEL_JOBS parallel jobs"
+log "Building OpenCV ${OPENCV_VERSION} (release ${RELEASE_TAG}) with $PARALLEL_JOBS parallel jobs"
 mkdir -p "$WORK_DIR" "$OUTPUT_DIR"
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -90,7 +99,6 @@ for slice in "ios-arm64" "ios-arm64-simulator" "ios-x86_64-simulator"; do
     if [ -d "${XCFRAMEWORK}/${slice}" ]; then
         echo "  ✓ Slice present: ${slice}"
     else
-        # x86_64 and arm64 simulator are merged into a single ios-arm64_x86_64-simulator slice
         warn "  Slice not found as separate dir: ${slice} (may be merged)"
     fi
 done
@@ -123,6 +131,6 @@ echo "  opencv2.xcframework.zip"
 echo "  opencv2.xcframework.zip.sha256"
 echo ""
 echo "Next steps:"
-echo "  1. Create GitHub release tagged '4.10.0-3'"
+echo "  1. Create GitHub release tagged '${RELEASE_TAG}'"
 echo "  2. Upload opencv2.xcframework.zip as release asset"
 echo "  3. Update podspec with the new checksum: $CHECKSUM"

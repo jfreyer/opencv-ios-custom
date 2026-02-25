@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		01C65101F907E9BB1C14098B /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E9F0A8171EAF4842B169D5CE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = BF8B3621820247C4A00CCA5C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				82EC1AD668714D98C4B119AE /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,44 +20,44 @@
 		};
 		186635EFFB9BDDDA2ADB3EAA /* gen_opencv_java_source */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = BC1DF83D8F8846998D9AB580 /* Build configuration list for PBXAggregateTarget "gen_opencv_java_source" */;
+			buildConfigurationList = 00D303E72F2440C0AE30ED5F /* Build configuration list for PBXAggregateTarget "gen_opencv_java_source" */;
 			buildPhases = (
 				4B16423E939074A523651225 /* Generate ../../CMakeFiles/dephelper/gen_opencv_java_source */,
 				38450392E600B7092E56A84E /* Generate CMakeFiles/gen_opencv_java_source */,
 			);
 			dependencies = (
-				1F58A564DFDB440DAE901548 /* PBXTargetDependency */,
+				EFE17A9BAEB54020BEFAC1BB /* PBXTargetDependency */,
 			);
 			name = gen_opencv_java_source;
 			productName = gen_opencv_java_source;
 		};
 		771FD8AEB39D811E2BC9B426 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = F078237F34004A79890592C0 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = D479DEAB102B401995664084 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				4F1A085E85D64FECB3F4422D /* PBXTargetDependency */,
+				9AF18CFD2E144437A6F112B0 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		86736DDDED1F0A92597C9165 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 0769BC89F8A249BABE3D3D6C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = F8E8127E335E4F05890A3E2F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				BF168029894BFC56451A184E /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				A3500D3157E245919E5E8FEF /* PBXTargetDependency */,
+				3ADDD0C8615E45629CCC1F8B /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		A0A668F13D19F048AB9F8B68 /* RUN_TESTS */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C3123E9ACC674E24AEB7160F /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildConfigurationList = 6ACD7A58C55F434FA69C5819 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
 			buildPhases = (
 				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
 			);
@@ -68,12 +68,12 @@
 		};
 		E3A0E307AE475F45B5997A27 /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 8D599AC6FC194B8D81EB9BFC /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = AE3CCDD3827A430BABA3C435 /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				F54AD5E51B4D40618E5FEED7 /* PBXTargetDependency */,
+				FF7525A39AA0408F900228DF /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
@@ -81,146 +81,146 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildStyle section */
-		7C61FCA2AE724ADFAF88AB3D /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		FD78279589C94E759BA6A6CF /* Release */ = {
+		82165EA82DD74210AECB4D12 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		A632C46499F14ADEAD205BD1 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		18BFFF9B2E2D48EAA375E2C1 /* PBXContainerItemProxy */ = {
+		1BC7B0B5089346DBACAF4753 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 492AF764C5CA43D3B8D4E3F0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
-			remoteInfo = ALL_BUILD;
-		};
-		9ABCA436DD0E424FAFDF8263 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 492AF764C5CA43D3B8D4E3F0 /* Project object */;
+			containerPortal = 103E79E1F4124C1B8A80A419 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
 			remoteInfo = ZERO_CHECK;
 		};
-		A9276C66735B4660B080DB8F /* PBXContainerItemProxy */ = {
+		2BF69FC7315649B3A7A7092A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 492AF764C5CA43D3B8D4E3F0 /* Project object */;
+			containerPortal = 103E79E1F4124C1B8A80A419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
+			remoteInfo = ZERO_CHECK;
+		};
+		36E9E53566BB40729F408329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 103E79E1F4124C1B8A80A419 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
 			remoteInfo = ALL_BUILD;
 		};
-		B61DEE4983F34A43BB2D81E6 /* PBXContainerItemProxy */ = {
+		6B2D23FC83C34C558637DB1B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 492AF764C5CA43D3B8D4E3F0 /* Project object */;
+			containerPortal = 103E79E1F4124C1B8A80A419 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
-			remoteInfo = ZERO_CHECK;
+			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
+			remoteInfo = ALL_BUILD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		292D1131393E48C0B61598AB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/java/generator/gen_java.py */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = gen_java.py; path = gen_java.py; sourceTree = SOURCE_ROOT; };
-		319511918AE14070B41B685E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/java/generator/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		B6EA8A4E9C8449698C93190C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/java/generator/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		DAC99D740B6A4A5AB51038CA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/java_bindings_generator/gen_java.json */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = gen_java.json; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/java_bindings_generator/gen_java.json"; sourceTree = "<absolute>"; };
+		28AB4B0BD9A94BABB6BBC1C9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/java_bindings_generator/gen_java.json */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = gen_java.json; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/java_bindings_generator/gen_java.json"; sourceTree = "<absolute>"; };
+		81E97FEF3722422998CA9976 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/java/generator/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B629F48A40E34BB2B8113CD9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/java/generator/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F90735E714894E349C093FFE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/java/generator/gen_java.py */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = gen_java.py; path = gen_java.py; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		0960E5498D09415A89BB4CE4 /* Frameworks */ = {
+		28B6A35E3EAD4C099ABA19C4 = {
+			isa = PBXGroup;
+			children = (
+				320381C42BFE47F4B437F96A /* gen_opencv_java_source */,
+				5BD253C3E94B4C2A856C7AA7 /* ALL_BUILD */,
+				927D42F2DC384B71AC8796CD /* Products */,
+				C8E07A0BB7954052A8C0EE8D /* Frameworks */,
+				D949C642B2B94FCB858E0816 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		320381C42BFE47F4B437F96A /* gen_opencv_java_source */ = {
+			isa = PBXGroup;
+			children = (
+				C269B02DD22948FDAD6B2DC7 /* CMake Rules */,
+				F90735E714894E349C093FFE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/java/generator/gen_java.py */,
+				28AB4B0BD9A94BABB6BBC1C9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/java_bindings_generator/gen_java.json */,
+				B629F48A40E34BB2B8113CD9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/java/generator/CMakeLists.txt */,
+			);
+			name = gen_opencv_java_source;
+			sourceTree = "<group>";
+		};
+		5BD253C3E94B4C2A856C7AA7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				768C13B3767F4580BD8BEFCC /* CMake Rules */,
+				81E97FEF3722422998CA9976 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/java/generator/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		768C13B3767F4580BD8BEFCC /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Frameworks;
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		0C85D82A066F4F6EA6205242 /* Products */ = {
+		927D42F2DC384B71AC8796CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0FFF34B77F054E8CB757C443 /* Resources */ = {
+		C269B02DD22948FDAD6B2DC7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C8E07A0BB7954052A8C0EE8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D949C642B2B94FCB858E0816 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		16FE942C54CE4EE7B9C4B894 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				D537C6D57B6E42D894836446 /* CMake Rules */,
-				B6EA8A4E9C8449698C93190C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/java/generator/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		793D14FBEC244CA0862A7EC9 /* gen_opencv_java_source */ = {
-			isa = PBXGroup;
-			children = (
-				AB6D6B336818416FAF2DE109 /* CMake Rules */,
-				292D1131393E48C0B61598AB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/java/generator/gen_java.py */,
-				DAC99D740B6A4A5AB51038CA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/java_bindings_generator/gen_java.json */,
-				319511918AE14070B41B685E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/java/generator/CMakeLists.txt */,
-			);
-			name = gen_opencv_java_source;
-			sourceTree = "<group>";
-		};
-		AB6D6B336818416FAF2DE109 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		C1E3EA48FDC842B6A6ECF01D = {
-			isa = PBXGroup;
-			children = (
-				793D14FBEC244CA0862A7EC9 /* gen_opencv_java_source */,
-				16FE942C54CE4EE7B9C4B894 /* ALL_BUILD */,
-				0C85D82A066F4F6EA6205242 /* Products */,
-				0960E5498D09415A89BB4CE4 /* Frameworks */,
-				0FFF34B77F054E8CB757C443 /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		D537C6D57B6E42D894836446 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
-		492AF764C5CA43D3B8D4E3F0 /* Project object */ = {
+		103E79E1F4124C1B8A80A419 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 2620;
 			};
-			buildConfigurationList = CF40BBA1B3C54A568C444946 /* Build configuration list for PBXProject "opencv_java_bindings_generator" */;
+			buildConfigurationList = 7FB536C22FC744E9B63716A3 /* Build configuration list for PBXProject "opencv_java_bindings_generator" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				7C61FCA2AE724ADFAF88AB3D /* Debug */,
-				FD78279589C94E759BA6A6CF /* Release */,
+				A632C46499F14ADEAD205BD1 /* Debug */,
+				82165EA82DD74210AECB4D12 /* Release */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = C1E3EA48FDC842B6A6ECF01D;
+			mainGroup = 28B6A35E3EAD4C099ABA19C4;
 			projectDirPath = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/java/generator";
 			projectRoot = "";
 			targets = (
@@ -502,30 +502,30 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F58A564DFDB440DAE901548 /* PBXTargetDependency */ = {
+		3ADDD0C8615E45629CCC1F8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
-			targetProxy = B61DEE4983F34A43BB2D81E6 /* PBXContainerItemProxy */;
+			targetProxy = 1BC7B0B5089346DBACAF4753 /* PBXContainerItemProxy */;
 		};
-		4F1A085E85D64FECB3F4422D /* PBXTargetDependency */ = {
+		9AF18CFD2E144437A6F112B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
-			targetProxy = A9276C66735B4660B080DB8F /* PBXContainerItemProxy */;
+			targetProxy = 36E9E53566BB40729F408329 /* PBXContainerItemProxy */;
 		};
-		A3500D3157E245919E5E8FEF /* PBXTargetDependency */ = {
+		EFE17A9BAEB54020BEFAC1BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
-			targetProxy = 9ABCA436DD0E424FAFDF8263 /* PBXContainerItemProxy */;
+			targetProxy = 2BF69FC7315649B3A7A7092A /* PBXContainerItemProxy */;
 		};
-		F54AD5E51B4D40618E5FEED7 /* PBXTargetDependency */ = {
+		FF7525A39AA0408F900228DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
-			targetProxy = 18BFFF9B2E2D48EAA375E2C1 /* PBXContainerItemProxy */;
+			targetProxy = 6B2D23FC83C34C558637DB1B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		129C5CE0A8CC4620BFA69CA6 /* Debug */ = {
+		116E98E2F99F4E8E9B796C03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -535,67 +535,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		1777B82D63FD44F8A1354CC4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		38E00B2684F44D56B1EDBF67 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		4DA83B47BB624BFC9B5F8E2F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		4E9E1C375CA84312AAE7E355 /* Debug */ = {
+		2971281D060F452197A673F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -615,7 +555,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		7AD1B610AF0D42188A3040E9 /* Debug */ = {
+		2FD228DA9E124582868B580E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -635,27 +575,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		8CB85C89A43D4168963840D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		92E5246874554C74991EBFF9 /* Release */ = {
+		35FE3472B88D4EF586490B5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -666,7 +586,67 @@ exit 0";
 			};
 			name = Release;
 		};
-		94C6690C593C40FF92ED3DD3 /* Debug */ = {
+		45939FA387EE44D78E4DE0B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5E699F2AA13B46818252D458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8672653495004ECBADF0FA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gen_opencv_java_source;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9F7B068726884B43A584DFC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -686,27 +666,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		94EAB5F9FF0149EAA15F516A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		9B5D3A75B602440CAFCF2D80 /* Release */ = {
+		A3EE519EAF6443F5A06D2578 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -726,7 +686,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		BD9AC3D3799A4FB4B3F8A24B /* Release */ = {
+		A731B35CB65F4B9DB81FFDC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -739,34 +699,14 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		F885E6C18A094B17A922D7C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gen_opencv_java_source;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		F8B7224CE576402FAA4D9ADE /* Release */ = {
+		A9E6F30A84CB4B888E172B24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -786,73 +726,133 @@ exit 0";
 			};
 			name = Release;
 		};
+		CE2D0BBAE8894392A5179517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D8AE6E29779E461EA5041EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E5FF6B18084C433A86A6611D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0769BC89F8A249BABE3D3D6C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		00D303E72F2440C0AE30ED5F /* Build configuration list for PBXAggregateTarget "gen_opencv_java_source" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38E00B2684F44D56B1EDBF67 /* Debug */,
-				9B5D3A75B602440CAFCF2D80 /* Release */,
+				9F7B068726884B43A584DFC1 /* Debug */,
+				8672653495004ECBADF0FA4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8D599AC6FC194B8D81EB9BFC /* Build configuration list for PBXAggregateTarget "package" */ = {
+		6ACD7A58C55F434FA69C5819 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94EAB5F9FF0149EAA15F516A /* Debug */,
-				8CB85C89A43D4168963840D5 /* Release */,
+				2971281D060F452197A673F6 /* Debug */,
+				CE2D0BBAE8894392A5179517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BC1DF83D8F8846998D9AB580 /* Build configuration list for PBXAggregateTarget "gen_opencv_java_source" */ = {
+		7FB536C22FC744E9B63716A3 /* Build configuration list for PBXProject "opencv_java_bindings_generator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94C6690C593C40FF92ED3DD3 /* Debug */,
-				F885E6C18A094B17A922D7C6 /* Release */,
+				116E98E2F99F4E8E9B796C03 /* Debug */,
+				35FE3472B88D4EF586490B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C3123E9ACC674E24AEB7160F /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+		AE3CCDD3827A430BABA3C435 /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E9E1C375CA84312AAE7E355 /* Debug */,
-				BD9AC3D3799A4FB4B3F8A24B /* Release */,
+				D8AE6E29779E461EA5041EFD /* Debug */,
+				E5FF6B18084C433A86A6611D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		CF40BBA1B3C54A568C444946 /* Build configuration list for PBXProject "opencv_java_bindings_generator" */ = {
+		BF8B3621820247C4A00CCA5C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				129C5CE0A8CC4620BFA69CA6 /* Debug */,
-				92E5246874554C74991EBFF9 /* Release */,
+				2FD228DA9E124582868B580E /* Debug */,
+				A731B35CB65F4B9DB81FFDC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E9F0A8171EAF4842B169D5CE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		D479DEAB102B401995664084 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AD1B610AF0D42188A3040E9 /* Debug */,
-				4DA83B47BB624BFC9B5F8E2F /* Release */,
+				5E699F2AA13B46818252D458 /* Debug */,
+				A9E6F30A84CB4B888E172B24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F078237F34004A79890592C0 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		F8E8127E335E4F05890A3E2F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1777B82D63FD44F8A1354CC4 /* Debug */,
-				F8B7224CE576402FAA4D9ADE /* Release */,
+				45939FA387EE44D78E4DE0B6 /* Debug */,
+				A3EE519EAF6443F5A06D2578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 492AF764C5CA43D3B8D4E3F0 /* Project object */;
+	rootObject = 103E79E1F4124C1B8A80A419 /* Project object */;
 }

@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/modules/stitching/opencl_kernels_stitching.cpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/cvdef.h \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/version.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/hal/interface.h \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/cv_cpu_dispatch.h \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/cv_cpu_helper.h \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/base.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/cvstd.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/cvstd_wrapper.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/neon_utils.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/vsx_utils.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/check.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/traits.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/matx.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/saturate.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/fast_math.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/matx.inl.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/types.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/mat.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/bufferpool.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/mat.inl.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/persistence.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/operations.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/cvstd.inl.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/utility.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/optim.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/ovx.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-arm64-iphonesimulator/modules/stitching/opencl_kernels_stitching.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/ocl.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/ocl_genbase.hpp \
+  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include/opencv2/core/opencl/ocl_defs.hpp
