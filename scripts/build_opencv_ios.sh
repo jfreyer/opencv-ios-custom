@@ -39,9 +39,8 @@ mkdir -p "$WORK_DIR" "$OUTPUT_DIR"
 # Step 2: Clone OpenCV
 # ──────────────────────────────────────────────────────────────────────────────
 if [ -d "$OPENCV_SRC" ]; then
-    # Verify existing clone is valid — check that the xcframework build script exists
     if [ ! -f "${OPENCV_SRC}/platforms/apple/build_xcframework.py" ]; then
-        warn "Existing OpenCV source at $OPENCV_SRC appears incomplete, removing..."
+        warn "Existing OpenCV source appears incomplete, removing..."
         rm -rf "$OPENCV_SRC"
     else
         log "Using existing OpenCV source at $OPENCV_SRC"
@@ -54,7 +53,6 @@ if [ ! -d "$OPENCV_SRC" ]; then
         https://github.com/opencv/opencv.git "$OPENCV_SRC"
 fi
 
-# Sanity check
 [ -f "${OPENCV_SRC}/platforms/apple/build_xcframework.py" ] \
     || err "build_xcframework.py not found — clone may have failed"
 
@@ -90,19 +88,61 @@ python3 "${OPENCV_SRC}/platforms/apple/build_xcframework.py" \
     2>&1 | tee "${WORK_DIR}/build.log"
 
 # ──────────────────────────────────────────────────────────────────────────────
-# Step 4: Find and copy XCFramework
+# Step 3b: Fix dangling Modules symlinks left by --without objc
+#
+# When objc is excluded, the build creates a versioned framework with a
+# Modules -> Versions/Current/Modules symlink but never populates the
+# target directory. This causes cp -r and zip -r to fail when they try
+# to follow the dangling symlink. We remove the dangling symlinks and
+# recreate proper module maps so the framework is importable in Xcode.
 # ──────────────────────────────────────────────────────────────────────────────
+log "Fixing module maps in xcframework..."
 XCFRAMEWORK=$(find "$BUILD_OUT" -name "opencv2.xcframework" -type d | head -1)
 [ -z "$XCFRAMEWORK" ] && err "opencv2.xcframework not found — check ${WORK_DIR}/build.log"
 
+find "$XCFRAMEWORK" -name "opencv2.framework" -type d | while read -r fw; do
+    # Remove any dangling Modules symlinks
+    if [ -L "${fw}/Modules" ] && [ ! -e "${fw}/Modules" ]; then
+        rm "${fw}/Modules"
+        echo "  ✓ Removed dangling Modules symlink in $fw"
+    fi
+
+    # Determine the real content directory (versioned or flat layout)
+    if [ -d "${fw}/Versions/A/Headers" ]; then
+        content_dir="${fw}/Versions/A"
+    else
+        content_dir="${fw}"
+    fi
+
+    # Create module map if missing
+    if [ ! -d "${content_dir}/Modules" ]; then
+        mkdir -p "${content_dir}/Modules"
+        cat > "${content_dir}/Modules/module.modulemap" <<'EOF'
+framework module opencv2 {
+    header "opencv2.h"
+    export *
+}
+EOF
+        echo "  ✓ Created Modules/module.modulemap in ${content_dir}"
+    fi
+
+    # For versioned layout, ensure top-level Modules symlink exists
+    if [ -d "${fw}/Versions" ] && [ ! -e "${fw}/Modules" ]; then
+        ln -s "Versions/Current/Modules" "${fw}/Modules"
+        echo "  ✓ Created Modules symlink in $fw"
+    fi
+done
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Step 4: Copy XCFramework to output
+# ──────────────────────────────────────────────────────────────────────────────
 log "Found XCFramework at: $XCFRAMEWORK"
 
-# List actual slices
 echo "  Actual slices:"
 ls "${XCFRAMEWORK}/" | grep -v "Info.plist" | while read -r s; do echo "    - $s"; done
 
 rm -rf "${OUTPUT_DIR}/opencv2.xcframework"
-cp -r "$XCFRAMEWORK" "$OUTPUT_DIR/"
+cp -a "$XCFRAMEWORK" "$OUTPUT_DIR/"
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Step 5: Zip for GitHub release
@@ -110,7 +150,7 @@ cp -r "$XCFRAMEWORK" "$OUTPUT_DIR/"
 log "Creating zip for GitHub release..."
 cd "$OUTPUT_DIR"
 rm -f opencv2.xcframework.zip
-zip -r opencv2.xcframework.zip opencv2.xcframework
+zip -ry opencv2.xcframework.zip opencv2.xcframework
 
 CHECKSUM=$(swift package compute-checksum opencv2.xcframework.zip 2>/dev/null \
     || shasum -a 256 opencv2.xcframework.zip | awk '{print $1}')
