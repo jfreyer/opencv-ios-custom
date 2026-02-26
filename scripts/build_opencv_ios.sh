@@ -88,10 +88,16 @@ python3 "${OPENCV_SRC}/platforms/apple/build_xcframework.py" \
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Step 3b: Fix missing Modules (--without objc skips modulemap generation)
+#
+# The xcframework has already been assembled by build_xcframework.py at this
+# point, so we patch the frameworks *inside* the xcframework bundle rather
+# than the intermediate per-platform directories (which may no longer exist).
 # ──────────────────────────────────────────────────────────────────────────────
-log "Ensuring module maps exist in platform frameworks..."
-for fw in "${BUILD_OUT}"/iphoneos/opencv2.framework "${BUILD_OUT}"/iphonesimulator/opencv2.framework; do
-    [ ! -d "$fw" ] && continue
+XCFRAMEWORK="${BUILD_OUT}/opencv2.xcframework"
+[ ! -d "$XCFRAMEWORK" ] && err "opencv2.xcframework not found at $XCFRAMEWORK — check ${WORK_DIR}/build.log"
+
+log "Ensuring module maps exist in xcframework..."
+find "$XCFRAMEWORK" -name "opencv2.framework" -type d | while read -r fw; do
     if [ ! -d "${fw}/Modules" ]; then
         mkdir -p "${fw}/Modules"
         cat > "${fw}/Modules/module.modulemap" <<'EOF'
@@ -107,25 +113,13 @@ EOF
 done
 
 # ──────────────────────────────────────────────────────────────────────────────
-# Step 4: Find and copy XCFramework
+# Step 4: Verify and copy XCFramework
 # ──────────────────────────────────────────────────────────────────────────────
-XCFRAMEWORK=$(find "$BUILD_OUT" -name "opencv2.xcframework" -type d | head -1)
-[ -z "$XCFRAMEWORK" ] && err "opencv2.xcframework not found — check ${WORK_DIR}/build.log"
-
 log "Found XCFramework at: $XCFRAMEWORK"
 
-# Verify all expected slices are present
-for slice in "ios-arm64" "ios-arm64-simulator" "ios-x86_64-simulator"; do
-    if [ -d "${XCFRAMEWORK}/${slice}" ]; then
-        echo "  ✓ Slice present: ${slice}"
-    else
-        warn "  Slice not found as separate dir: ${slice} (may be merged)"
-    fi
-done
-
-# List actual slices
-echo "  Actual slices:"
-ls "${XCFRAMEWORK}/" | grep -v "Info.plist" | while read s; do echo "    - $s"; done
+# List actual slices present in the xcframework
+echo "  Slices:"
+ls "$XCFRAMEWORK" | grep -v "Info.plist" | while read -r s; do echo "    - $s"; done
 
 rm -rf "${OUTPUT_DIR}/opencv2.xcframework"
 cp -r "$XCFRAMEWORK" "$OUTPUT_DIR/"
