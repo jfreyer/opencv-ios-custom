@@ -2,7 +2,7 @@
 #
 # build_opencv_ios.sh
 #
-# Builds OpenCV 4.10.0 for iOS as a static XCFramework
+# Builds OpenCV for iOS as a static XCFramework
 #   - arm64 device
 #   - arm64 + x86_64 simulator
 #   - SIFT, imread/imwrite, full stitching pipeline
@@ -38,13 +38,25 @@ mkdir -p "$WORK_DIR" "$OUTPUT_DIR"
 # ──────────────────────────────────────────────────────────────────────────────
 # Step 2: Clone OpenCV
 # ──────────────────────────────────────────────────────────────────────────────
+if [ -d "$OPENCV_SRC" ]; then
+    # Verify existing clone is valid — check that the xcframework build script exists
+    if [ ! -f "${OPENCV_SRC}/platforms/apple/build_xcframework.py" ]; then
+        warn "Existing OpenCV source at $OPENCV_SRC appears incomplete, removing..."
+        rm -rf "$OPENCV_SRC"
+    else
+        log "Using existing OpenCV source at $OPENCV_SRC"
+    fi
+fi
+
 if [ ! -d "$OPENCV_SRC" ]; then
     log "Cloning OpenCV ${OPENCV_VERSION}..."
     git clone --depth 1 --branch "${OPENCV_VERSION}" \
         https://github.com/opencv/opencv.git "$OPENCV_SRC"
-else
-    log "Using existing OpenCV source at $OPENCV_SRC"
 fi
+
+# Sanity check
+[ -f "${OPENCV_SRC}/platforms/apple/build_xcframework.py" ] \
+    || err "build_xcframework.py not found — clone may have failed"
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Step 3: Build XCFramework (device + simulator)
@@ -85,19 +97,9 @@ XCFRAMEWORK=$(find "$BUILD_OUT" -name "opencv2.xcframework" -type d | head -1)
 
 log "Found XCFramework at: $XCFRAMEWORK"
 
-# Verify all expected slices are present
-for slice in "ios-arm64" "ios-arm64-simulator" "ios-x86_64-simulator"; do
-    if [ -d "${XCFRAMEWORK}/${slice}" ]; then
-        echo "  ✓ Slice present: ${slice}"
-    else
-        # x86_64 and arm64 simulator are merged into a single ios-arm64_x86_64-simulator slice
-        warn "  Slice not found as separate dir: ${slice} (may be merged)"
-    fi
-done
-
 # List actual slices
 echo "  Actual slices:"
-ls "${XCFRAMEWORK}/" | grep -v "Info.plist" | while read s; do echo "    - $s"; done
+ls "${XCFRAMEWORK}/" | grep -v "Info.plist" | while read -r s; do echo "    - $s"; done
 
 rm -rf "${OUTPUT_DIR}/opencv2.xcframework"
 cp -r "$XCFRAMEWORK" "$OUTPUT_DIR/"
@@ -121,8 +123,3 @@ echo ""
 echo "Artifacts in ${OUTPUT_DIR}:"
 echo "  opencv2.xcframework.zip"
 echo "  opencv2.xcframework.zip.sha256"
-echo ""
-echo "Next steps:"
-echo "  1. Create GitHub release tagged '4.10.0-3'"
-echo "  2. Upload opencv2.xcframework.zip as release asset"
-echo "  3. Update podspec with the new checksum: $CHECKSUM"
