@@ -6,6 +6,9 @@ on:
       - 'version.env'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: macos-14
@@ -81,7 +84,6 @@ jobs:
           sed -i '' "s/:sha256 => '.*'/:sha256 => '${{ env.CHECKSUM }}'/" opencv-ios-custom.podspec
           sed -i '' "s|/download/.*/opencv2|/download/${{ env.RELEASE_TAG }}/opencv2|" opencv-ios-custom.podspec
           sed -i '' "s/s\.version.*=.*/s.version          = '${{ env.RELEASE_TAG }}'/" opencv-ios-custom.podspec
-
           git add opencv-ios-custom.podspec
           git diff --cached --quiet \
             && echo "No podspec changes" \
