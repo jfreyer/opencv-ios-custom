@@ -64,10 +64,15 @@ mkdir -p "$WORK_DIR" "$OUTPUT_DIR"
 # Step 2: Clone OpenCV
 # ──────────────────────────────────────────────────────────────────────────────
 if [ ! -d "$OPENCV_SRC" ]; then
-    log "Cloning OpenCV ${OPENCV_VERSION}..."
-    git clone --depth 1 --branch "${OPENCV_VERSION}" \
-        https://github.com/opencv/opencv.git "$OPENCV_SRC"
+    log "Downloading OpenCV ${OPENCV_VERSION} source..."
+    TARBALL="${WORK_DIR}/opencv-${OPENCV_VERSION}.tar.gz"
+    curl -L -o "$TARBALL" \
+        "https://github.com/opencv/opencv/archive/refs/tags/${OPENCV_VERSION}.tar.gz"
+    tar xzf "$TARBALL" -C "$WORK_DIR"
+    rm -f "$TARBALL"
 fi
+
+[ -f "${OPENCV_SRC}/CMakeLists.txt" ] || err "CMakeLists.txt not found in ${OPENCV_SRC}"
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Step 3: Build each slice with CMake + Ninja

@@ -34,15 +34,19 @@ jobs:
         run: |
           brew install cmake ninja
 
-      - name: Clone OpenCV source
+      - name: Download OpenCV source
         run: |
           mkdir -p scripts/work
-          if [ ! -d "scripts/work/opencv-${{ env.OPENCV_VERSION }}" ]; then
-            git clone --depth 1 --branch "${{ env.OPENCV_VERSION }}" \
-              https://github.com/opencv/opencv.git \
-              "scripts/work/opencv-${{ env.OPENCV_VERSION }}"
+          cd scripts/work
+          if [ ! -f "opencv-${{ env.OPENCV_VERSION }}/CMakeLists.txt" ]; then
+            echo "Downloading OpenCV ${{ env.OPENCV_VERSION }} source tarball..."
+            curl -L -o opencv.tar.gz \
+              "https://github.com/opencv/opencv/archive/refs/tags/${{ env.OPENCV_VERSION }}.tar.gz"
+            tar xzf opencv.tar.gz
+            rm opencv.tar.gz
           fi
-          ls scripts/work/opencv-${{ env.OPENCV_VERSION }}/CMakeLists.txt
+          echo "Verifying source..."
+          ls -la "opencv-${{ env.OPENCV_VERSION }}/CMakeLists.txt"
 
       - name: Build OpenCV XCFramework
         run: |
