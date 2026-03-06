@@ -1,0 +1,1402 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/j.freyer/.local/bin/"
+      - "/opt/homebrew/opt/openjdk@21/bin/"
+      - "/Users/j.freyer/.pyenv/shims/"
+      - "/Users/j.freyer/.pyenv/bin/"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/j.freyer/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/j.freyer/Library/Android/sdk/tools/"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/j.freyer/.local/bin/uname"
+      - "/opt/homebrew/opt/openjdk@21/bin/uname"
+      - "/Users/j.freyer/.pyenv/shims/uname"
+      - "/Users/j.freyer/.pyenv/bin/uname"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/j.freyer/.local/bin"
+        - "/opt/homebrew/opt/openjdk@21/bin"
+        - "/Users/j.freyer/.pyenv/shims"
+        - "/Users/j.freyer/.pyenv/bin"
+        - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/j.freyer/Library/Android/sdk/tools"
+        - "/Users/j.freyer/Library/Android/sdk/platform-tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      The system is: Darwin - 25.3.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_NASM_COMPILER"
+    description: "ASM_NASM compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nasm"
+      - "yasm"
+    candidate_directories:
+      - "/usr/bin/"
+    searched_directories:
+      - "/usr/bin/nasm"
+      - "/usr/bin/yasm"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/j.freyer/.local/bin"
+        - "/opt/homebrew/opt/openjdk@21/bin"
+        - "/Users/j.freyer/.pyenv/shims"
+        - "/Users/j.freyer/.pyenv/bin"
+        - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/j.freyer/Library/Android/sdk/tools"
+        - "/Users/j.freyer/Library/Android/sdk/platform-tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is Clang using "--version" did not match "(clang version)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is ARMClang using "--version" did not match "armclang":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is HP using "-V" did not match "HP C":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is Intel using "--version" did not match "(ICC)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is SunPro using "-V" did not match "Sun C":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is XL using "-qversion" did not match "XL C":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is MSVC using "-?" did not match "Microsoft.*Macro Assembler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is TI using "-h" did not match "Texas Instruments":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is TIClang using "--version" did not match "(TI (.*) Clang Compiler)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is IAR using "" did not match "IAR Assembler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is Diab using "-V" did not match "Wind River Systems":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)|(Arm Compiler)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is NASM using "-v" did not match "(NASM version)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is YASM using "--version" did not match "(yasm)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is ADSP using "-version" did not match "Analog Devices":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is QCC using "-V" did not match "gcc_nto":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is Tasking using "--version" did not match "TASKING":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is Renesas using "-v" did not match "(RX Family C/C\\+\\+ Compiler)|(RL78 Family Compiler)|(RH850 Family Compiler)":
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:267 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/Users/j.freyer/.local/bin/"
+      - "/opt/homebrew/opt/openjdk@21/bin/"
+      - "/Users/j.freyer/.pyenv/shims/"
+      - "/Users/j.freyer/.pyenv/bin/"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/j.freyer/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/j.freyer/Library/Android/sdk/tools/"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/j.freyer/.local/bin/ar"
+      - "/opt/homebrew/opt/openjdk@21/bin/ar"
+      - "/Users/j.freyer/.pyenv/shims/ar"
+      - "/Users/j.freyer/.pyenv/bin/ar"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/ar"
+      - "/opt/homebrew/bin/ar"
+      - "/opt/homebrew/sbin/ar"
+      - "/usr/local/bin/ar"
+      - "/System/Cryptexes/App/usr/bin/ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/j.freyer/.local/bin"
+        - "/opt/homebrew/opt/openjdk@21/bin"
+        - "/Users/j.freyer/.pyenv/shims"
+        - "/Users/j.freyer/.pyenv/bin"
+        - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/j.freyer/Library/Android/sdk/tools"
+        - "/Users/j.freyer/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:267 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/Users/j.freyer/.local/bin/"
+      - "/opt/homebrew/opt/openjdk@21/bin/"
+      - "/Users/j.freyer/.pyenv/shims/"
+      - "/Users/j.freyer/.pyenv/bin/"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/j.freyer/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/j.freyer/Library/Android/sdk/tools/"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/j.freyer/.local/bin/ranlib"
+      - "/opt/homebrew/opt/openjdk@21/bin/ranlib"
+      - "/Users/j.freyer/.pyenv/shims/ranlib"
+      - "/Users/j.freyer/.pyenv/bin/ranlib"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/ranlib"
+      - "/opt/homebrew/bin/ranlib"
+      - "/opt/homebrew/sbin/ranlib"
+      - "/usr/local/bin/ranlib"
+      - "/System/Cryptexes/App/usr/bin/ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/j.freyer/.local/bin"
+        - "/opt/homebrew/opt/openjdk@21/bin"
+        - "/Users/j.freyer/.pyenv/shims"
+        - "/Users/j.freyer/.pyenv/bin"
+        - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/j.freyer/Library/Android/sdk/tools"
+        - "/Users/j.freyer/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:267 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/Users/j.freyer/.local/bin/"
+      - "/opt/homebrew/opt/openjdk@21/bin/"
+      - "/Users/j.freyer/.pyenv/shims/"
+      - "/Users/j.freyer/.pyenv/bin/"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/j.freyer/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/j.freyer/Library/Android/sdk/tools/"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/j.freyer/.local/bin/strip"
+      - "/opt/homebrew/opt/openjdk@21/bin/strip"
+      - "/Users/j.freyer/.pyenv/shims/strip"
+      - "/Users/j.freyer/.pyenv/bin/strip"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/strip"
+      - "/opt/homebrew/bin/strip"
+      - "/opt/homebrew/sbin/strip"
+      - "/usr/local/bin/strip"
+      - "/System/Cryptexes/App/usr/bin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/j.freyer/.local/bin"
+        - "/opt/homebrew/opt/openjdk@21/bin"
+        - "/Users/j.freyer/.pyenv/shims"
+        - "/Users/j.freyer/.pyenv/bin"
+        - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/j.freyer/Library/Android/sdk/tools"
+        - "/Users/j.freyer/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:267 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/Users/j.freyer/.local/bin/"
+      - "/opt/homebrew/opt/openjdk@21/bin/"
+      - "/Users/j.freyer/.pyenv/shims/"
+      - "/Users/j.freyer/.pyenv/bin/"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/j.freyer/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/j.freyer/Library/Android/sdk/tools/"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/j.freyer/.local/bin/ld"
+      - "/opt/homebrew/opt/openjdk@21/bin/ld"
+      - "/Users/j.freyer/.pyenv/shims/ld"
+      - "/Users/j.freyer/.pyenv/bin/ld"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/ld"
+      - "/opt/homebrew/bin/ld"
+      - "/opt/homebrew/sbin/ld"
+      - "/usr/local/bin/ld"
+      - "/System/Cryptexes/App/usr/bin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/j.freyer/.local/bin"
+        - "/opt/homebrew/opt/openjdk@21/bin"
+        - "/Users/j.freyer/.pyenv/shims"
+        - "/Users/j.freyer/.pyenv/bin"
+        - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/j.freyer/Library/Android/sdk/tools"
+        - "/Users/j.freyer/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:267 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/Users/j.freyer/.local/bin/"
+      - "/opt/homebrew/opt/openjdk@21/bin/"
+      - "/Users/j.freyer/.pyenv/shims/"
+      - "/Users/j.freyer/.pyenv/bin/"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/j.freyer/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/j.freyer/Library/Android/sdk/tools/"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/j.freyer/.local/bin/nm"
+      - "/opt/homebrew/opt/openjdk@21/bin/nm"
+      - "/Users/j.freyer/.pyenv/shims/nm"
+      - "/Users/j.freyer/.pyenv/bin/nm"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/nm"
+      - "/opt/homebrew/bin/nm"
+      - "/opt/homebrew/sbin/nm"
+      - "/usr/local/bin/nm"
+      - "/System/Cryptexes/App/usr/bin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/j.freyer/.local/bin"
+        - "/opt/homebrew/opt/openjdk@21/bin"
+        - "/Users/j.freyer/.pyenv/shims"
+        - "/Users/j.freyer/.pyenv/bin"
+        - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/j.freyer/Library/Android/sdk/tools"
+        - "/Users/j.freyer/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:267 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/Users/j.freyer/.local/bin/"
+      - "/opt/homebrew/opt/openjdk@21/bin/"
+      - "/Users/j.freyer/.pyenv/shims/"
+      - "/Users/j.freyer/.pyenv/bin/"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/j.freyer/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/j.freyer/Library/Android/sdk/tools/"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/j.freyer/.local/bin/objdump"
+      - "/opt/homebrew/opt/openjdk@21/bin/objdump"
+      - "/Users/j.freyer/.pyenv/shims/objdump"
+      - "/Users/j.freyer/.pyenv/bin/objdump"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/objdump"
+      - "/opt/homebrew/bin/objdump"
+      - "/opt/homebrew/sbin/objdump"
+      - "/usr/local/bin/objdump"
+      - "/System/Cryptexes/App/usr/bin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/j.freyer/.local/bin"
+        - "/opt/homebrew/opt/openjdk@21/bin"
+        - "/Users/j.freyer/.pyenv/shims"
+        - "/Users/j.freyer/.pyenv/bin"
+        - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/j.freyer/Library/Android/sdk/tools"
+        - "/Users/j.freyer/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:267 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/Users/j.freyer/.local/bin/"
+      - "/opt/homebrew/opt/openjdk@21/bin/"
+      - "/Users/j.freyer/.pyenv/shims/"
+      - "/Users/j.freyer/.pyenv/bin/"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/j.freyer/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/j.freyer/Library/Android/sdk/tools/"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/j.freyer/.local/bin/objcopy"
+      - "/opt/homebrew/opt/openjdk@21/bin/objcopy"
+      - "/Users/j.freyer/.pyenv/shims/objcopy"
+      - "/Users/j.freyer/.pyenv/bin/objcopy"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/objcopy"
+      - "/opt/homebrew/bin/objcopy"
+      - "/opt/homebrew/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/usr/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/opt/pmk/env/global/bin/objcopy"
+      - "/Library/Apple/usr/bin/objcopy"
+      - "/usr/local/share/dotnet/objcopy"
+      - "/Users/j.freyer/.dotnet/tools/objcopy"
+      - "/usr/local/go/bin/objcopy"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/objcopy"
+      - "/Users/j.freyer/Library/Android/sdk/tools/objcopy"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/j.freyer/.local/bin"
+        - "/opt/homebrew/opt/openjdk@21/bin"
+        - "/Users/j.freyer/.pyenv/shims"
+        - "/Users/j.freyer/.pyenv/bin"
+        - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/j.freyer/Library/Android/sdk/tools"
+        - "/Users/j.freyer/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:267 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/Users/j.freyer/.local/bin/"
+      - "/opt/homebrew/opt/openjdk@21/bin/"
+      - "/Users/j.freyer/.pyenv/shims/"
+      - "/Users/j.freyer/.pyenv/bin/"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/j.freyer/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/j.freyer/Library/Android/sdk/tools/"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/j.freyer/.local/bin/readelf"
+      - "/opt/homebrew/opt/openjdk@21/bin/readelf"
+      - "/Users/j.freyer/.pyenv/shims/readelf"
+      - "/Users/j.freyer/.pyenv/bin/readelf"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/readelf"
+      - "/opt/homebrew/bin/readelf"
+      - "/opt/homebrew/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/usr/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/opt/pmk/env/global/bin/readelf"
+      - "/Library/Apple/usr/bin/readelf"
+      - "/usr/local/share/dotnet/readelf"
+      - "/Users/j.freyer/.dotnet/tools/readelf"
+      - "/usr/local/go/bin/readelf"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/readelf"
+      - "/Users/j.freyer/Library/Android/sdk/tools/readelf"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/j.freyer/.local/bin"
+        - "/opt/homebrew/opt/openjdk@21/bin"
+        - "/Users/j.freyer/.pyenv/shims"
+        - "/Users/j.freyer/.pyenv/bin"
+        - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/j.freyer/Library/Android/sdk/tools"
+        - "/Users/j.freyer/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:267 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/Users/j.freyer/.local/bin/"
+      - "/opt/homebrew/opt/openjdk@21/bin/"
+      - "/Users/j.freyer/.pyenv/shims/"
+      - "/Users/j.freyer/.pyenv/bin/"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/j.freyer/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/j.freyer/Library/Android/sdk/tools/"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/j.freyer/.local/bin/dlltool"
+      - "/opt/homebrew/opt/openjdk@21/bin/dlltool"
+      - "/Users/j.freyer/.pyenv/shims/dlltool"
+      - "/Users/j.freyer/.pyenv/bin/dlltool"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/opt/pmk/env/global/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/usr/local/share/dotnet/dlltool"
+      - "/Users/j.freyer/.dotnet/tools/dlltool"
+      - "/usr/local/go/bin/dlltool"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/dlltool"
+      - "/Users/j.freyer/Library/Android/sdk/tools/dlltool"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/j.freyer/.local/bin"
+        - "/opt/homebrew/opt/openjdk@21/bin"
+        - "/Users/j.freyer/.pyenv/shims"
+        - "/Users/j.freyer/.pyenv/bin"
+        - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/j.freyer/Library/Android/sdk/tools"
+        - "/Users/j.freyer/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:267 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/Users/j.freyer/.local/bin/"
+      - "/opt/homebrew/opt/openjdk@21/bin/"
+      - "/Users/j.freyer/.pyenv/shims/"
+      - "/Users/j.freyer/.pyenv/bin/"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/j.freyer/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/j.freyer/Library/Android/sdk/tools/"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/j.freyer/.local/bin/addr2line"
+      - "/opt/homebrew/opt/openjdk@21/bin/addr2line"
+      - "/Users/j.freyer/.pyenv/shims/addr2line"
+      - "/Users/j.freyer/.pyenv/bin/addr2line"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/addr2line"
+      - "/opt/homebrew/bin/addr2line"
+      - "/opt/homebrew/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/usr/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/opt/pmk/env/global/bin/addr2line"
+      - "/Library/Apple/usr/bin/addr2line"
+      - "/usr/local/share/dotnet/addr2line"
+      - "/Users/j.freyer/.dotnet/tools/addr2line"
+      - "/usr/local/go/bin/addr2line"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/addr2line"
+      - "/Users/j.freyer/Library/Android/sdk/tools/addr2line"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/j.freyer/.local/bin"
+        - "/opt/homebrew/opt/openjdk@21/bin"
+        - "/Users/j.freyer/.pyenv/shims"
+        - "/Users/j.freyer/.pyenv/bin"
+        - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/j.freyer/Library/Android/sdk/tools"
+        - "/Users/j.freyer/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:267 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:22 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/Users/j.freyer/.local/bin/"
+      - "/opt/homebrew/opt/openjdk@21/bin/"
+      - "/Users/j.freyer/.pyenv/shims/"
+      - "/Users/j.freyer/.pyenv/bin/"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/j.freyer/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/j.freyer/Library/Android/sdk/tools/"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/j.freyer/.local/bin/tapi"
+      - "/opt/homebrew/opt/openjdk@21/bin/tapi"
+      - "/Users/j.freyer/.pyenv/shims/tapi"
+      - "/Users/j.freyer/.pyenv/bin/tapi"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/opt/pmk/env/global/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/usr/local/share/dotnet/tapi"
+      - "/Users/j.freyer/.dotnet/tools/tapi"
+      - "/usr/local/go/bin/tapi"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/tapi"
+      - "/Users/j.freyer/Library/Android/sdk/tools/tapi"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/j.freyer/.local/bin"
+        - "/opt/homebrew/opt/openjdk@21/bin"
+        - "/Users/j.freyer/.pyenv/shims"
+        - "/Users/j.freyer/.pyenv/bin"
+        - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/j.freyer/Library/Android/sdk/tools"
+        - "/Users/j.freyer/Library/Android/sdk/platform-tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:76 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Users/j.freyer/.local/bin/"
+      - "/opt/homebrew/opt/openjdk@21/bin/"
+      - "/Users/j.freyer/.pyenv/shims/"
+      - "/Users/j.freyer/.pyenv/bin/"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/j.freyer/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/j.freyer/Library/Android/sdk/tools/"
+      - "/Users/j.freyer/Library/Android/sdk/platform-tools/"
+    searched_directories:
+      - "/Users/j.freyer/.local/bin/install_name_tool"
+      - "/opt/homebrew/opt/openjdk@21/bin/install_name_tool"
+      - "/Users/j.freyer/.pyenv/shims/install_name_tool"
+      - "/Users/j.freyer/.pyenv/bin/install_name_tool"
+      - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Users/j.freyer/.local/bin"
+        - "/opt/homebrew/opt/openjdk@21/bin"
+        - "/Users/j.freyer/.pyenv/shims"
+        - "/Users/j.freyer/.pyenv/bin"
+        - "/Users/j.freyer/.nvm/versions/node/v22.14.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Users/j.freyer/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/j.freyer/Library/Android/sdk/tools"
+        - "/Users/j.freyer/Library/Android/sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+...

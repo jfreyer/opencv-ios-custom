@@ -1,0 +1,5 @@
+#use_cache "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/.cache"
+#do_unpack "v0.1.2d.zip" "dbb095a8bf3008e91edbbf45d8d34885" "https://github.com/opencv/ade/archive/v0.1.2d.zip" "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-arm64/3rdparty/ade"
+#check_md5 "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/.cache/ade/dbb095a8bf3008e91edbbf45d8d34885-v0.1.2d.zip"
+#mkdir "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-arm64/3rdparty/ade"
+#unpack "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-arm64/3rdparty/ade" "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/.cache/ade/dbb095a8bf3008e91edbbf45d8d34885-v0.1.2d.zip"

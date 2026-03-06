@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		01C65101F907E9BB1C14098B /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 84C72FE3FFB84D26B0FB1F12 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 9A49FE267B00412782DE76DA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				C8E2E3E1BF3F69A7295DB60C /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,32 +20,32 @@
 		};
 		771FD8AEB39D811E2BC9B426 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 43CAB8C59A404B36816030A8 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 64E0A8F7BFD6453E82F80796 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				406D51475C7B4B4798A16259 /* PBXTargetDependency */,
+				B4B52B86D06C4A17B294577F /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		86736DDDED1F0A92597C9165 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 1ED910C9927D40EA810268CF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = F1615B9354DA467E9F224A4B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				CCDD06E0C56CD0785C965349 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				2AE4C4E3F4AE4B5C85557DFA /* PBXTargetDependency */,
-				906E7B6D0E2B4DC48BC9B9ED /* PBXTargetDependency */,
+				027360A1443E4589BC2242C4 /* PBXTargetDependency */,
+				3A4E1FFBA6424490A7C97B90 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		A0A668F13D19F048AB9F8B68 /* RUN_TESTS */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = EAA1C9CBC4CE4861ACFBD96A /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildConfigurationList = C1B598CB186140FA8FDDCF0F /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
 			buildPhases = (
 				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
 			);
@@ -56,12 +56,12 @@
 		};
 		E3A0E307AE475F45B5997A27 /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 43EA459D8DE84A94AF6B0D49 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = 1EB82650B30A4582A6DB4CAC /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				F231C6775E554F00AE4BD83A /* PBXTargetDependency */,
+				DBB33B1484EB47119410F63B /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
@@ -69,91 +69,91 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		08E08B75735C4CF4BA8C91A4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/local_optimization.cpp */ = {isa = PBXBuildFile; fileRef = 287125D8CAF14C188C3AF416 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/local_optimization.cpp */; };
-		0E52332271614E70A8DE5428 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/distortion_model.hpp */ = {isa = PBXBuildFile; fileRef = 05333F1D42D544D4B62F849E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/distortion_model.hpp */; };
-		0E963825DDA9466B985B979D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/opencl/stereobm.cl */ = {isa = PBXBuildFile; fileRef = 476CB793733948B39BA52C51 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/opencl/stereobm.cl */; };
-		0F71DD3240514FBA967188BA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.hpp */ = {isa = PBXBuildFile; fileRef = AF10F9725AD74C698F26AE33 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.hpp */; };
-		13291CFC8AC0440CAFE5627F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.h */ = {isa = PBXBuildFile; fileRef = 86705FA2464C4A788AC447B7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.h */; };
-		1715000DFEA34171A9E8E44E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration.cpp */ = {isa = PBXBuildFile; fileRef = 37D1268ADA864065AA1A3DAA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration.cpp */; };
-		196E28A3FD76432F8B744D96 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/checkchessboard.cpp */ = {isa = PBXBuildFile; fileRef = 228C1788E6144DDABA3EB0D7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/checkchessboard.cpp */; };
-		1FE9CD9EEFF3434189F8AA88 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ptsetreg.cpp */ = {isa = PBXBuildFile; fileRef = E79CC4928B8449D89DA23D1F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ptsetreg.cpp */; };
-		20BD5E673C3B432CA7F728CE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.cpp */ = {isa = PBXBuildFile; fileRef = 8E9F012BE62D4A6E958FB955 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.cpp */; };
-		20C1E12D97BD459794DEE101 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/homography_decomp.cpp */ = {isa = PBXBuildFile; fileRef = 1F47EADF91CE43DEAD7097C6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/homography_decomp.cpp */; };
-		21703DE10E9F46C1BECA3BAF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */ = {isa = PBXBuildFile; fileRef = 4687C2A505F34B57B0D3945D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */; };
-		21EB9F22BB6342AA9563F151 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.cpp */ = {isa = PBXBuildFile; fileRef = D285AA787B8B441BB9C27836 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.cpp */; };
-		21FC51BBA8484053904F4E22 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.h */ = {isa = PBXBuildFile; fileRef = 0E53F62BA15D4398B3569D71 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.h */; };
-		24E366FC7F654E9F9AFB6900 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration_handeye.cpp */ = {isa = PBXBuildFile; fileRef = 212167B65D794FB8A764998F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration_handeye.cpp */; };
-		2CC4638502574CCF8F27064B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.cpp */ = {isa = PBXBuildFile; fileRef = 178E262474E84E648DDEDDE9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.cpp */; };
-		306F55B0B2524C589E183BC1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/ransac_solvers.cpp */ = {isa = PBXBuildFile; fileRef = A8820D7866F24486AA082820 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/ransac_solvers.cpp */; };
-		30E3AE7C8FFE4BC28DA8BFC1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.hpp */ = {isa = PBXBuildFile; fileRef = 48D76530C7534A06B8D6AE54 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.hpp */; };
-		38B451BF0FAF430EAD0ABC9A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.h */ = {isa = PBXBuildFile; fileRef = 7BD9F68EDB754BDDA3881620 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.h */; };
-		4098E22CB04B49AEBE5CA644 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.cpp */ = {isa = PBXBuildFile; fileRef = DFE66652D84A4D8FB79CE516 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.cpp */; };
-		479ECB996DA44DDFB62C9B2C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/essential_solver.cpp */ = {isa = PBXBuildFile; fileRef = DBDF76F5106548FEBAA2EE05 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/essential_solver.cpp */; };
-		4B0869596FA849AD84D12144 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/pnp_solver.cpp */ = {isa = PBXBuildFile; fileRef = 75769AC016D1450492D659C0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/pnp_solver.cpp */; };
-		4FB69211FA0B4855A209A016 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.cpp */ = {isa = PBXBuildFile; fileRef = EF7032134F154277ADFDA1E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.cpp */; };
-		50876008A0A54388ACA19DD5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibinit.cpp */ = {isa = PBXBuildFile; fileRef = 12B644CEA1984356A80186EC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibinit.cpp */; };
-		53B496801CD241118322476B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/quadsubpix.cpp */ = {isa = PBXBuildFile; fileRef = 0AD2D7F1352A446ABB5909F1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/quadsubpix.cpp */; };
-		53BF86AAF7C14CA5B3ABEE45 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/fundamental_solver.cpp */ = {isa = PBXBuildFile; fileRef = F9CE9819574C4ABFB93D3234 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/fundamental_solver.cpp */; };
-		53D384C3642C4E458231B82D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.cpp */ = {isa = PBXBuildFile; fileRef = 8202F1D443724B73A451B028 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.cpp */; };
-		5FB6F5BE9A144E12B26C2F05 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 58200E0642A344B3806EEAAF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/main.cpp */; };
-		628AE36E0A2A437C99E87233 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereosgbm.cpp */ = {isa = PBXBuildFile; fileRef = CFD5362F32814FA2B1B4956A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereosgbm.cpp */; };
-		63104BA0D5194D97A9307CCA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/dls_solver.cpp */ = {isa = PBXBuildFile; fileRef = C1C2FA58F6654C7C93E838A3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/dls_solver.cpp */; };
-		64D3581D9FF1491A9D29840A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/hal_replacement.hpp */ = {isa = PBXBuildFile; fileRef = B4F3181C2D1C418C9C570839 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/hal_replacement.hpp */; };
-		6635397638B345A9883B6FDA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fundam.cpp */ = {isa = PBXBuildFile; fileRef = C9EABB6220494F00A6B41246 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fundam.cpp */; };
-		6786DBDA93C04D16B2DE263F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 07253E0F13604C769834CB9E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */; };
-		6A8D97742B914CAB9A3DD684 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.h */ = {isa = PBXBuildFile; fileRef = 1743EFF30C7449919BECE0C1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.h */; };
-		6D0C6F752DF3423CBB9B5570 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */ = {isa = PBXBuildFile; fileRef = 2F71109322DF4D1DB89090CA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */; };
-		6EA1F46D0D1849A18EB73D1A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 1DDD38AAA77C4B4CA75C83FA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/precomp.hpp */; };
-		70E00BDC56F448C8813CB2AF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/utils.cpp */ = {isa = PBXBuildFile; fileRef = 13272EF9147E4DC9BEAF0AF6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/utils.cpp */; };
-		74B6346EEC1848E5A88A34F7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E5EB40A97EB14565A0736CE8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/CMakeLists.txt */; };
-		79E66A492F814F1D84A3E733 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.hpp */ = {isa = PBXBuildFile; fileRef = 6A6269714550401D8EF8F7A6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.hpp */; };
-		7B346B00232D4DFD9F698B95 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.hpp */ = {isa = PBXBuildFile; fileRef = 55218A386EC247E3865DAB01 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.hpp */; };
-		7B7C275907C346CE8A6A445F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/triangulate.cpp */ = {isa = PBXBuildFile; fileRef = FD88EDA111234E2D83BD7E58 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/triangulate.cpp */; };
-		7DC4A1BCCE0840E9AB6A00C8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/levmarq.cpp */ = {isa = PBXBuildFile; fileRef = F426966AA72848BDA612A41C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/levmarq.cpp */; };
-		8353244DC409473FBBCBA7A7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.simd.hpp */ = {isa = PBXBuildFile; fileRef = 664C083773A549DE97F266F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.simd.hpp */; };
-		8974C9610B6A4A45B8162DAB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.cpp */ = {isa = PBXBuildFile; fileRef = 545A2AA952304E86B2AC5FF5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.cpp */; };
-		8A6C876A0CD3478F8B55057B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.cpp */ = {isa = PBXBuildFile; fileRef = A7EA9B97959F4411845E2E4A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.cpp */; };
-		8C055120730540DEBBB7ED0F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/five-point.cpp */ = {isa = PBXBuildFile; fileRef = 468C87EA6ABF4D46BDC2EBC2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/five-point.cpp */; };
-		8D971E45AF314B119C6165F5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/sampler.cpp */ = {isa = PBXBuildFile; fileRef = 18A32889A966481FBE4B2412 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/sampler.cpp */; };
-		918A6AB17F964298AE1C0531 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.h */ = {isa = PBXBuildFile; fileRef = D4DDCA9D95C04B428AA75ADC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.h */; };
-		9B31B7DF38AC442BB636416E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/homography_solver.cpp */ = {isa = PBXBuildFile; fileRef = F496EBF44EDB4A35AA05B345 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/homography_solver.cpp */; };
-		9C46DC144BAF4D21AD0BC4EB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.hpp */ = {isa = PBXBuildFile; fileRef = B0356C7A0EA440A3A62BC10D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.hpp */; };
-		9C963DF1FE354C209F1B4B00 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/quality.cpp */ = {isa = PBXBuildFile; fileRef = D4DEAC6E00F149A7AD689AB4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/quality.cpp */; };
-		AEE4F5FFD7694971B3D4CBAD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.cpp */ = {isa = PBXBuildFile; fileRef = 5B0F8A7C201348598748BD8B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.cpp */; };
-		B1C0A52AA14A4112B3C05B83 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 4CC3FC56CAE9428192B579DE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */; };
-		B3D901236F264F33AB7AC9FE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac.hpp */ = {isa = PBXBuildFile; fileRef = 5465545E202E4B8EA878D617 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac.hpp */; };
-		B494D89E56E9424DB944D91D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.hpp */ = {isa = PBXBuildFile; fileRef = CE2D23B1F12540EAA3829230 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.hpp */; };
-		B4B848E2153C4A79A3CC888B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calib3d_c_api.h */ = {isa = PBXBuildFile; fileRef = 25952BEB9BFE4B7DB4CE7D0D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calib3d_c_api.h */; };
-		B52A6A9CCE004747AAE70AB1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d.hpp */ = {isa = PBXBuildFile; fileRef = 57409AC47C0C43B9984909C7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d.hpp */; };
-		B6712B7844FD4C6292C7ED59 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.cpp */ = {isa = PBXBuildFile; fileRef = E6FC9991AF7645AA9EA774BF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.cpp */; };
-		C6A1C05E89C84E3BB9F07D0C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/compat_ptsetreg.cpp */ = {isa = PBXBuildFile; fileRef = 2D5C5AFA48BA424388D6F800 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/compat_ptsetreg.cpp */; };
-		C6A22540BAE54F2B9113ABA7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/gamma_values.cpp */ = {isa = PBXBuildFile; fileRef = D57864CF06DC4832824DD7A7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/gamma_values.cpp */; };
-		C6C9720681F6421BBC696F93 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp */ = {isa = PBXBuildFile; fileRef = 88861CD6CC6C4C28B6FCB82F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp */; };
-		C7422A4E337749C7B02AF74D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/estimator.cpp */ = {isa = PBXBuildFile; fileRef = A80B573A59B0456B8795C484 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/estimator.cpp */; };
-		C8ABB5A17F224B91B01714C4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/posit.cpp */ = {isa = PBXBuildFile; fileRef = 5A1A253A2D3E4129BFA9C36E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/posit.cpp */; };
-		CC18F39A676C4A139E97DE7E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereobm.cpp */ = {isa = PBXBuildFile; fileRef = ED95AFCD9D9A47E3964CCA7F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereobm.cpp */; };
-		CD7C7B55110647F3820B07BD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/bundle.cpp */ = {isa = PBXBuildFile; fileRef = E5F6D07312EE46C39BFED713 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/bundle.cpp */; };
-		CEE0C7CC14814830BCC66CB2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.dispatch.cpp */ = {isa = PBXBuildFile; fileRef = 44EB7979572C4826BC72E4F1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.dispatch.cpp */; };
-		D59D6B7345B24C7B8434AB62 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/degeneracy.cpp */ = {isa = PBXBuildFile; fileRef = AB4F23E496C14BABA2130ABF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/degeneracy.cpp */; };
-		D8DD13B1F01644548837CB41 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.h */ = {isa = PBXBuildFile; fileRef = 787F0EC73B9D497488905EE2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.h */; };
-		DFB77EEEAF0043A0A1516FA0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/CMakeFiles/opencv_calib3d.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 4818B17D1D994D3D961092ED /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/CMakeFiles/opencv_calib3d.dir/Info.plist */; };
-		E00326F9CBFA4C79B0E6F8A8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/termination.cpp */ = {isa = PBXBuildFile; fileRef = 1AC22D2CD13F4A45B14C9468 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/termination.cpp */; };
-		E4F919A87B3D438097923173 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.h */ = {isa = PBXBuildFile; fileRef = 4FF18087F44E44499B456080 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.h */; };
-		F442710E3C244071821D1240 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.cpp */ = {isa = PBXBuildFile; fileRef = 7E2553063A344C4EA7A9D2FF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.cpp */; };
-		F753F1C14CFD46BAB79F6834 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.cpp */ = {isa = PBXBuildFile; fileRef = 31C01036D6A0414298A85F06 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.cpp */; };
-		F833B5BC048F47A1922362EE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/solvepnp.cpp */ = {isa = PBXBuildFile; fileRef = 3C327694879C4DB98FB80F0F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/solvepnp.cpp */; };
-		F905C9FC10604650A1276410 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp.rule */ = {isa = PBXBuildFile; fileRef = 9F3B7E0142B4455A8570F80C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp.rule */; };
+		0010FBED89F6431B836109FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/homography_decomp.cpp */ = {isa = PBXBuildFile; fileRef = C79C5E8CEFBC42DE856923F3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/homography_decomp.cpp */; };
+		041DC0B688B249E481510F91 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 0F0E462BAC5E4D4E995E27EA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */; };
+		04CB45A132304ADF967E708D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration.cpp */ = {isa = PBXBuildFile; fileRef = E6C394035E6340409817AF0C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration.cpp */; };
+		067802C6A69E402D81902C67 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/distortion_model.hpp */ = {isa = PBXBuildFile; fileRef = 89378DF027014659A62EAC1B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/distortion_model.hpp */; };
+		06FE50F17ACA429DA73ABAAF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/fundamental_solver.cpp */ = {isa = PBXBuildFile; fileRef = 95238C30CD1E44EE997E0E14 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/fundamental_solver.cpp */; };
+		085E79FDB8A649279206B923 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/homography_solver.cpp */ = {isa = PBXBuildFile; fileRef = E7C08D2F7A1348168E97CA1B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/homography_solver.cpp */; };
+		0E4A747D064B4F389A91EE47 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.cpp */ = {isa = PBXBuildFile; fileRef = 8E685FD35A914DA7A9F4EC7B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.cpp */; };
+		0F2F5419A48D45CEAE83A548 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/compat_ptsetreg.cpp */ = {isa = PBXBuildFile; fileRef = C835B54CB7AA4601887E6767 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/compat_ptsetreg.cpp */; };
+		159D244E24FD468ABF4A671B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/posit.cpp */ = {isa = PBXBuildFile; fileRef = AA2410D305204FE68CB198FF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/posit.cpp */; };
+		15EEAD1699024375A7D2B766 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */ = {isa = PBXBuildFile; fileRef = 3C80B4F677BB479F9F668DD9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */; };
+		16A6D041F4E54F6EB5A9D220 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.hpp */ = {isa = PBXBuildFile; fileRef = C1B30BF3A21C45E394528275 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.hpp */; };
+		16C8DE7147F743AA8ED65AE2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.cpp */ = {isa = PBXBuildFile; fileRef = A5E7C5CC18614BCF88208F39 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.cpp */; };
+		175E2FE070244AF0A1C25CD1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/degeneracy.cpp */ = {isa = PBXBuildFile; fileRef = E15E5256AC59419F8D576C1C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/degeneracy.cpp */; };
+		1C8D5E672CB24A879E81EF75 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fundam.cpp */ = {isa = PBXBuildFile; fileRef = 0CC0EA2E05604DDEA60CF781 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fundam.cpp */; };
+		24FEBDD422FE454D8B99A0FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration_handeye.cpp */ = {isa = PBXBuildFile; fileRef = 53F92ADBBAE141B98D244639 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration_handeye.cpp */; };
+		25F757F919D34874ADEFEAF7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.h */ = {isa = PBXBuildFile; fileRef = FB28D6BE396843B1A65B3E51 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.h */; };
+		26ADF462002D4B8AAEE9B811 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.h */ = {isa = PBXBuildFile; fileRef = C873E37EF18540C8B0772647 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.h */; };
+		2818BBA41B5942CAA1974EE5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/sampler.cpp */ = {isa = PBXBuildFile; fileRef = 99F81D06D30E428D9718FD4B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/sampler.cpp */; };
+		320F179B26DF4A8D9770309F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/essential_solver.cpp */ = {isa = PBXBuildFile; fileRef = 8B7FA4541EE74D1B8D71EF3A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/essential_solver.cpp */; };
+		35515588077C410085639A0F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/hal_replacement.hpp */ = {isa = PBXBuildFile; fileRef = AA965EEFC52D431789BD535F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/hal_replacement.hpp */; };
+		3C4605EBAEF34A3398D580AB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac.hpp */ = {isa = PBXBuildFile; fileRef = 725155EE0B5F4B3AAD81314E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac.hpp */; };
+		3C5075C17BF04E4EA6F5A591 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/opencl/stereobm.cl */ = {isa = PBXBuildFile; fileRef = 1FA6FC36972B435D9D82F546 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/opencl/stereobm.cl */; };
+		4096B82C711A4A978452FF06 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/bundle.cpp */ = {isa = PBXBuildFile; fileRef = 42C470AAAB964FA0910C57A2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/bundle.cpp */; };
+		48E65CB8261643668BC474FE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp */ = {isa = PBXBuildFile; fileRef = 8DBEA866419144BF826FA799 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp */; };
+		50490922C0BD4BAE9C5FFC43 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/solvepnp.cpp */ = {isa = PBXBuildFile; fileRef = 39A4C106333F4024A789028E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/solvepnp.cpp */; };
+		5866E11530B2460B86C57821 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 90CDF29533414981BA464DAA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/precomp.hpp */; };
+		5FDDC9DD890341D18642162D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.cpp */ = {isa = PBXBuildFile; fileRef = 6ACDBC1219154E739AE5EB30 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.cpp */; };
+		631EAB86440D4233A3316274 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.h */ = {isa = PBXBuildFile; fileRef = D47A005744414B018EC30D0B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.h */; };
+		65113F467B8547EBB53A9D90 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/triangulate.cpp */ = {isa = PBXBuildFile; fileRef = E18BC510708F4EC89EFCFE44 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/triangulate.cpp */; };
+		685479747A9545929AAA6D92 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 856740F56DED48568C87A118 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/main.cpp */; };
+		6A2CDCB74A154BF18E10E8E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.cpp */ = {isa = PBXBuildFile; fileRef = CB33E8DAAFE449AE92BB3F6D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.cpp */; };
+		6F68AC39F0DF4896987CFFCD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 764A1C13D60F44F09B960059 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */; };
+		719874D4A33F4A55AB3CD1F7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */ = {isa = PBXBuildFile; fileRef = E6DE678B8B764F868AD27914 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */; };
+		71F633A3A36748EBB6510D7F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibinit.cpp */ = {isa = PBXBuildFile; fileRef = 4C546488E995419F9EA102FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibinit.cpp */; };
+		77E3E266A502480EB4FE9D8F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/utils.cpp */ = {isa = PBXBuildFile; fileRef = E47A2E4ADCAC4A9D939D10F1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/utils.cpp */; };
+		7905CEE1E8BC48F18EF584AB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/estimator.cpp */ = {isa = PBXBuildFile; fileRef = AA26C5342810453C9D2C23C5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/estimator.cpp */; };
+		87555D19E3064AC7B8AD4284 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/ransac_solvers.cpp */ = {isa = PBXBuildFile; fileRef = C7D8F7AA5AD848AA912E75D1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/ransac_solvers.cpp */; };
+		878C0F5F0DAF4F7988937918 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.hpp */ = {isa = PBXBuildFile; fileRef = CB2D0FF8BCAD4157B3774C0B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.hpp */; };
+		8B103C1952D44374942B6554 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereosgbm.cpp */ = {isa = PBXBuildFile; fileRef = 4F4DA03A75C549FF9B90D61D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereosgbm.cpp */; };
+		8C435F6D5B30496D9E08896A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereobm.cpp */ = {isa = PBXBuildFile; fileRef = 21892E752A3F4F47A67E498E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereobm.cpp */; };
+		8F7BA77DD2C94A6CBBEF97CF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.hpp */ = {isa = PBXBuildFile; fileRef = 520E53A4F91E4F82B4381408 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.hpp */; };
+		9A383BCFB0654B2C931A3A18 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calib3d_c_api.h */ = {isa = PBXBuildFile; fileRef = 430F0110103A48DDB8368E11 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calib3d_c_api.h */; };
+		9B330B076DED4FAC95CA7E11 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.hpp */ = {isa = PBXBuildFile; fileRef = 8326C079FFA24451A8BE749C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.hpp */; };
+		A31C7A0833BF48D18F212FEA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.cpp */ = {isa = PBXBuildFile; fileRef = 818B92EECC8340CDA8DBA2B9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.cpp */; };
+		AB75833479C44B53ABEC9E72 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp.rule */ = {isa = PBXBuildFile; fileRef = 557A4B5856EB4C8399AD4520 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp.rule */; };
+		AF4895006E4B47BE894CEA31 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/quality.cpp */ = {isa = PBXBuildFile; fileRef = DB7DAFE0380E4882878A7BE6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/quality.cpp */; };
+		B1A8458872234F6793ECC052 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.h */ = {isa = PBXBuildFile; fileRef = BEF1A3B23F114DDFB8B87AC8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.h */; };
+		B5B260B60D9D41F58B53AD1A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.cpp */ = {isa = PBXBuildFile; fileRef = 2015EBFE88D1495FA185A644 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.cpp */; };
+		B619C89B7C7540A4A446AF50 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.h */ = {isa = PBXBuildFile; fileRef = 5B193B819630400EB6C291AD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.h */; };
+		B84C5B13BB4642A7843D2FAB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/termination.cpp */ = {isa = PBXBuildFile; fileRef = 19F3C14E8E2D44CBA5C3091A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/termination.cpp */; };
+		BEDFD8CF9FEF4EBB8853CC07 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 48913D884452485785995E28 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/CMakeLists.txt */; };
+		C17654F3DDB8401C9270FB2A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.cpp */ = {isa = PBXBuildFile; fileRef = FE3F70F3122447A694874C10 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.cpp */; };
+		C45A075C45254CD2A700BBA6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/local_optimization.cpp */ = {isa = PBXBuildFile; fileRef = 2D190E0B0F3243C19E13401C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/local_optimization.cpp */; };
+		C45CB94D401344A9854FBDBC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.dispatch.cpp */ = {isa = PBXBuildFile; fileRef = 9B2D725D68004988A92BBB84 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.dispatch.cpp */; };
+		CA7A83176B9F4C588044F52E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/pnp_solver.cpp */ = {isa = PBXBuildFile; fileRef = 0174D2A9F659422E8B7A4F64 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/pnp_solver.cpp */; };
+		CDD4265FE6BB4B2180340E57 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.h */ = {isa = PBXBuildFile; fileRef = BAF73DF67AA94ABD90CF9B72 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.h */; };
+		CEB8A6ABDB9E4D31B5B8BB2E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.hpp */ = {isa = PBXBuildFile; fileRef = A5AAF3165A9045D29113D2E6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.hpp */; };
+		D04AFB03C61A4DF68BFCEC71 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/checkchessboard.cpp */ = {isa = PBXBuildFile; fileRef = 1856B4EE7E844541A57656E5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/checkchessboard.cpp */; };
+		D17F1AAF82204AC0B975E11A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/quadsubpix.cpp */ = {isa = PBXBuildFile; fileRef = 543F9F7753A14B5E9355CF9F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/quadsubpix.cpp */; };
+		D447C7B0B1E74D248D54D420 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d.hpp */ = {isa = PBXBuildFile; fileRef = D09C137ECDAE4954B776AFBB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d.hpp */; };
+		D47E44A2E89E483A9BA83167 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.cpp */ = {isa = PBXBuildFile; fileRef = B460E4543DCC41B9AE84B501 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.cpp */; };
+		D7F2B39E8D8640AEB43AB2C4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.cpp */ = {isa = PBXBuildFile; fileRef = CA72E724DE434D6687EFD6D0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.cpp */; };
+		E7157E564A9A49A786E629F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.simd.hpp */ = {isa = PBXBuildFile; fileRef = 72D809AF96B54FFCA77796FB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.simd.hpp */; };
+		EA5AE7B9574E40159AE41EA9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/levmarq.cpp */ = {isa = PBXBuildFile; fileRef = 475FFF772F2343C7B83E1959 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/levmarq.cpp */; };
+		EAAD8DEE90074BC09E1AF87B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/gamma_values.cpp */ = {isa = PBXBuildFile; fileRef = 7E254FD3A42A4BB99AA71F74 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/gamma_values.cpp */; };
+		EC9E8EE9B64C44F1B9813236 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.cpp */ = {isa = PBXBuildFile; fileRef = AEC89F54070F49C18C3AAA12 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.cpp */; };
+		ECE62CD7FBA843288152AC17 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.hpp */ = {isa = PBXBuildFile; fileRef = 721F908F98074CE09011CA56 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.hpp */; };
+		EE03FF2079474A5287B62FBF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/dls_solver.cpp */ = {isa = PBXBuildFile; fileRef = A0BD816292B34065AC2D9142 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/dls_solver.cpp */; };
+		EE7C234CBAAE4252ABC79E75 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/CMakeFiles/opencv_calib3d.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = EC15FF5A34864A94AAF7DB04 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/CMakeFiles/opencv_calib3d.dir/Info.plist */; };
+		EEB8487D94094B10B4AB7060 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ptsetreg.cpp */ = {isa = PBXBuildFile; fileRef = E9D329B7A8BB466E9D5EA6B4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ptsetreg.cpp */; };
+		EEE445CCCB4E44A1897D9817 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.cpp */ = {isa = PBXBuildFile; fileRef = 738D4BBFE2284292954A6D8E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.cpp */; };
+		F004AF93418B45D5A0786EEA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.cpp */ = {isa = PBXBuildFile; fileRef = 9636DD50B6FC43BFB8967077 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.cpp */; };
+		F1E45D10D8284F1D97FB8E71 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.h */ = {isa = PBXBuildFile; fileRef = 9152A34A34DB44BF951375FE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.h */; };
+		F59830348B9B4C229ECDCBF8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/five-point.cpp */ = {isa = PBXBuildFile; fileRef = 56A69B4AA38F402E9386ECE8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/five-point.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		6BA616189B324506B36A193B /* Debug */ = {
+		20F658ECAEB84402A9B9FDB5 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		AC1797816B0F4CE99EC7885A /* Release */ = {
+		D6078ABD913E4C7D9D9B3CA9 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -163,124 +163,124 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		1205D5CB30C341B08FB4E5C8 /* PBXContainerItemProxy */ = {
+		10019E39A5F8449BB2A48382 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2AC9AC17EF754FC9A52316D0 /* Project object */;
+			containerPortal = 8D44B8E9BD394AC6A89F895C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
+			remoteInfo = ZERO_CHECK;
+		};
+		615C428E02D045A3AE58DEE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D44B8E9BD394AC6A89F895C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
+			remoteInfo = ZERO_CHECK;
+		};
+		C87CA33B8A84450D9350521C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D44B8E9BD394AC6A89F895C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
 			remoteInfo = ALL_BUILD;
 		};
-		5DAAB74605434DEF9FE76021 /* PBXContainerItemProxy */ = {
+		F262DD36A66A4397A40D900E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2AC9AC17EF754FC9A52316D0 /* Project object */;
+			containerPortal = 8D44B8E9BD394AC6A89F895C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8A698299B26B15B8D3BC794A;
 			remoteInfo = opencv_calib3d;
 		};
-		884EE78B373B4152854D974A /* PBXContainerItemProxy */ = {
+		FE7BFBC2058D46AD962D59EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2AC9AC17EF754FC9A52316D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
-			remoteInfo = ZERO_CHECK;
-		};
-		C42DE26C9ED64B4A84B62891 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2AC9AC17EF754FC9A52316D0 /* Project object */;
+			containerPortal = 8D44B8E9BD394AC6A89F895C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
 			remoteInfo = ALL_BUILD;
 		};
-		D8796B8485364A9A8CCEAEB1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2AC9AC17EF754FC9A52316D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
-			remoteInfo = ZERO_CHECK;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05333F1D42D544D4B62F849E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/distortion_model.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = distortion_model.hpp; path = src/distortion_model.hpp; sourceTree = SOURCE_ROOT; };
-		07253E0F13604C769834CB9E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h"; sourceTree = "<absolute>"; };
-		0AD2D7F1352A446ABB5909F1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/quadsubpix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quadsubpix.cpp; path = src/quadsubpix.cpp; sourceTree = SOURCE_ROOT; };
-		0E53F62BA15D4398B3569D71 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = epnp.h; path = src/epnp.h; sourceTree = SOURCE_ROOT; };
-		12B644CEA1984356A80186EC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibinit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibinit.cpp; path = src/calibinit.cpp; sourceTree = SOURCE_ROOT; };
-		13272EF9147E4DC9BEAF0AF6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utils.cpp; path = src/usac/utils.cpp; sourceTree = SOURCE_ROOT; };
-		1743EFF30C7449919BECE0C1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = polynom_solver.h; path = src/polynom_solver.h; sourceTree = SOURCE_ROOT; };
-		178E262474E84E648DDEDDE9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = circlesgrid.cpp; path = src/circlesgrid.cpp; sourceTree = SOURCE_ROOT; };
-		18A32889A966481FBE4B2412 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/sampler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sampler.cpp; path = src/usac/sampler.cpp; sourceTree = SOURCE_ROOT; };
-		1AC22D2CD13F4A45B14C9468 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/termination.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = termination.cpp; path = src/usac/termination.cpp; sourceTree = SOURCE_ROOT; };
-		1DDD38AAA77C4B4CA75C83FA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
-		1F47EADF91CE43DEAD7097C6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/homography_decomp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = homography_decomp.cpp; path = src/homography_decomp.cpp; sourceTree = SOURCE_ROOT; };
-		212167B65D794FB8A764998F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration_handeye.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibration_handeye.cpp; path = src/calibration_handeye.cpp; sourceTree = SOURCE_ROOT; };
-		228C1788E6144DDABA3EB0D7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/checkchessboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = checkchessboard.cpp; path = src/checkchessboard.cpp; sourceTree = SOURCE_ROOT; };
-		25952BEB9BFE4B7DB4CE7D0D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calib3d_c_api.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = calib3d_c_api.h; path = src/calib3d_c_api.h; sourceTree = SOURCE_ROOT; };
-		287125D8CAF14C188C3AF416 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/local_optimization.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = local_optimization.cpp; path = src/usac/local_optimization.cpp; sourceTree = SOURCE_ROOT; };
-		2D5C5AFA48BA424388D6F800 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/compat_ptsetreg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = compat_ptsetreg.cpp; path = src/compat_ptsetreg.cpp; sourceTree = SOURCE_ROOT; };
-		2F71109322DF4D1DB89090CA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = calib3d_c.h; path = include/opencv2/calib3d/calib3d_c.h; sourceTree = SOURCE_ROOT; };
-		31C01036D6A0414298A85F06 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dls.cpp; path = src/dls.cpp; sourceTree = SOURCE_ROOT; };
-		37D1268ADA864065AA1A3DAA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibration.cpp; path = src/calibration.cpp; sourceTree = SOURCE_ROOT; };
-		3C327694879C4DB98FB80F0F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/solvepnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = solvepnp.cpp; path = src/solvepnp.cpp; sourceTree = SOURCE_ROOT; };
-		416EE7CF80304FBDB89955E2 /* opencv_calib3d */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_calib3d.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		44EB7979572C4826BC72E4F1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.dispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = undistort.dispatch.cpp; path = src/undistort.dispatch.cpp; sourceTree = SOURCE_ROOT; };
-		4687C2A505F34B57B0D3945D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calib3d.hpp; path = include/opencv2/calib3d/calib3d.hpp; sourceTree = SOURCE_ROOT; };
-		468C87EA6ABF4D46BDC2EBC2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/five-point.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "five-point.cpp"; path = "src/five-point.cpp"; sourceTree = SOURCE_ROOT; };
-		476CB793733948B39BA52C51 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/opencl/stereobm.cl */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = stereobm.cl; path = src/opencl/stereobm.cl; sourceTree = SOURCE_ROOT; };
-		4818B17D1D994D3D961092ED /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/CMakeFiles/opencv_calib3d.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/CMakeFiles/opencv_calib3d.dir/Info.plist"; sourceTree = "<absolute>"; };
-		48D76530C7534A06B8D6AE54 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = circlesgrid.hpp; path = src/circlesgrid.hpp; sourceTree = SOURCE_ROOT; };
-		4CC3FC56CAE9428192B579DE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp"; sourceTree = "<absolute>"; };
-		4FF18087F44E44499B456080 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rho.h; path = src/rho.h; sourceTree = SOURCE_ROOT; };
-		518A417FAB744CD8A9935BC5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		545A2AA952304E86B2AC5FF5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rho.cpp; path = src/rho.cpp; sourceTree = SOURCE_ROOT; };
-		5465545E202E4B8EA878D617 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = usac.hpp; path = src/usac.hpp; sourceTree = SOURCE_ROOT; };
-		55218A386EC247E3865DAB01 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ippe.hpp; path = src/ippe.hpp; sourceTree = SOURCE_ROOT; };
-		57409AC47C0C43B9984909C7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calib3d.hpp; path = include/opencv2/calib3d.hpp; sourceTree = SOURCE_ROOT; };
-		58200E0642A344B3806EEAAF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		5A1A253A2D3E4129BFA9C36E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/posit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = posit.cpp; path = src/posit.cpp; sourceTree = SOURCE_ROOT; };
-		5B0F8A7C201348598748BD8B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = p3p.cpp; path = src/p3p.cpp; sourceTree = SOURCE_ROOT; };
-		664C083773A549DE97F266F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.simd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = undistort.simd.hpp; path = src/undistort.simd.hpp; sourceTree = SOURCE_ROOT; };
-		6A6269714550401D8EF8F7A6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fisheye.hpp; path = src/fisheye.hpp; sourceTree = SOURCE_ROOT; };
-		75769AC016D1450492D659C0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/pnp_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pnp_solver.cpp; path = src/usac/pnp_solver.cpp; sourceTree = SOURCE_ROOT; };
-		787F0EC73B9D497488905EE2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = upnp.h; path = src/upnp.h; sourceTree = SOURCE_ROOT; };
-		7BD9F68EDB754BDDA3881620 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ap3p.h; path = src/ap3p.h; sourceTree = SOURCE_ROOT; };
-		7E2553063A344C4EA7A9D2FF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ippe.cpp; path = src/ippe.cpp; sourceTree = SOURCE_ROOT; };
-		8202F1D443724B73A451B028 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = polynom_solver.cpp; path = src/polynom_solver.cpp; sourceTree = SOURCE_ROOT; };
-		86705FA2464C4A788AC447B7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = p3p.h; path = src/p3p.h; sourceTree = SOURCE_ROOT; };
-		88861CD6CC6C4C28B6FCB82F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_calib3d.cpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp"; sourceTree = "<absolute>"; };
-		8E9F012BE62D4A6E958FB955 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ap3p.cpp; path = src/ap3p.cpp; sourceTree = SOURCE_ROOT; };
-		9F3B7E0142B4455A8570F80C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp.rule */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = opencl_kernels_calib3d.cpp.rule; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp.rule"; sourceTree = "<absolute>"; };
-		A7EA9B97959F4411845E2E4A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chessboard.cpp; path = src/chessboard.cpp; sourceTree = SOURCE_ROOT; };
-		A80B573A59B0456B8795C484 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/estimator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = estimator.cpp; path = src/usac/estimator.cpp; sourceTree = SOURCE_ROOT; };
-		A8820D7866F24486AA082820 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/ransac_solvers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ransac_solvers.cpp; path = src/usac/ransac_solvers.cpp; sourceTree = SOURCE_ROOT; };
-		AB4F23E496C14BABA2130ABF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/degeneracy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = degeneracy.cpp; path = src/usac/degeneracy.cpp; sourceTree = SOURCE_ROOT; };
-		AF10F9725AD74C698F26AE33 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = chessboard.hpp; path = src/chessboard.hpp; sourceTree = SOURCE_ROOT; };
-		B0356C7A0EA440A3A62BC10D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sqpnp.hpp; path = src/sqpnp.hpp; sourceTree = SOURCE_ROOT; };
-		B4F3181C2D1C418C9C570839 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/hal_replacement.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hal_replacement.hpp; path = src/hal_replacement.hpp; sourceTree = SOURCE_ROOT; };
-		C1C2FA58F6654C7C93E838A3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/dls_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dls_solver.cpp; path = src/usac/dls_solver.cpp; sourceTree = SOURCE_ROOT; };
-		C9EABB6220494F00A6B41246 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fundam.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fundam.cpp; path = src/fundam.cpp; sourceTree = SOURCE_ROOT; };
-		CE2D23B1F12540EAA3829230 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_calib3d.hpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.hpp"; sourceTree = "<absolute>"; };
-		CFD5362F32814FA2B1B4956A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereosgbm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereosgbm.cpp; path = src/stereosgbm.cpp; sourceTree = SOURCE_ROOT; };
-		D285AA787B8B441BB9C27836 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = upnp.cpp; path = src/upnp.cpp; sourceTree = SOURCE_ROOT; };
-		D4DDCA9D95C04B428AA75ADC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dls.h; path = src/dls.h; sourceTree = SOURCE_ROOT; };
-		D4DEAC6E00F149A7AD689AB4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/quality.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quality.cpp; path = src/usac/quality.cpp; sourceTree = SOURCE_ROOT; };
-		D57864CF06DC4832824DD7A7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/gamma_values.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gamma_values.cpp; path = src/usac/gamma_values.cpp; sourceTree = SOURCE_ROOT; };
-		DBDF76F5106548FEBAA2EE05 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/essential_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = essential_solver.cpp; path = src/usac/essential_solver.cpp; sourceTree = SOURCE_ROOT; };
-		DFE66652D84A4D8FB79CE516 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = epnp.cpp; path = src/epnp.cpp; sourceTree = SOURCE_ROOT; };
-		E5EB40A97EB14565A0736CE8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		E5F6D07312EE46C39BFED713 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/bundle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bundle.cpp; path = src/usac/bundle.cpp; sourceTree = SOURCE_ROOT; };
-		E6FC9991AF7645AA9EA774BF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fisheye.cpp; path = src/fisheye.cpp; sourceTree = SOURCE_ROOT; };
-		E79CC4928B8449D89DA23D1F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ptsetreg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ptsetreg.cpp; path = src/ptsetreg.cpp; sourceTree = SOURCE_ROOT; };
-		ED95AFCD9D9A47E3964CCA7F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereobm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereobm.cpp; path = src/stereobm.cpp; sourceTree = SOURCE_ROOT; };
-		EF7032134F154277ADFDA1E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sqpnp.cpp; path = src/sqpnp.cpp; sourceTree = SOURCE_ROOT; };
-		F426966AA72848BDA612A41C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/levmarq.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = levmarq.cpp; path = src/levmarq.cpp; sourceTree = SOURCE_ROOT; };
-		F496EBF44EDB4A35AA05B345 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/homography_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = homography_solver.cpp; path = src/usac/homography_solver.cpp; sourceTree = SOURCE_ROOT; };
-		F9CE9819574C4ABFB93D3234 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/fundamental_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fundamental_solver.cpp; path = src/usac/fundamental_solver.cpp; sourceTree = SOURCE_ROOT; };
-		FD88EDA111234E2D83BD7E58 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/triangulate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = triangulate.cpp; path = src/triangulate.cpp; sourceTree = SOURCE_ROOT; };
+		0174D2A9F659422E8B7A4F64 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/pnp_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pnp_solver.cpp; path = src/usac/pnp_solver.cpp; sourceTree = SOURCE_ROOT; };
+		05769B0F4DF9494EAC5BE700 /* opencv_calib3d */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_calib3d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC0EA2E05604DDEA60CF781 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fundam.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fundam.cpp; path = src/fundam.cpp; sourceTree = SOURCE_ROOT; };
+		0F0E462BAC5E4D4E995E27EA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp"; sourceTree = "<absolute>"; };
+		1856B4EE7E844541A57656E5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/checkchessboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = checkchessboard.cpp; path = src/checkchessboard.cpp; sourceTree = SOURCE_ROOT; };
+		19F3C14E8E2D44CBA5C3091A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/termination.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = termination.cpp; path = src/usac/termination.cpp; sourceTree = SOURCE_ROOT; };
+		1FA6FC36972B435D9D82F546 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/opencl/stereobm.cl */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = stereobm.cl; path = src/opencl/stereobm.cl; sourceTree = SOURCE_ROOT; };
+		2015EBFE88D1495FA185A644 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = epnp.cpp; path = src/epnp.cpp; sourceTree = SOURCE_ROOT; };
+		21892E752A3F4F47A67E498E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereobm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereobm.cpp; path = src/stereobm.cpp; sourceTree = SOURCE_ROOT; };
+		2D190E0B0F3243C19E13401C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/local_optimization.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = local_optimization.cpp; path = src/usac/local_optimization.cpp; sourceTree = SOURCE_ROOT; };
+		39A4C106333F4024A789028E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/solvepnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = solvepnp.cpp; path = src/solvepnp.cpp; sourceTree = SOURCE_ROOT; };
+		3C80B4F677BB479F9F668DD9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calib3d.hpp; path = include/opencv2/calib3d/calib3d.hpp; sourceTree = SOURCE_ROOT; };
+		42C470AAAB964FA0910C57A2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/bundle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bundle.cpp; path = src/usac/bundle.cpp; sourceTree = SOURCE_ROOT; };
+		430F0110103A48DDB8368E11 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calib3d_c_api.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = calib3d_c_api.h; path = src/calib3d_c_api.h; sourceTree = SOURCE_ROOT; };
+		475FFF772F2343C7B83E1959 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/levmarq.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = levmarq.cpp; path = src/levmarq.cpp; sourceTree = SOURCE_ROOT; };
+		48913D884452485785995E28 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4C546488E995419F9EA102FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibinit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibinit.cpp; path = src/calibinit.cpp; sourceTree = SOURCE_ROOT; };
+		4F4DA03A75C549FF9B90D61D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereosgbm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereosgbm.cpp; path = src/stereosgbm.cpp; sourceTree = SOURCE_ROOT; };
+		520E53A4F91E4F82B4381408 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sqpnp.hpp; path = src/sqpnp.hpp; sourceTree = SOURCE_ROOT; };
+		53F92ADBBAE141B98D244639 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration_handeye.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibration_handeye.cpp; path = src/calibration_handeye.cpp; sourceTree = SOURCE_ROOT; };
+		543F9F7753A14B5E9355CF9F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/quadsubpix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quadsubpix.cpp; path = src/quadsubpix.cpp; sourceTree = SOURCE_ROOT; };
+		557A4B5856EB4C8399AD4520 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp.rule */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = opencl_kernels_calib3d.cpp.rule; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp.rule"; sourceTree = "<absolute>"; };
+		56A69B4AA38F402E9386ECE8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/five-point.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "five-point.cpp"; path = "src/five-point.cpp"; sourceTree = SOURCE_ROOT; };
+		5B193B819630400EB6C291AD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = p3p.h; path = src/p3p.h; sourceTree = SOURCE_ROOT; };
+		6ACDBC1219154E739AE5EB30 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rho.cpp; path = src/rho.cpp; sourceTree = SOURCE_ROOT; };
+		721F908F98074CE09011CA56 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = chessboard.hpp; path = src/chessboard.hpp; sourceTree = SOURCE_ROOT; };
+		725155EE0B5F4B3AAD81314E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = usac.hpp; path = src/usac.hpp; sourceTree = SOURCE_ROOT; };
+		72D809AF96B54FFCA77796FB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.simd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = undistort.simd.hpp; path = src/undistort.simd.hpp; sourceTree = SOURCE_ROOT; };
+		738D4BBFE2284292954A6D8E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chessboard.cpp; path = src/chessboard.cpp; sourceTree = SOURCE_ROOT; };
+		764A1C13D60F44F09B960059 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h"; sourceTree = "<absolute>"; };
+		7E254FD3A42A4BB99AA71F74 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/gamma_values.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gamma_values.cpp; path = src/usac/gamma_values.cpp; sourceTree = SOURCE_ROOT; };
+		818B92EECC8340CDA8DBA2B9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fisheye.cpp; path = src/fisheye.cpp; sourceTree = SOURCE_ROOT; };
+		8326C079FFA24451A8BE749C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_calib3d.hpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.hpp"; sourceTree = "<absolute>"; };
+		856740F56DED48568C87A118 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		89378DF027014659A62EAC1B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/distortion_model.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = distortion_model.hpp; path = src/distortion_model.hpp; sourceTree = SOURCE_ROOT; };
+		8B7FA4541EE74D1B8D71EF3A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/essential_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = essential_solver.cpp; path = src/usac/essential_solver.cpp; sourceTree = SOURCE_ROOT; };
+		8DBEA866419144BF826FA799 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_calib3d.cpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp"; sourceTree = "<absolute>"; };
+		8E685FD35A914DA7A9F4EC7B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = circlesgrid.cpp; path = src/circlesgrid.cpp; sourceTree = SOURCE_ROOT; };
+		90CDF29533414981BA464DAA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		9152A34A34DB44BF951375FE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ap3p.h; path = src/ap3p.h; sourceTree = SOURCE_ROOT; };
+		95238C30CD1E44EE997E0E14 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/fundamental_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fundamental_solver.cpp; path = src/usac/fundamental_solver.cpp; sourceTree = SOURCE_ROOT; };
+		9636DD50B6FC43BFB8967077 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = polynom_solver.cpp; path = src/polynom_solver.cpp; sourceTree = SOURCE_ROOT; };
+		99F81D06D30E428D9718FD4B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/sampler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sampler.cpp; path = src/usac/sampler.cpp; sourceTree = SOURCE_ROOT; };
+		9B2D725D68004988A92BBB84 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.dispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = undistort.dispatch.cpp; path = src/undistort.dispatch.cpp; sourceTree = SOURCE_ROOT; };
+		A0BD816292B34065AC2D9142 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/dls_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dls_solver.cpp; path = src/usac/dls_solver.cpp; sourceTree = SOURCE_ROOT; };
+		A5AAF3165A9045D29113D2E6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = circlesgrid.hpp; path = src/circlesgrid.hpp; sourceTree = SOURCE_ROOT; };
+		A5E7C5CC18614BCF88208F39 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = p3p.cpp; path = src/p3p.cpp; sourceTree = SOURCE_ROOT; };
+		AA2410D305204FE68CB198FF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/posit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = posit.cpp; path = src/posit.cpp; sourceTree = SOURCE_ROOT; };
+		AA26C5342810453C9D2C23C5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/estimator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = estimator.cpp; path = src/usac/estimator.cpp; sourceTree = SOURCE_ROOT; };
+		AA965EEFC52D431789BD535F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/hal_replacement.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hal_replacement.hpp; path = src/hal_replacement.hpp; sourceTree = SOURCE_ROOT; };
+		AEC89F54070F49C18C3AAA12 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ippe.cpp; path = src/ippe.cpp; sourceTree = SOURCE_ROOT; };
+		B460E4543DCC41B9AE84B501 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sqpnp.cpp; path = src/sqpnp.cpp; sourceTree = SOURCE_ROOT; };
+		BAF73DF67AA94ABD90CF9B72 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = polynom_solver.h; path = src/polynom_solver.h; sourceTree = SOURCE_ROOT; };
+		BEF1A3B23F114DDFB8B87AC8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = upnp.h; path = src/upnp.h; sourceTree = SOURCE_ROOT; };
+		C1B30BF3A21C45E394528275 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ippe.hpp; path = src/ippe.hpp; sourceTree = SOURCE_ROOT; };
+		C28DF164DD024E1AA992314C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C79C5E8CEFBC42DE856923F3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/homography_decomp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = homography_decomp.cpp; path = src/homography_decomp.cpp; sourceTree = SOURCE_ROOT; };
+		C7D8F7AA5AD848AA912E75D1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/ransac_solvers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ransac_solvers.cpp; path = src/usac/ransac_solvers.cpp; sourceTree = SOURCE_ROOT; };
+		C835B54CB7AA4601887E6767 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/compat_ptsetreg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = compat_ptsetreg.cpp; path = src/compat_ptsetreg.cpp; sourceTree = SOURCE_ROOT; };
+		C873E37EF18540C8B0772647 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = epnp.h; path = src/epnp.h; sourceTree = SOURCE_ROOT; };
+		CA72E724DE434D6687EFD6D0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = upnp.cpp; path = src/upnp.cpp; sourceTree = SOURCE_ROOT; };
+		CB2D0FF8BCAD4157B3774C0B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fisheye.hpp; path = src/fisheye.hpp; sourceTree = SOURCE_ROOT; };
+		CB33E8DAAFE449AE92BB3F6D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dls.cpp; path = src/dls.cpp; sourceTree = SOURCE_ROOT; };
+		D09C137ECDAE4954B776AFBB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calib3d.hpp; path = include/opencv2/calib3d.hpp; sourceTree = SOURCE_ROOT; };
+		D47A005744414B018EC30D0B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rho.h; path = src/rho.h; sourceTree = SOURCE_ROOT; };
+		DB7DAFE0380E4882878A7BE6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/quality.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quality.cpp; path = src/usac/quality.cpp; sourceTree = SOURCE_ROOT; };
+		E15E5256AC59419F8D576C1C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/degeneracy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = degeneracy.cpp; path = src/usac/degeneracy.cpp; sourceTree = SOURCE_ROOT; };
+		E18BC510708F4EC89EFCFE44 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/triangulate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = triangulate.cpp; path = src/triangulate.cpp; sourceTree = SOURCE_ROOT; };
+		E47A2E4ADCAC4A9D939D10F1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utils.cpp; path = src/usac/utils.cpp; sourceTree = SOURCE_ROOT; };
+		E6C394035E6340409817AF0C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibration.cpp; path = src/calibration.cpp; sourceTree = SOURCE_ROOT; };
+		E6DE678B8B764F868AD27914 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = calib3d_c.h; path = include/opencv2/calib3d/calib3d_c.h; sourceTree = SOURCE_ROOT; };
+		E7C08D2F7A1348168E97CA1B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/homography_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = homography_solver.cpp; path = src/usac/homography_solver.cpp; sourceTree = SOURCE_ROOT; };
+		E9D329B7A8BB466E9D5EA6B4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ptsetreg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ptsetreg.cpp; path = src/ptsetreg.cpp; sourceTree = SOURCE_ROOT; };
+		EC15FF5A34864A94AAF7DB04 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/CMakeFiles/opencv_calib3d.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/CMakeFiles/opencv_calib3d.dir/Info.plist"; sourceTree = "<absolute>"; };
+		FB28D6BE396843B1A65B3E51 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dls.h; path = src/dls.h; sourceTree = SOURCE_ROOT; };
+		FE3F70F3122447A694874C10 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ap3p.cpp; path = src/ap3p.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B978DDAEB70D4DFEB7A41A49 /* Frameworks */ = {
+		41889E7892F7416584F59AC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -290,222 +290,222 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0289D14A961F48EAA586988B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4818B17D1D994D3D961092ED /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/CMakeFiles/opencv_calib3d.dir/Info.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		098B63C35F744F8C8C992EAA /* kernels */ = {
-			isa = PBXGroup;
-			children = (
-				8A1A48DEDAB04A56872E0CFE /* autogenerated */,
-				476CB793733948B39BA52C51 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/opencl/stereobm.cl */,
-			);
-			name = kernels;
-			sourceTree = "<group>";
-		};
-		107CEF042449487F8F0EF3A0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				416EE7CF80304FBDB89955E2 /* opencv_calib3d */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2456C1DDAC334F988B6529C0 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				DC378EA2F3494E6CB4D716DF /* CMake Rules */,
-				518A417FAB744CD8A9935BC5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		32F5DC8C2DD948D6AC45ACBA /* Resources */ = {
+		02854723343B488FBEB586ED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		374D8F235D7646D6B929830F /* Frameworks */ = {
+		10B130AF778D40309A8BCD92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		435E7E0886BA40F98526A485 /* modules */ = {
+		162FF4B05EC44CCB81B9FB4D /* usac */ = {
 			isa = PBXGroup;
 			children = (
-				FC30746731EC45CCBEE3A848 /* opencv_calib3d */,
-			);
-			name = modules;
-			sourceTree = "<group>";
-		};
-		5588EFC4D7AC4B21932C02C6 /* opencl */ = {
-			isa = PBXGroup;
-			children = (
-				098B63C35F744F8C8C992EAA /* kernels */,
-			);
-			name = opencl;
-			sourceTree = "<group>";
-		};
-		6BA09FA823E245DEA8A3CDA8 /* opencv2 */ = {
-			isa = PBXGroup;
-			children = (
-				E3B78D8E702B497F876E434B /* calib3d */,
-				57409AC47C0C43B9984909C7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d.hpp */,
-			);
-			name = opencv2;
-			sourceTree = "<group>";
-		};
-		74E3E287F17D4C33979AE823 = {
-			isa = PBXGroup;
-			children = (
-				435E7E0886BA40F98526A485 /* modules */,
-				2456C1DDAC334F988B6529C0 /* ALL_BUILD */,
-				107CEF042449487F8F0EF3A0 /* Products */,
-				374D8F235D7646D6B929830F /* Frameworks */,
-				32F5DC8C2DD948D6AC45ACBA /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		8A1A48DEDAB04A56872E0CFE /* autogenerated */ = {
-			isa = PBXGroup;
-			children = (
-				88861CD6CC6C4C28B6FCB82F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp */,
-				CE2D23B1F12540EAA3829230 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.hpp */,
-			);
-			name = autogenerated;
-			sourceTree = "<group>";
-		};
-		93BB6FF0941F437CA8973E54 /* Include */ = {
-			isa = PBXGroup;
-			children = (
-				6BA09FA823E245DEA8A3CDA8 /* opencv2 */,
-				07253E0F13604C769834CB9E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */,
-				4CC3FC56CAE9428192B579DE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */,
-			);
-			name = Include;
-			sourceTree = "<group>";
-		};
-		B4AC96160E234951AEA620C0 /* Src */ = {
-			isa = PBXGroup;
-			children = (
-				F2FCA90C27C34675A155902C /* usac */,
-				5588EFC4D7AC4B21932C02C6 /* opencl */,
-				8E9F012BE62D4A6E958FB955 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.cpp */,
-				7BD9F68EDB754BDDA3881620 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.h */,
-				25952BEB9BFE4B7DB4CE7D0D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calib3d_c_api.h */,
-				12B644CEA1984356A80186EC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibinit.cpp */,
-				37D1268ADA864065AA1A3DAA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration.cpp */,
-				212167B65D794FB8A764998F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration_handeye.cpp */,
-				228C1788E6144DDABA3EB0D7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/checkchessboard.cpp */,
-				A7EA9B97959F4411845E2E4A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.cpp */,
-				AF10F9725AD74C698F26AE33 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.hpp */,
-				178E262474E84E648DDEDDE9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.cpp */,
-				48D76530C7534A06B8D6AE54 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.hpp */,
-				2D5C5AFA48BA424388D6F800 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/compat_ptsetreg.cpp */,
-				05333F1D42D544D4B62F849E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/distortion_model.hpp */,
-				31C01036D6A0414298A85F06 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.cpp */,
-				D4DDCA9D95C04B428AA75ADC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.h */,
-				DFE66652D84A4D8FB79CE516 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.cpp */,
-				0E53F62BA15D4398B3569D71 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.h */,
-				E6FC9991AF7645AA9EA774BF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.cpp */,
-				6A6269714550401D8EF8F7A6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.hpp */,
-				468C87EA6ABF4D46BDC2EBC2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/five-point.cpp */,
-				C9EABB6220494F00A6B41246 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fundam.cpp */,
-				B4F3181C2D1C418C9C570839 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/hal_replacement.hpp */,
-				1F47EADF91CE43DEAD7097C6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/homography_decomp.cpp */,
-				7E2553063A344C4EA7A9D2FF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.cpp */,
-				55218A386EC247E3865DAB01 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.hpp */,
-				F426966AA72848BDA612A41C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/levmarq.cpp */,
-				58200E0642A344B3806EEAAF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/main.cpp */,
-				5B0F8A7C201348598748BD8B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.cpp */,
-				86705FA2464C4A788AC447B7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.h */,
-				8202F1D443724B73A451B028 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.cpp */,
-				1743EFF30C7449919BECE0C1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.h */,
-				5A1A253A2D3E4129BFA9C36E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/posit.cpp */,
-				1DDD38AAA77C4B4CA75C83FA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/precomp.hpp */,
-				E79CC4928B8449D89DA23D1F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ptsetreg.cpp */,
-				0AD2D7F1352A446ABB5909F1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/quadsubpix.cpp */,
-				545A2AA952304E86B2AC5FF5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.cpp */,
-				4FF18087F44E44499B456080 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.h */,
-				3C327694879C4DB98FB80F0F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/solvepnp.cpp */,
-				EF7032134F154277ADFDA1E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.cpp */,
-				B0356C7A0EA440A3A62BC10D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.hpp */,
-				ED95AFCD9D9A47E3964CCA7F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereobm.cpp */,
-				CFD5362F32814FA2B1B4956A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereosgbm.cpp */,
-				FD88EDA111234E2D83BD7E58 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/triangulate.cpp */,
-				44EB7979572C4826BC72E4F1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.dispatch.cpp */,
-				664C083773A549DE97F266F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.simd.hpp */,
-				D285AA787B8B441BB9C27836 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.cpp */,
-				787F0EC73B9D497488905EE2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.h */,
-				5465545E202E4B8EA878D617 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac.hpp */,
-			);
-			name = Src;
-			sourceTree = "<group>";
-		};
-		DC378EA2F3494E6CB4D716DF /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		E3B78D8E702B497F876E434B /* calib3d */ = {
-			isa = PBXGroup;
-			children = (
-				4687C2A505F34B57B0D3945D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */,
-				2F71109322DF4D1DB89090CA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */,
-			);
-			name = calib3d;
-			sourceTree = "<group>";
-		};
-		ED3E9C2EF1F24FD1805161DE /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-				9F3B7E0142B4455A8570F80C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp.rule */,
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		F2FCA90C27C34675A155902C /* usac */ = {
-			isa = PBXGroup;
-			children = (
-				E5F6D07312EE46C39BFED713 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/bundle.cpp */,
-				AB4F23E496C14BABA2130ABF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/degeneracy.cpp */,
-				C1C2FA58F6654C7C93E838A3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/dls_solver.cpp */,
-				DBDF76F5106548FEBAA2EE05 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/essential_solver.cpp */,
-				A80B573A59B0456B8795C484 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/estimator.cpp */,
-				F9CE9819574C4ABFB93D3234 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/fundamental_solver.cpp */,
-				D57864CF06DC4832824DD7A7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/gamma_values.cpp */,
-				F496EBF44EDB4A35AA05B345 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/homography_solver.cpp */,
-				287125D8CAF14C188C3AF416 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/local_optimization.cpp */,
-				75769AC016D1450492D659C0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/pnp_solver.cpp */,
-				D4DEAC6E00F149A7AD689AB4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/quality.cpp */,
-				A8820D7866F24486AA082820 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/ransac_solvers.cpp */,
-				18A32889A966481FBE4B2412 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/sampler.cpp */,
-				1AC22D2CD13F4A45B14C9468 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/termination.cpp */,
-				13272EF9147E4DC9BEAF0AF6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/utils.cpp */,
+				42C470AAAB964FA0910C57A2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/bundle.cpp */,
+				E15E5256AC59419F8D576C1C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/degeneracy.cpp */,
+				A0BD816292B34065AC2D9142 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/dls_solver.cpp */,
+				8B7FA4541EE74D1B8D71EF3A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/essential_solver.cpp */,
+				AA26C5342810453C9D2C23C5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/estimator.cpp */,
+				95238C30CD1E44EE997E0E14 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/fundamental_solver.cpp */,
+				7E254FD3A42A4BB99AA71F74 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/gamma_values.cpp */,
+				E7C08D2F7A1348168E97CA1B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/homography_solver.cpp */,
+				2D190E0B0F3243C19E13401C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/local_optimization.cpp */,
+				0174D2A9F659422E8B7A4F64 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/pnp_solver.cpp */,
+				DB7DAFE0380E4882878A7BE6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/quality.cpp */,
+				C7D8F7AA5AD848AA912E75D1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/ransac_solvers.cpp */,
+				99F81D06D30E428D9718FD4B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/sampler.cpp */,
+				19F3C14E8E2D44CBA5C3091A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/termination.cpp */,
+				E47A2E4ADCAC4A9D939D10F1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/utils.cpp */,
 			);
 			name = usac;
 			sourceTree = "<group>";
 		};
-		FC30746731EC45CCBEE3A848 /* opencv_calib3d */ = {
+		259C96B8476641618D1D599D /* modules */ = {
 			isa = PBXGroup;
 			children = (
-				93BB6FF0941F437CA8973E54 /* Include */,
-				B4AC96160E234951AEA620C0 /* Src */,
-				ED3E9C2EF1F24FD1805161DE /* CMake Rules */,
-				0289D14A961F48EAA586988B /* Resources */,
-				E5EB40A97EB14565A0736CE8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/CMakeLists.txt */,
+				4E2CF12AA4F046CFAEEC6E9F /* opencv_calib3d */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		393EC28BE4DC45F0A8DF1F47 /* calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				3C80B4F677BB479F9F668DD9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */,
+				E6DE678B8B764F868AD27914 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */,
+			);
+			name = calib3d;
+			sourceTree = "<group>";
+		};
+		3C0B65B039FE4E139AB2FB24 /* autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				8DBEA866419144BF826FA799 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp */,
+				8326C079FFA24451A8BE749C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.hpp */,
+			);
+			name = autogenerated;
+			sourceTree = "<group>";
+		};
+		453D625719A74B74BE9F4595 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E71E68D4D20B42B09113BEC6 /* CMake Rules */,
+				C28DF164DD024E1AA992314C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4B56069B9243453F98994A93 = {
+			isa = PBXGroup;
+			children = (
+				259C96B8476641618D1D599D /* modules */,
+				453D625719A74B74BE9F4595 /* ALL_BUILD */,
+				693DE3108F404CA387088AA0 /* Products */,
+				10B130AF778D40309A8BCD92 /* Frameworks */,
+				02854723343B488FBEB586ED /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		4C1B5C2677B143CAB7946E39 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				162FF4B05EC44CCB81B9FB4D /* usac */,
+				94EE7B9421EC4499B6FF9526 /* opencl */,
+				FE3F70F3122447A694874C10 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.cpp */,
+				9152A34A34DB44BF951375FE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.h */,
+				430F0110103A48DDB8368E11 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calib3d_c_api.h */,
+				4C546488E995419F9EA102FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibinit.cpp */,
+				E6C394035E6340409817AF0C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration.cpp */,
+				53F92ADBBAE141B98D244639 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration_handeye.cpp */,
+				1856B4EE7E844541A57656E5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/checkchessboard.cpp */,
+				738D4BBFE2284292954A6D8E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.cpp */,
+				721F908F98074CE09011CA56 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.hpp */,
+				8E685FD35A914DA7A9F4EC7B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.cpp */,
+				A5AAF3165A9045D29113D2E6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.hpp */,
+				C835B54CB7AA4601887E6767 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/compat_ptsetreg.cpp */,
+				89378DF027014659A62EAC1B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/distortion_model.hpp */,
+				CB33E8DAAFE449AE92BB3F6D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.cpp */,
+				FB28D6BE396843B1A65B3E51 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.h */,
+				2015EBFE88D1495FA185A644 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.cpp */,
+				C873E37EF18540C8B0772647 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.h */,
+				818B92EECC8340CDA8DBA2B9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.cpp */,
+				CB2D0FF8BCAD4157B3774C0B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.hpp */,
+				56A69B4AA38F402E9386ECE8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/five-point.cpp */,
+				0CC0EA2E05604DDEA60CF781 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fundam.cpp */,
+				AA965EEFC52D431789BD535F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/hal_replacement.hpp */,
+				C79C5E8CEFBC42DE856923F3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/homography_decomp.cpp */,
+				AEC89F54070F49C18C3AAA12 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.cpp */,
+				C1B30BF3A21C45E394528275 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.hpp */,
+				475FFF772F2343C7B83E1959 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/levmarq.cpp */,
+				856740F56DED48568C87A118 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/main.cpp */,
+				A5E7C5CC18614BCF88208F39 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.cpp */,
+				5B193B819630400EB6C291AD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.h */,
+				9636DD50B6FC43BFB8967077 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.cpp */,
+				BAF73DF67AA94ABD90CF9B72 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.h */,
+				AA2410D305204FE68CB198FF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/posit.cpp */,
+				90CDF29533414981BA464DAA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/precomp.hpp */,
+				E9D329B7A8BB466E9D5EA6B4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ptsetreg.cpp */,
+				543F9F7753A14B5E9355CF9F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/quadsubpix.cpp */,
+				6ACDBC1219154E739AE5EB30 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.cpp */,
+				D47A005744414B018EC30D0B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.h */,
+				39A4C106333F4024A789028E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/solvepnp.cpp */,
+				B460E4543DCC41B9AE84B501 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.cpp */,
+				520E53A4F91E4F82B4381408 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.hpp */,
+				21892E752A3F4F47A67E498E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereobm.cpp */,
+				4F4DA03A75C549FF9B90D61D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereosgbm.cpp */,
+				E18BC510708F4EC89EFCFE44 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/triangulate.cpp */,
+				9B2D725D68004988A92BBB84 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.dispatch.cpp */,
+				72D809AF96B54FFCA77796FB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.simd.hpp */,
+				CA72E724DE434D6687EFD6D0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.cpp */,
+				BEF1A3B23F114DDFB8B87AC8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.h */,
+				725155EE0B5F4B3AAD81314E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac.hpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		4E2CF12AA4F046CFAEEC6E9F /* opencv_calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				888187ED934842D2A84E18E4 /* Include */,
+				4C1B5C2677B143CAB7946E39 /* Src */,
+				9BAD33899B654880ADDB315E /* CMake Rules */,
+				E193C280F3424D159329EF8B /* Resources */,
+				48913D884452485785995E28 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/CMakeLists.txt */,
 			);
 			name = opencv_calib3d;
+			sourceTree = "<group>";
+		};
+		5403DE3729A44E12924D750A /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				393EC28BE4DC45F0A8DF1F47 /* calib3d */,
+				D09C137ECDAE4954B776AFBB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include/opencv2/calib3d.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		5825029CFD144F938A69A270 /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				3C0B65B039FE4E139AB2FB24 /* autogenerated */,
+				1FA6FC36972B435D9D82F546 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/opencl/stereobm.cl */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		693DE3108F404CA387088AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05769B0F4DF9494EAC5BE700 /* opencv_calib3d */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		888187ED934842D2A84E18E4 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				5403DE3729A44E12924D750A /* opencv2 */,
+				764A1C13D60F44F09B960059 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */,
+				0F0E462BAC5E4D4E995E27EA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		94EE7B9421EC4499B6FF9526 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				5825029CFD144F938A69A270 /* kernels */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		9BAD33899B654880ADDB315E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				557A4B5856EB4C8399AD4520 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E193C280F3424D159329EF8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC15FF5A34864A94AAF7DB04 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/CMakeFiles/opencv_calib3d.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E71E68D4D20B42B09113BEC6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -513,41 +513,41 @@
 /* Begin PBXNativeTarget section */
 		8A698299B26B15B8D3BC794A /* opencv_calib3d */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC9AC2393CA447B0BB087F78 /* Build configuration list for PBXNativeTarget "opencv_calib3d" */;
+			buildConfigurationList = DAFD7764513948DD96042A4D /* Build configuration list for PBXNativeTarget "opencv_calib3d" */;
 			buildPhases = (
 				9FA12EF25318D887CC09E625 /* Generate opencl_kernels_calib3d.cpp */,
-				6D1577C504724B2498DC9BB4 /* Sources */,
-				B978DDAEB70D4DFEB7A41A49 /* Frameworks */,
+				341EB4E742C345C3BF388BBF /* Sources */,
+				41889E7892F7416584F59AC0 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0E4E83C458C14FAF95F97F0B /* PBXTargetDependency */,
+				62ABB73EEDDA4573AE2656DC /* PBXTargetDependency */,
 			);
 			name = opencv_calib3d;
 			productName = opencv_calib3d;
-			productReference = 416EE7CF80304FBDB89955E2 /* opencv_calib3d */;
+			productReference = 05769B0F4DF9494EAC5BE700 /* opencv_calib3d */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2AC9AC17EF754FC9A52316D0 /* Project object */ = {
+		8D44B8E9BD394AC6A89F895C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 2620;
+				LastUpgradeCheck = 2630;
 			};
-			buildConfigurationList = 6100D24D1B834538B8C8BDED /* Build configuration list for PBXProject "opencv_calib3d" */;
+			buildConfigurationList = 4A73DAB68EA74893A6FFAD3F /* Build configuration list for PBXProject "opencv_calib3d" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				6BA616189B324506B36A193B /* Debug */,
-				AC1797816B0F4CE99EC7885A /* Release */,
+				20F658ECAEB84402A9B9FDB5 /* Debug */,
+				D6078ABD913E4C7D9D9B3CA9 /* Release */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 74E3E287F17D4C33979AE823;
+			mainGroup = 4B56069B9243453F98994A93;
 			projectDirPath = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d";
 			projectRoot = "";
 			targets = (
@@ -789,91 +789,192 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D1577C504724B2498DC9BB4 /* Sources */ = {
+		341EB4E742C345C3BF388BBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BD5E673C3B432CA7F728CE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.cpp */,
-				50876008A0A54388ACA19DD5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibinit.cpp */,
-				1715000DFEA34171A9E8E44E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration.cpp */,
-				24E366FC7F654E9F9AFB6900 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration_handeye.cpp */,
-				196E28A3FD76432F8B744D96 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/checkchessboard.cpp */,
-				8A6C876A0CD3478F8B55057B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.cpp */,
-				2CC4638502574CCF8F27064B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.cpp */,
-				C6A1C05E89C84E3BB9F07D0C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/compat_ptsetreg.cpp */,
-				F753F1C14CFD46BAB79F6834 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.cpp */,
-				4098E22CB04B49AEBE5CA644 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.cpp */,
-				B6712B7844FD4C6292C7ED59 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.cpp */,
-				8C055120730540DEBBB7ED0F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/five-point.cpp */,
-				6635397638B345A9883B6FDA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fundam.cpp */,
-				20C1E12D97BD459794DEE101 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/homography_decomp.cpp */,
-				F442710E3C244071821D1240 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.cpp */,
-				7DC4A1BCCE0840E9AB6A00C8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/levmarq.cpp */,
-				5FB6F5BE9A144E12B26C2F05 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/main.cpp */,
-				AEE4F5FFD7694971B3D4CBAD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.cpp */,
-				53D384C3642C4E458231B82D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.cpp */,
-				C8ABB5A17F224B91B01714C4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/posit.cpp */,
-				1FE9CD9EEFF3434189F8AA88 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ptsetreg.cpp */,
-				53B496801CD241118322476B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/quadsubpix.cpp */,
-				8974C9610B6A4A45B8162DAB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.cpp */,
-				F833B5BC048F47A1922362EE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/solvepnp.cpp */,
-				4FB69211FA0B4855A209A016 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.cpp */,
-				CC18F39A676C4A139E97DE7E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereobm.cpp */,
-				628AE36E0A2A437C99E87233 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereosgbm.cpp */,
-				7B7C275907C346CE8A6A445F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/triangulate.cpp */,
-				CEE0C7CC14814830BCC66CB2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.dispatch.cpp */,
-				21EB9F22BB6342AA9563F151 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.cpp */,
-				CD7C7B55110647F3820B07BD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/bundle.cpp */,
-				D59D6B7345B24C7B8434AB62 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/degeneracy.cpp */,
-				63104BA0D5194D97A9307CCA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/dls_solver.cpp */,
-				479ECB996DA44DDFB62C9B2C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/essential_solver.cpp */,
-				C7422A4E337749C7B02AF74D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/estimator.cpp */,
-				53BF86AAF7C14CA5B3ABEE45 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/fundamental_solver.cpp */,
-				C6A22540BAE54F2B9113ABA7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/gamma_values.cpp */,
-				9B31B7DF38AC442BB636416E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/homography_solver.cpp */,
-				08E08B75735C4CF4BA8C91A4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/local_optimization.cpp */,
-				4B0869596FA849AD84D12144 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/pnp_solver.cpp */,
-				9C963DF1FE354C209F1B4B00 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/quality.cpp */,
-				306F55B0B2524C589E183BC1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/ransac_solvers.cpp */,
-				8D971E45AF314B119C6165F5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/sampler.cpp */,
-				E00326F9CBFA4C79B0E6F8A8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/termination.cpp */,
-				70E00BDC56F448C8813CB2AF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/utils.cpp */,
-				C6C9720681F6421BBC696F93 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp */,
+				C17654F3DDB8401C9270FB2A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ap3p.cpp */,
+				71F633A3A36748EBB6510D7F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibinit.cpp */,
+				04CB45A132304ADF967E708D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration.cpp */,
+				24FEBDD422FE454D8B99A0FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/calibration_handeye.cpp */,
+				D04AFB03C61A4DF68BFCEC71 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/checkchessboard.cpp */,
+				EEE445CCCB4E44A1897D9817 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/chessboard.cpp */,
+				0E4A747D064B4F389A91EE47 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/circlesgrid.cpp */,
+				0F2F5419A48D45CEAE83A548 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/compat_ptsetreg.cpp */,
+				6A2CDCB74A154BF18E10E8E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/dls.cpp */,
+				B5B260B60D9D41F58B53AD1A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/epnp.cpp */,
+				A31C7A0833BF48D18F212FEA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fisheye.cpp */,
+				F59830348B9B4C229ECDCBF8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/five-point.cpp */,
+				1C8D5E672CB24A879E81EF75 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/fundam.cpp */,
+				0010FBED89F6431B836109FD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/homography_decomp.cpp */,
+				EC9E8EE9B64C44F1B9813236 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ippe.cpp */,
+				EA5AE7B9574E40159AE41EA9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/levmarq.cpp */,
+				685479747A9545929AAA6D92 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/main.cpp */,
+				16C8DE7147F743AA8ED65AE2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/p3p.cpp */,
+				F004AF93418B45D5A0786EEA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/polynom_solver.cpp */,
+				159D244E24FD468ABF4A671B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/posit.cpp */,
+				EEB8487D94094B10B4AB7060 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/ptsetreg.cpp */,
+				D17F1AAF82204AC0B975E11A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/quadsubpix.cpp */,
+				5FDDC9DD890341D18642162D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/rho.cpp */,
+				50490922C0BD4BAE9C5FFC43 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/solvepnp.cpp */,
+				D47E44A2E89E483A9BA83167 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/sqpnp.cpp */,
+				8C435F6D5B30496D9E08896A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereobm.cpp */,
+				8B103C1952D44374942B6554 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/stereosgbm.cpp */,
+				65113F467B8547EBB53A9D90 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/triangulate.cpp */,
+				C45CB94D401344A9854FBDBC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/undistort.dispatch.cpp */,
+				D7F2B39E8D8640AEB43AB2C4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/upnp.cpp */,
+				4096B82C711A4A978452FF06 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/bundle.cpp */,
+				175E2FE070244AF0A1C25CD1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/degeneracy.cpp */,
+				EE03FF2079474A5287B62FBF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/dls_solver.cpp */,
+				320F179B26DF4A8D9770309F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/essential_solver.cpp */,
+				7905CEE1E8BC48F18EF584AB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/estimator.cpp */,
+				06FE50F17ACA429DA73ABAAF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/fundamental_solver.cpp */,
+				EAAD8DEE90074BC09E1AF87B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/gamma_values.cpp */,
+				085E79FDB8A649279206B923 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/homography_solver.cpp */,
+				C45A075C45254CD2A700BBA6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/local_optimization.cpp */,
+				CA7A83176B9F4C588044F52E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/pnp_solver.cpp */,
+				AF4895006E4B47BE894CEA31 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/quality.cpp */,
+				87555D19E3064AC7B8AD4284 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/ransac_solvers.cpp */,
+				2818BBA41B5942CAA1974EE5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/sampler.cpp */,
+				B84C5B13BB4642A7843D2FAB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/termination.cpp */,
+				77E3E266A502480EB4FE9D8F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/src/usac/utils.cpp */,
+				48E65CB8261643668BC474FE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d/opencl_kernels_calib3d.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0E4E83C458C14FAF95F97F0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
-			targetProxy = D8796B8485364A9A8CCEAEB1 /* PBXContainerItemProxy */;
-		};
-		2AE4C4E3F4AE4B5C85557DFA /* PBXTargetDependency */ = {
+		027360A1443E4589BC2242C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8A698299B26B15B8D3BC794A /* opencv_calib3d */;
-			targetProxy = 5DAAB74605434DEF9FE76021 /* PBXContainerItemProxy */;
+			targetProxy = F262DD36A66A4397A40D900E /* PBXContainerItemProxy */;
 		};
-		406D51475C7B4B4798A16259 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
-			targetProxy = 1205D5CB30C341B08FB4E5C8 /* PBXContainerItemProxy */;
-		};
-		906E7B6D0E2B4DC48BC9B9ED /* PBXTargetDependency */ = {
+		3A4E1FFBA6424490A7C97B90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
-			targetProxy = 884EE78B373B4152854D974A /* PBXContainerItemProxy */;
+			targetProxy = 615C428E02D045A3AE58DEE3 /* PBXContainerItemProxy */;
 		};
-		F231C6775E554F00AE4BD83A /* PBXTargetDependency */ = {
+		62ABB73EEDDA4573AE2656DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
+			targetProxy = 10019E39A5F8449BB2A48382 /* PBXContainerItemProxy */;
+		};
+		B4B52B86D06C4A17B294577F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
-			targetProxy = C42DE26C9ED64B4A84B62891 /* PBXContainerItemProxy */;
+			targetProxy = FE7BFBC2058D46AD962D59EB /* PBXContainerItemProxy */;
+		};
+		DBB33B1484EB47119410F63B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
+			targetProxy = C87CA33B8A84450D9350521C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0481A0254A9243EF8262B50D /* Debug */ = {
+		12E93CAF46164FCA99444578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
+			};
+			name = Release;
+		};
+		151E6A59A04648E4B74FEB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1C0CD671A13F48E5BEDE4598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
+			};
+			name = Debug;
+		};
+		22A69426CA8643C5A83F35C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2C7974EC70C6446C98ED939E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4B7D0806AE254CACBAB6F302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4C316CDB097249BEA239879E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -893,127 +994,7 @@ fi
 			};
 			name = Debug;
 		};
-		11EE31951E5246FBA9F7F440 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/lib/Release";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,"'__OPENCV_BUILD=1'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/flann/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/imgproc/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/features2d/include","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated-copy     -DNDEBUG  -DNDEBUG '-std=c++11' -fPIC ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = opencv_calib3d;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos","$(inherited)");
-				TARGET_TEMP_DIR = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build/opencv_calib3d.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		309E18994A814067A119850A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		4453A75B6E5E43459AB06A68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CODE_SIGNING_REQUIRED = NO;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
-			};
-			name = Debug;
-		};
-		489A7C48719A4E28AE59981A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		632ABD18F92744868F634089 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		6CD6A012D5A74657B340FA96 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		96523E9BE4FB4E72BE88EA05 /* Debug */ = {
+		54104A04210B4225ACE7FD35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1043,7 +1024,7 @@ fi
 			};
 			name = Debug;
 		};
-		96985F2BA62546B1A21FFD58 /* Release */ = {
+		7A61AE0A1FFE4FBBB1E5A6DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1056,45 +1037,64 @@ fi
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		BB352BA3DAF742EF8046C502 /* Release */ = {
+		A9F36C6B19BE4A4C8094433C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B0292BCB351C48DBACC12953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
-				CODE_SIGNING_REQUIRED = NO;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
-			};
-			name = Release;
-		};
-		C584AD44360841A5B5268D5D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,"'__OPENCV_BUILD=1'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/calib3d","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/flann/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/imgproc/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/features2d/include","$(inherited)");
 				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated-copy     -DNDEBUG  -DNDEBUG '-std=c++11' -fPIC ";
+				OTHER_LIBTOOLFLAGS = ("");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = opencv_calib3d;
 				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build/opencv_calib3d.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		D84431E4F27C47E588773E48 /* Release */ = {
+		B6B4334FC8D1434F90712E8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1107,34 +1107,14 @@ fi
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		E16F1CD87B9141E2971B25E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = package;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		E772E7561F544B6E9269BC02 /* Debug */ = {
+		B73D75CF09D24C018C87D2D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1152,75 +1132,95 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = Release;
+		};
+		CC95A166AD4D4989BD25C05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1ED910C9927D40EA810268CF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		1EB82650B30A4582A6DB4CAC /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E16F1CD87B9141E2971B25E2 /* Debug */,
-				C584AD44360841A5B5268D5D /* Release */,
+				B6B4334FC8D1434F90712E8D /* Debug */,
+				A9F36C6B19BE4A4C8094433C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		43CAB8C59A404B36816030A8 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		4A73DAB68EA74893A6FFAD3F /* Build configuration list for PBXProject "opencv_calib3d" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E772E7561F544B6E9269BC02 /* Debug */,
-				96985F2BA62546B1A21FFD58 /* Release */,
+				1C0CD671A13F48E5BEDE4598 /* Debug */,
+				12E93CAF46164FCA99444578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		43EA459D8DE84A94AF6B0D49 /* Build configuration list for PBXAggregateTarget "package" */ = {
+		64E0A8F7BFD6453E82F80796 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CD6A012D5A74657B340FA96 /* Debug */,
-				309E18994A814067A119850A /* Release */,
+				4B7D0806AE254CACBAB6F302 /* Debug */,
+				B73D75CF09D24C018C87D2D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		6100D24D1B834538B8C8BDED /* Build configuration list for PBXProject "opencv_calib3d" */ = {
+		9A49FE267B00412782DE76DA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4453A75B6E5E43459AB06A68 /* Debug */,
-				BB352BA3DAF742EF8046C502 /* Release */,
+				4C316CDB097249BEA239879E /* Debug */,
+				2C7974EC70C6446C98ED939E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		84C72FE3FFB84D26B0FB1F12 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		C1B598CB186140FA8FDDCF0F /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0481A0254A9243EF8262B50D /* Debug */,
-				D84431E4F27C47E588773E48 /* Release */,
+				151E6A59A04648E4B74FEB46 /* Debug */,
+				CC95A166AD4D4989BD25C05F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		AC9AC2393CA447B0BB087F78 /* Build configuration list for PBXNativeTarget "opencv_calib3d" */ = {
+		DAFD7764513948DD96042A4D /* Build configuration list for PBXNativeTarget "opencv_calib3d" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96523E9BE4FB4E72BE88EA05 /* Debug */,
-				11EE31951E5246FBA9F7F440 /* Release */,
+				54104A04210B4225ACE7FD35 /* Debug */,
+				B0292BCB351C48DBACC12953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		EAA1C9CBC4CE4861ACFBD96A /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+		F1615B9354DA467E9F224A4B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				489A7C48719A4E28AE59981A /* Debug */,
-				632ABD18F92744868F634089 /* Release */,
+				22A69426CA8643C5A83F35C0 /* Debug */,
+				7A61AE0A1FFE4FBBB1E5A6DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2AC9AC17EF754FC9A52316D0 /* Project object */;
+	rootObject = 8D44B8E9BD394AC6A89F895C /* Project object */;
 }

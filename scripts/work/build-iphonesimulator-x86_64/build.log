@@ -1,0 +1,623 @@
+[1/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/adler32.c.o
+[2/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/crc32.c.o
+[3/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/gzread.c.o
+[4/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.c.o
+[5/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/inffast.c.o
+[6/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/gzwrite.c.o
+[7/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/compress.c.o
+[8/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/gzlib.c.o
+[9/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/infback.c.o
+[10/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/gzclose.c.o
+[11/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/inflate.c.o
+[12/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jcapistd.c.o
+[13/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/zutil.c.o
+[14/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/uncompr.c.o
+[15/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/trees.c.o
+[16/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jcdiffct.c.o
+[17/558] Building C object 3rdparty/zlib/CMakeFiles/zlib.dir/deflate.c.o
+[18/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jcprepct.c.o
+[19/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jclossls.c.o
+[20/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jcmainct.c.o
+[21/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jdapistd.c.o
+[22/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jddiffct.c.o
+[23/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jccolor.c.o
+[24/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jdpostct.c.o
+[25/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jdlossls.c.o
+[26/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jutils.c.o
+[27/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jdmainct.c.o
+[28/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jcsample.c.o
+[29/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jdsample.c.o
+[30/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jccoefct.c.o
+[31/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jdcolor.c.o
+[32/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jcdctmgr.c.o
+[33/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jddctmgr.c.o
+[34/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jfdctfst.c.o
+[35/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jdcoefct.c.o
+[36/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jidctflt.c.o
+[37/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jidctfst.c.o
+[38/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jfdctint.c.o
+[39/558] Linking C static library 3rdparty/lib/libzlib.a
+[40/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jdmerge.c.o
+[41/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jidctred.c.o
+[42/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jcdiffct.c.o
+[43/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jcapistd.c.o
+[44/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jclossls.c.o
+[45/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jccolor.c.o
+[46/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jquant2.c.o
+[47/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jquant1.c.o
+[48/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg12-static.dir/src/jidctint.c.o
+[49/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jcmainct.c.o
+[50/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jcprepct.c.o
+[51/558] Processing OpenCL kernels (core)
+[52/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jdapistd.c.o
+[53/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jdpostct.c.o
+[54/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jdlossls.c.o
+[55/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jddiffct.c.o
+[56/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jutils.c.o
+[57/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jcsample.c.o
+[58/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcapistd.c.o
+[59/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jdsample.c.o
+[60/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jdcolor.c.o
+[61/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jccolor.c.o
+[62/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/jpeg16-static.dir/src/jdmainct.c.o
+[63/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/buffer_area.cpp.o
+[64/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.o
+[65/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.o
+[66/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/bindings_utils.cpp.o
+[67/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/channels.cpp.o
+[68/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/async.cpp.o
+[69/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/batch_distance.cpp.o
+[70/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o
+[71/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.o
+[72/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/check.cpp.o
+[73/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o
+[74/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o
+[75/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o
+[76/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert_c.cpp.o
+[77/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat_nd.cpp.o
+[78/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/count_non_zero.dispatch.cpp.o
+[79/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.o
+[80/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert_scale.dispatch.cpp.o
+[81/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert.dispatch.cpp.o
+[82/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o
+[83/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o
+[84/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/arithm.dispatch.cpp.o
+[85/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o
+[86/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.o
+[87/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o
+[88/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o
+[89/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.o
+[90/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o
+[91/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/has_non_zero.dispatch.cpp.o
+[92/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.o
+[93/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.o
+[94/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.o
+[95/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.o
+[96/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lut.cpp.o
+[97/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/logger.cpp.o
+[98/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o
+[99/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o
+[100/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.o
+[101/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.o
+[102/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.o
+[103/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_c.cpp.o
+[104/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_iterator.cpp.o
+[105/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o
+[106/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_expressions.cpp.o
+[107/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_sparse.cpp.o
+[108/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_transform.cpp.o
+[109/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/mean.dispatch.cpp.o
+[110/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/merge.dispatch.cpp.o
+[111/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.o
+[112/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/minmax.cpp.o
+[113/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_wrap.cpp.o
+[114/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clblas.cpp.o
+[115/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matmul.dispatch.cpp.o
+[116/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clfft.cpp.o
+[117/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/norm.cpp.o
+[118/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o
+[119/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.o
+[120/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.o
+[121/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.o
+[122/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.o
+[123/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_operations.cpp.o
+[124/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel_openmp.cpp.o
+[125/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel_tbb.cpp.o
+[126/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel.cpp.o
+[127/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.o
+[128/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence_json.cpp.o
+[129/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence_base64_encoding.cpp.o
+[130/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence_types.cpp.o
+[131/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence_yml.cpp.o
+[132/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.o
+[133/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence_xml.cpp.o
+[134/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.o
+[135/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/split.dispatch.cpp.o
+[136/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.o
+[137/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.o
+[138/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel_impl.cpp.o
+[139/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stat_c.cpp.o
+[140/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.o
+[141/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.o
+[142/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/sum.dispatch.cpp.o
+[143/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.o
+[144/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.o
+[145/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.o
+[146/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/datafile.cpp.o
+[147/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.o
+[148/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcdiffct.c.o
+[149/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/logtagconfigparser.cpp.o
+[150/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcmainct.c.o
+[151/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcprepct.c.o
+[152/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/filesystem.cpp.o
+[153/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jclossls.c.o
+[154/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcsample.c.o
+[155/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/logtagmanager.cpp.o
+[156/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jddiffct.c.o
+[157/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdapistd.c.o
+[158/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdlossls.c.o
+[159/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdmainct.c.o
+[160/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdpostct.c.o
+[161/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdcolor.c.o
+[162/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdsample.c.o
+[163/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jutils.c.o
+[164/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.o
+[165/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o
+[166/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jccoefct.c.o
+[167/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcdctmgr.c.o
+[168/558] Building CXX object modules/flann/CMakeFiles/opencv_flann.dir/src/flann.cpp.o
+[169/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jddctmgr.c.o
+[170/558] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/samples.cpp.o
+[171/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdcoefct.c.o
+[172/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jfdctfst.c.o
+[173/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jfdctint.c.o
+[174/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jidctflt.c.o
+[175/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jidctfst.c.o
+[176/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdmerge.c.o
+[177/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jidctred.c.o
+[178/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcinit.c.o
+[179/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jquant1.c.o
+[180/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcicc.c.o
+[181/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jclhuff.c.o
+[182/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jquant2.c.o
+[183/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcapimin.c.o
+[184/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcomapi.c.o
+[185/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcmarker.c.o
+[186/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcmaster.c.o
+[187/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jidctint.c.o
+[188/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdatadst.c.o
+[189/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcphuff.c.o
+[190/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcparam.c.o
+[191/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jctrans.c.o
+[192/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdapimin.c.o
+[193/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdatasrc.c.o
+[194/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdicc.c.o
+[195/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdinput.c.o
+[196/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdlhuff.c.o
+[197/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdhuff.c.o
+[198/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdmaster.c.o
+[199/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdtrans.c.o
+[200/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdphuff.c.o
+[201/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jerror.c.o
+[202/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jfdctflt.c.o
+[203/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jmemnobs.c.o
+[204/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jpeg_nbits.c.o
+[205/558] Linking CXX static library lib/libopencv_core.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(hal_internal.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(opencl_clblas.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(opencl_clfft.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(opencl_core.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(parallel_openmp.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(parallel_tbb.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(stl.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(opencl_kernels_core.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(hal_internal.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(opencl_clblas.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(opencl_clfft.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(opencl_core.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(parallel_openmp.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(parallel_tbb.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(stl.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_core.a(opencl_kernels_core.cpp.o) has no symbols
+[206/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdmarker.c.o
+[207/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jmemmgr.c.o
+[208/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jaricom.c.o
+[209/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcarith.c.o
+[210/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/sharpyuv/sharpyuv_csp.c.o
+[211/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/sharpyuv/sharpyuv_cpu.c.o
+[212/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jdarith.c.o
+[213/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/sharpyuv/sharpyuv_dsp.c.o
+[214/558] Processing OpenCL kernels (imgproc)
+[215/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/sharpyuv/sharpyuv_gamma.c.o
+[216/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/sharpyuv/sharpyuv_neon.c.o
+[217/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/sharpyuv/sharpyuv.c.o
+[218/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dec/alpha_dec.c.o
+[219/558] Building C object 3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jchuff.c.o
+[220/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/sharpyuv/sharpyuv_sse2.c.o
+[221/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dec/buffer_dec.c.o
+[222/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dec/idec_dec.c.o
+[223/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dec/io_dec.c.o
+[224/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dec/frame_dec.c.o
+[225/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color.cpp.o
+[226/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/blend.cpp.o
+[227/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.cpp.o
+[228/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/approx.cpp.o
+[229/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/bilateral_filter.dispatch.cpp.o
+[230/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/canny.cpp.o
+[231/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.dispatch.cpp.o
+[232/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/clahe.cpp.o
+[233/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_hsv.dispatch.cpp.o
+[234/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_lab.cpp.o
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/imgproc/src/color_lab.cpp:965:19: warning: unused variable 'enablePackedLab' [-Wunused-const-variable]
+  965 | static const bool enablePackedLab = true;
+      |                   ^~~~~~~~~~~~~~~
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/imgproc/src/color_lab.cpp:982:19: warning: unused variable 'enablePackedRGB2Luv' [-Wunused-const-variable]
+  982 | static const bool enablePackedRGB2Luv = true;
+      |                   ^~~~~~~~~~~~~~~~~~~
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/imgproc/src/color_lab.cpp:983:19: warning: unused variable 'enablePackedLuv2RGB' [-Wunused-const-variable]
+  983 | static const bool enablePackedLuv2RGB = true;
+      |                   ^~~~~~~~~~~~~~~~~~~
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/imgproc/src/color_lab.cpp:1387:20: warning: unused function 'trilinearPackedInterpolate' [-Wunused-function]
+ 1387 | static inline void trilinearPackedInterpolate(const v_uint16x8& inX, const v_uint16x8& inY, const v_uint16x8& inZ,
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+4 warnings generated.
+[235/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/box_filter.dispatch.cpp.o
+[236/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours.cpp.o
+[237/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_rgb.dispatch.cpp.o
+[238/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/colormap.cpp.o
+[239/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_yuv.dispatch.cpp.o
+[240/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours_approx.cpp.o
+[241/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours_common.cpp.o
+[242/558] Building CXX object modules/flann/CMakeFiles/opencv_flann.dir/src/miniflann.cpp.o
+[243/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours_link.cpp.o
+[244/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours_new.cpp.o
+[245/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/cornersubpix.cpp.o
+[246/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/deriv.cpp.o
+[247/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/corner.cpp.o
+[248/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/convhull.cpp.o
+[249/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/demosaicing.cpp.o
+[250/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd.cpp.o
+[251/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/distransform.cpp.o
+[252/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd_new.cpp.o
+[253/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featureselect.cpp.o
+[254/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/gabor.cpp.o
+[255/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/drawing.cpp.o
+[256/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hershey_fonts.cpp.o
+[257/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/generalized_hough.cpp.o
+[258/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/geometry.cpp.o
+[259/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/grabcut.cpp.o
+[260/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/floodfill.cpp.o
+[261/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/intersection.cpp.o
+[262/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/histogram.cpp.o
+[263/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/intelligent_scissors.cpp.o
+[264/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/main.cpp.o
+[265/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hough.cpp.o
+[266/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/linefit.cpp.o
+[267/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/lsd.cpp.o
+[268/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/matchcontours.cpp.o
+[269/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/filter.dispatch.cpp.o
+[270/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/moments.cpp.o
+[271/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/min_enclosing_triangle.cpp.o
+[272/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/phasecorr.cpp.o
+[273/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/connectedcomponents.cpp.o
+[274/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/median_blur.dispatch.cpp.o
+[275/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/rotcalipers.cpp.o
+[276/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyramids.cpp.o
+[277/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/samplers.cpp.o
+[278/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/segmentation.cpp.o
+[279/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/morph.dispatch.cpp.o
+[280/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/shapedescr.cpp.o
+[281/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/spatialgradient.cpp.o
+[282/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/tables.cpp.o
+[283/558] Linking CXX static library lib/libopencv_flann.a
+[284/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/templmatch.cpp.o
+[285/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dec/quant_dec.c.o
+[286/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/subdivision2d.cpp.o
+[287/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/stackblur.cpp.o
+[288/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dec/tree_dec.c.o
+[289/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/resize.cpp.o
+[290/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dec/webp_dec.c.o
+[291/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dec/vp8_dec.c.o
+[292/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.cpp.o
+[293/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/demux/anim_decode.c.o
+[294/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/alpha_processing_mips_dsp_r2.c.o
+[295/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dec/vp8l_dec.c.o
+[296/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/alpha_processing.c.o
+[297/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/alpha_processing_neon.c.o
+[298/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/demux/demux.c.o
+[299/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/alpha_processing_sse41.c.o
+[300/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/sumpixels.dispatch.cpp.o
+[301/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/alpha_processing_sse2.c.o
+[302/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/cost_neon.c.o
+[303/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/cost.c.o
+[304/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/cost_mips32.c.o
+[305/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/cpu.c.o
+[306/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/cost_sse2.c.o
+[307/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/cost_mips_dsp_r2.c.o
+[308/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/utils.cpp.o
+[309/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/dec_clip_tables.c.o
+[310/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/dec_mips32.c.o
+[311/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/dec_mips_dsp_r2.c.o
+[312/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/dec_msa.c.o
+[313/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/dec_neon.c.o
+[314/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/dec.c.o
+[315/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/enc_mips32.c.o
+[316/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/enc_mips_dsp_r2.c.o
+[317/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/enc_msa.c.o
+[318/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/opencl_kernels_imgproc.cpp.o
+[319/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/enc_neon.c.o
+[320/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/dec_sse41.c.o
+[321/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/thresh.cpp.o
+[322/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/filters_mips_dsp_r2.c.o
+[323/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/filters_msa.c.o
+[324/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/enc.c.o
+[325/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/dec_sse2.c.o
+[326/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/filters.c.o
+[327/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/filters_neon.c.o
+[328/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/enc_sse41.c.o
+[329/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/enc_sse2.c.o
+[330/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/lossless_enc_mips32.c.o
+[331/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/lossless_enc_mips_dsp_r2.c.o
+[332/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/lossless_enc_neon.c.o
+[333/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/lossless_mips_dsp_r2.c.o
+[334/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/lossless_enc.c.o
+[335/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/lossless_enc_msa.c.o
+[336/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/lossless.c.o
+[337/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/lossless_msa.c.o
+[338/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/filters_sse2.c.o
+[339/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/lossless_enc_sse41.c.o
+[340/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/lossless_sse41.c.o
+[341/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/lossless_neon.c.o
+[342/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/rescaler.c.o
+[343/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/lossless_enc_sse2.c.o
+[344/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/rescaler_msa.c.o
+[345/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/rescaler_mips_dsp_r2.c.o
+[346/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/rescaler_neon.c.o
+[347/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/lossless_sse2.c.o
+[348/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/rescaler_mips32.c.o
+[349/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/ssim.c.o
+[350/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/rescaler_sse2.c.o
+[351/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/upsampling_mips_dsp_r2.c.o
+[352/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/upsampling_neon.c.o
+[353/558] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/smooth.dispatch.cpp.o
+[354/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/ssim_sse2.c.o
+[355/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/upsampling_msa.c.o
+[356/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/upsampling_sse41.c.o
+[357/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/yuv_mips32.c.o
+[358/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/yuv_neon.c.o
+[359/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/upsampling.c.o
+[360/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/upsampling_sse2.c.o
+[361/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/alpha_enc.c.o
+[362/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/yuv_mips_dsp_r2.c.o
+[363/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/analysis_enc.c.o
+[364/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/config_enc.c.o
+[365/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/yuv_sse41.c.o
+[366/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/yuv.c.o
+[367/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/backward_references_cost_enc.c.o
+[368/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dsp/yuv_sse2.c.o
+[369/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/cost_enc.c.o
+[370/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/filter_enc.c.o
+[371/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/frame_enc.c.o
+[372/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/near_lossless_enc.c.o
+[373/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/backward_references_enc.c.o
+[374/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/iterator_enc.c.o
+[375/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/picture_enc.c.o
+[376/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/histogram_enc.c.o
+[377/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/picture_psnr_enc.c.o
+[378/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/picture_rescale_enc.c.o
+[379/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/picture_csp_enc.c.o
+[380/558] Linking CXX static library lib/libopencv_imgproc.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgproc.a(main.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgproc.a(opencl_kernels_imgproc.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgproc.a(main.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgproc.a(opencl_kernels_imgproc.cpp.o) has no symbols
+[381/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/syntax_enc.c.o
+[382/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/tree_enc.c.o
+[383/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/webp_enc.c.o
+[384/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/predictor_enc.c.o
+[385/558] Processing OpenCL kernels (features2d)
+[386/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/token_enc.c.o
+[387/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/quant_enc.c.o
+[388/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/mux/muxinternal.c.o
+[389/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/mux/muxedit.c.o
+[390/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/mux/muxread.c.o
+[391/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/bit_reader_utils.c.o
+[392/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/picture_tools_enc.c.o
+[393/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/mux/anim_encode.c.o
+[394/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/color_cache_utils.c.o
+[395/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/bit_writer_utils.c.o
+[396/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/enc/vp8l_enc.c.o
+[397/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.o
+[398/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/draw.cpp.o
+[399/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.o
+[400/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/akaze.cpp.o
+[401/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/affine_feature.cpp.o
+[402/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.o
+[403/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.o
+[404/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/brisk.cpp.o
+[405/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.o
+[406/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.o
+[407/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.cpp.o
+[408/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast.cpp.o
+[409/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze.cpp.o
+[410/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/gftt.cpp.o
+[411/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.o
+[412/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.o
+[413/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/filters_utils.c.o
+[414/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.o
+[415/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.o
+[416/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/huffman_utils.c.o
+[417/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/huffman_encode_utils.c.o
+[418/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.o
+[419/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/palette.c.o
+[420/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.o
+[421/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/quant_levels_dec_utils.c.o
+[422/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/main.cpp.o
+[423/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/quant_levels_utils.c.o
+[424/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/random_utils.c.o
+[425/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/thread_utils.c.o
+[426/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/rescaler_utils.c.o
+[427/558] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/utils/utils.c.o
+[428/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/pngmem.c.o
+[429/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/pngerror.c.o
+[430/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/pngget.c.o
+[431/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/pngpread.c.o
+[432/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/pngrio.c.o
+[433/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/png.c.o
+[434/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/orb.cpp.o
+[435/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.cpp.o
+[436/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/pngread.c.o
+[437/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.o
+[438/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/pngset.c.o
+[439/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/pngtrans.c.o
+[440/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/pngwio.c.o
+[441/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/pngwtran.c.o
+[442/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/pngrutil.c.o
+[443/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/matchers.cpp.o
+[444/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/pngwrite.c.o
+[445/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/intel/intel_init.c.o
+[446/558] Processing OpenCL kernels (photo)
+[447/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/pngrtran.c.o
+[448/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/pngwutil.c.o
+[449/558] Building C object 3rdparty/libpng/CMakeFiles/libpng.dir/intel/filter_sse2_intrinsics.c.o
+[450/558] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/sift.dispatch.cpp.o
+[451/558] Linking C static library 3rdparty/lib/liblibpng.a
+[452/558] Linking CXX static library lib/libopencv_features2d.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_features2d.a(dynamic.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_features2d.a(main.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_features2d.a(opencl_kernels_features2d.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_features2d.a(dynamic.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_features2d.a(main.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_features2d.a(opencl_kernels_features2d.cpp.o) has no symbols
+[453/558] Processing OpenCL kernels (calib3d)
+[454/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_avif.cpp.o
+[455/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o
+[456/558] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o
+[457/558] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o
+[458/558] Linking C static library 3rdparty/lib/liblibwebp.a
+[459/558] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o
+[460/558] Linking C static library 3rdparty/lib/liblibjpeg-turbo.a
+[461/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o
+[462/558] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o
+[463/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ap3p.cpp.o
+[464/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.cpp.o
+[465/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/apple_conversions.mm.o
+[466/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration_handeye.cpp.o
+[467/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/compat_ptsetreg.cpp.o
+[468/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/ios_conversions.mm.o
+[469/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.cpp.o
+[470/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/epnp.cpp.o
+[471/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/circlesgrid.cpp.o
+[472/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/dls.cpp.o
+[473/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/homography_decomp.cpp.o
+[474/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/main.cpp.o
+[475/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.cpp.o
+[476/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/chessboard.cpp.o
+[477/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fisheye.cpp.o
+[478/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/levmarq.cpp.o
+[479/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ippe.cpp.o
+[480/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/p3p.cpp.o
+[481/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.cpp.o
+[482/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/five-point.cpp.o
+[483/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/polynom_solver.cpp.o
+[484/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.cpp.o
+[485/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/quadsubpix.cpp.o
+[486/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/rho.cpp.o
+[487/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.cpp.o
+[488/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ptsetreg.cpp.o
+[489/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/sqpnp.cpp.o
+[490/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/undistort.dispatch.cpp.o
+[491/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.cpp.o
+[492/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/solvepnp.cpp.o
+[493/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.cpp.o
+[494/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/upnp.cpp.o
+[495/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/dls_solver.cpp.o
+[496/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/bundle.cpp.o
+[497/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/essential_solver.cpp.o
+[498/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/degeneracy.cpp.o
+[499/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/gamma_values.cpp.o
+[500/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/estimator.cpp.o
+[501/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/fundamental_solver.cpp.o
+[502/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/homography_solver.cpp.o
+[503/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/pnp_solver.cpp.o
+[504/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/termination.cpp.o
+[505/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/sampler.cpp.o
+[506/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/local_optimization.cpp.o
+[507/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/quality.cpp.o
+[508/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/opencl_kernels_calib3d.cpp.o
+[509/558] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o
+[510/558] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o
+[511/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/ransac_solvers.cpp.o
+[512/558] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o
+[513/558] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/utils.cpp.o
+[514/558] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o
+[515/558] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o
+[516/558] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o
+[517/558] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o
+[518/558] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/opencl_kernels_photo.cpp.o
+[519/558] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o
+[520/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o
+[521/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o
+[522/558] Linking CXX static library lib/libopencv_calib3d.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_calib3d.a(main.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_calib3d.a(upnp.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_calib3d.a(opencl_kernels_calib3d.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_calib3d.a(main.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_calib3d.a(upnp.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_calib3d.a(opencl_kernels_calib3d.cpp.o) has no symbols
+[523/558] Processing OpenCL kernels (stitching)
+[524/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o
+[525/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o
+[526/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o
+[527/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o
+[528/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o
+[529/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o
+[530/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000_openjpeg.cpp.o
+[531/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o
+[532/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pfm.cpp.o
+[533/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o
+[534/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o
+[535/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_spng.cpp.o
+[536/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o
+[537/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o
+[538/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o
+[539/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o
+[540/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o
+[541/558] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o
+[542/558] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o
+[543/558] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.o
+[544/558] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o
+[545/558] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o
+[546/558] Linking CXX static library lib/libopencv_photo.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_photo.a(opencl_kernels_photo.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_photo.a(opencl_kernels_photo.cpp.o) has no symbols
+[547/558] Linking CXX static library lib/libopencv_imgcodecs.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_avif.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_exr.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_gdal.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_gdcm.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_jpeg2000.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_jpeg2000_openjpeg.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_spng.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_tiff.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_avif.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_exr.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_gdal.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_gdcm.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_jpeg2000.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_jpeg2000_openjpeg.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_spng.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_imgcodecs.a(grfmt_tiff.cpp.o) has no symbols
+[548/558] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o
+[549/558] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o
+[550/558] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o
+[551/558] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o
+[552/558] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.o
+[553/558] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o
+[554/558] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o
+[555/558] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o
+[556/558] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o
+[557/558] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o
+[558/558] Linking CXX static library lib/libopencv_stitching.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_stitching.a(opencl_kernels_stitching.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: lib/libopencv_stitching.a(opencl_kernels_stitching.cpp.o) has no symbols

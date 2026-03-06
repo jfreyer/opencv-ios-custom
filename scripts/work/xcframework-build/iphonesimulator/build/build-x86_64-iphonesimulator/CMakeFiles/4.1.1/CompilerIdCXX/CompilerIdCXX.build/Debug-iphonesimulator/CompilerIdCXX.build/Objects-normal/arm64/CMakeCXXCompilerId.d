@@ -1,2 +1,0 @@
-dependencies: \
-  /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphonesimulator/build/build-x86_64-iphonesimulator/CMakeFiles/4.1.1/CompilerIdCXX/CMakeCXXCompilerId.cpp

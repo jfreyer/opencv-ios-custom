@@ -1,0 +1,99 @@
+Compilation failed:
+    source file: '/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: '/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_a281a
+[1/2] /usr/bin/c++   -O3 -DNDEBUG -std=c++11 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -mios-simulator-version-min=13.0 -fPIE -MD -MT CMakeFiles/cmTC_a281a.dir/src.cxx.o -MF CMakeFiles/cmTC_a281a.dir/src.cxx.o.d -o CMakeFiles/cmTC_a281a.dir/src.cxx.o -c /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp/src.cxx
+[2/2] : && /usr/bin/c++ -O3 -DNDEBUG -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -mios-simulator-version-min=13.0 -Wl,-headerpad_max_install_names  -Wl,--as-needed CMakeFiles/cmTC_a281a.dir/src.cxx.o -o cmTC_a281a.app/cmTC_a281a   && :
+FAILED: [code=1] cmTC_a281a.app/cmTC_a281a 
+: && /usr/bin/c++ -O3 -DNDEBUG -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -mios-simulator-version-min=13.0 -Wl,-headerpad_max_install_names  -Wl,--as-needed CMakeFiles/cmTC_a281a.dir/src.cxx.o -o cmTC_a281a.app/cmTC_a281a   && :
+ld: unknown options: --as-needed 
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: '/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_c9ccb
+[1/2] /usr/bin/c++   -O3 -DNDEBUG -std=c++11 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -mios-simulator-version-min=13.0 -fPIE -MD -MT CMakeFiles/cmTC_c9ccb.dir/src.cxx.o -MF CMakeFiles/cmTC_c9ccb.dir/src.cxx.o.d -o CMakeFiles/cmTC_c9ccb.dir/src.cxx.o -c /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp/src.cxx
+[2/2] : && /usr/bin/c++ -O3 -DNDEBUG -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -mios-simulator-version-min=13.0 -Wl,-headerpad_max_install_names  -Wl,--no-undefined CMakeFiles/cmTC_c9ccb.dir/src.cxx.o -o cmTC_c9ccb.app/cmTC_c9ccb   && :
+FAILED: [code=1] cmTC_c9ccb.app/cmTC_c9ccb 
+: && /usr/bin/c++ -O3 -DNDEBUG -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -mios-simulator-version-min=13.0 -Wl,-headerpad_max_install_names  -Wl,--no-undefined CMakeFiles/cmTC_c9ccb.dir/src.cxx.o -o cmTC_c9ccb.app/cmTC_c9ccb   && :
+ld: unknown options: --no-undefined 
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-maybe-uninitialized', did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-maybe-uninitialized'
+===== BUILD LOG =====
+Change Dir: '/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_6aec4
+[1/2] /usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-variable -Wno-unused-function -Wno-shadow  -O3 -DNDEBUG  -DNDEBUG -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -mios-simulator-version-min=13.0 -fPIE    -Wno-maybe-uninitialized -MD -MT CMakeFiles/cmTC_6aec4.dir/src.c.o -MF CMakeFiles/cmTC_6aec4.dir/src.c.o.d -o CMakeFiles/cmTC_6aec4.dir/src.c.o -c /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-maybe-uninitialized'; did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+    1 | #pragma
+      |        ^
+2 warnings generated.
+[2/2] : && /usr/bin/cc -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-variable -Wno-unused-function -Wno-shadow  -O3 -DNDEBUG  -DNDEBUG -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -mios-simulator-version-min=13.0 -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6aec4.dir/src.c.o -o cmTC_6aec4.app/cmTC_6aec4   && :
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-stringop-overflow', did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-stringop-overflow'
+===== BUILD LOG =====
+Change Dir: '/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_be654
+[1/2] /usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -Wno-suggest-override -Wno-inconsistent-missing-override -Wno-implicit-fallthrough -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -std=c++11 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -mios-simulator-version-min=13.0 -fPIE    -Wno-stringop-overflow -MD -MT CMakeFiles/cmTC_be654.dir/src.cxx.o -MF CMakeFiles/cmTC_be654.dir/src.cxx.o.d -o CMakeFiles/cmTC_be654.dir/src.cxx.o -c /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-stringop-overflow'; did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+    1 | #pragma
+      |        ^
+2 warnings generated.
+[2/2] : && /usr/bin/c++ -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -Wno-suggest-override -Wno-inconsistent-missing-override -Wno-implicit-fallthrough -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -mios-simulator-version-min=13.0 -Wl,-headerpad_max_install_names CMakeFiles/cmTC_be654.dir/src.cxx.o -o cmTC_be654.app/cmTC_be654   && :
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-stringop-overread' [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-stringop-overread'
+===== BUILD LOG =====
+Change Dir: '/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_92b2d
+[1/2] /usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -Wno-suggest-override -Wno-inconsistent-missing-override -Wno-implicit-fallthrough -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -std=c++11 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -mios-simulator-version-min=13.0 -fPIE    -Wno-stringop-overread -MD -MT CMakeFiles/cmTC_92b2d.dir/src.cxx.o -MF CMakeFiles/cmTC_92b2d.dir/src.cxx.o.d -o CMakeFiles/cmTC_92b2d.dir/src.cxx.o -c /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-stringop-overread' [-Wunknown-warning-option]
+/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/build-iphonesimulator-x86_64/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+    1 | #pragma
+      |        ^
+2 warnings generated.
+[2/2] : && /usr/bin/c++ -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -Wno-suggest-override -Wno-inconsistent-missing-override -Wno-implicit-fallthrough -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -mios-simulator-version-min=13.0 -Wl,-headerpad_max_install_names CMakeFiles/cmTC_92b2d.dir/src.cxx.o -o cmTC_92b2d.app/cmTC_92b2d   && :
+
+
+===== END =====
+

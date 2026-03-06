@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		01C65101F907E9BB1C14098B /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = BD082D6F88EF457F82FD22D7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 7BD26584CBCE4BB4952CB4E5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				47B81A8E0335574C48B53FF9 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,32 +20,32 @@
 		};
 		771FD8AEB39D811E2BC9B426 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 0D6947EBCB724EC5BB7FCF85 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = FDBCE488227041D9A815C577 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				5EEF79D4731D4E22841DC22C /* PBXTargetDependency */,
+				80C520656EE843D9BBCB7606 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		86736DDDED1F0A92597C9165 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 87F0C7FC586D468E95D52960 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 70F94351A19F49E9A9010AA6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				4A37AD32DF7A4230F99256AE /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				98CE003AB3714511A1C01087 /* PBXTargetDependency */,
-				4321F64CB4434842B6DA3D48 /* PBXTargetDependency */,
+				D4D42C86F17D4D75988888AF /* PBXTargetDependency */,
+				849FED3D3A544A51AAD039F9 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		A0A668F13D19F048AB9F8B68 /* RUN_TESTS */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 08B4DAE3777B450D9AF9E59B /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildConfigurationList = 121F9BDD48834E21BA8BD67B /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
 			buildPhases = (
 				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
 			);
@@ -56,12 +56,12 @@
 		};
 		E3A0E307AE475F45B5997A27 /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C645E5D247BB4AB6A94ED0FE /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = 8DB257134B464128944D67C2 /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				03AE21E70930469989DA932B /* PBXTargetDependency */,
+				B6D213AC6E0240EC9500E97D /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
@@ -69,83 +69,83 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		093CBBEE9B264084B52B57E1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_video_camera.mm */ = {isa = PBXBuildFile; fileRef = 1F263657CB4040C8A1BF0D47 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_video_camera.mm */; };
-		0BD2274BE30F4A968BC6E91D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/cap_ios.h */ = {isa = PBXBuildFile; fileRef = 4EB07D22C637402DAD5CE4CF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/cap_ios.h */; };
-		12CA596B58F04E7587CCDCF2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_photo_camera.mm */ = {isa = PBXBuildFile; fileRef = 7F95D1202FAA4E14B438AE2A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_photo_camera.mm */; };
-		1D3F6F5801104BFEA3EC9B23 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio_c.h */ = {isa = PBXBuildFile; fileRef = 5F3F92F0D4D949A78D725F4B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio_c.h */; };
-		25B0495222E140F0862AE0DF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_avfoundation.mm */ = {isa = PBXBuildFile; fileRef = D77436647E68425290E0A5B4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_avfoundation.mm */; };
-		2A462497E7134083B7ABB95D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_static.cpp */ = {isa = PBXBuildFile; fileRef = B75265EAC12540D6BEF7188F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_static.cpp */; };
-		3793C1832AAC48FE8F718008 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/registry.hpp */ = {isa = PBXBuildFile; fileRef = FADB0B1AFBDF40C6BE1C9F90 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/registry.hpp */; };
-		3DE76314BDAC496B82F68BB0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio.hpp */ = {isa = PBXBuildFile; fileRef = EBAFF1E1A4B0430084D42B6D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio.hpp */; };
-		43C2B87C8F6C4C6CB68998FB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */ = {isa = PBXBuildFile; fileRef = E05D61D8A5A64E9096ED2272 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */; };
-		6AC3DA5CBD3B4722BEF24EB2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_plugin.cpp */ = {isa = PBXBuildFile; fileRef = 3479452497AE4BB4977C76E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_plugin.cpp */; };
-		7349483E24CD40059B69699E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_registry.cpp */ = {isa = PBXBuildFile; fileRef = 4A1E69EFA17C4FABBC0DF5B8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_registry.cpp */; };
-		79127D0F6C934B0784A9E78A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_images.cpp */ = {isa = PBXBuildFile; fileRef = 0D29A003F8A54D258EEE6502 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_images.cpp */; };
-		841BB05CFEF34AE7B6304AA4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_decoder.cpp */ = {isa = PBXBuildFile; fileRef = 287F5D8C074545D69A80E0C3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_decoder.cpp */; };
-		862116C4D81C4955A096B568 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9351302802704CB196E69F91 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/CMakeLists.txt */; };
-		89D352CBAFA24003A8D484EE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_encoder.cpp */ = {isa = PBXBuildFile; fileRef = D8170A41918A4C168903DA86 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_encoder.cpp */; };
-		92188B995E2D4E2287992E58 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = EE1531D18D074C6485BC9623 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */; };
-		9B70FE38A0A64132A368FEB8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/videoio/CMakeFiles/opencv_videoio.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 0B56075C77FA4F798A515BAC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/videoio/CMakeFiles/opencv_videoio.dir/Info.plist */; };
-		A62CA008470E4D2E962C6EA7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio.hpp */ = {isa = PBXBuildFile; fileRef = 466B24B66B994F8B8B737584 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio.hpp */; };
-		BAC99420E1BD4367BBBB7BF6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_abstract_camera.mm */ = {isa = PBXBuildFile; fileRef = D0CBC2D7C0064BF0AD959E2B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_abstract_camera.mm */; };
-		CA8F90A1B72445E4B1B3B1EE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_c.cpp */ = {isa = PBXBuildFile; fileRef = 97559C6D5D5E4DE0B7D202FB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_c.cpp */; };
-		D137878673C9419F962AC216 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap.cpp */ = {isa = PBXBuildFile; fileRef = DEC913E966D049E3974FFA51 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap.cpp */; };
-		D2155B5CA7C2444C9EF6B038 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/legacy/constants_c.h */ = {isa = PBXBuildFile; fileRef = 72BFCE525E794EFB98DA0278 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/legacy/constants_c.h */; };
-		ED71BA2BF137475A83C41B44 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/container_avi.private.hpp */ = {isa = PBXBuildFile; fileRef = 916A5E367F964DD5A06D64BB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/container_avi.private.hpp */; };
-		F5FCD285B200401692E572BC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/container_avi.cpp */ = {isa = PBXBuildFile; fileRef = 01BD6825F75044E18D988062 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/container_avi.cpp */; };
-		F7BDA773DABC48819D36A3EC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 45680FE394244ECAAC28441D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/precomp.hpp */; };
-		FC22D9BD3D25406FB539A3EC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/utils.private.hpp */ = {isa = PBXBuildFile; fileRef = CDCFA3AD07684E96BBA2F9E5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/utils.private.hpp */; };
+		10A5BE4EDE234CFA99FFA7C3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio.hpp */ = {isa = PBXBuildFile; fileRef = 8DDCAAF6E0B24DE4A18E5E04 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio.hpp */; };
+		1271366FFBF24F86B67EEA48 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_abstract_camera.mm */ = {isa = PBXBuildFile; fileRef = 1A500080549049A3B633F5A9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_abstract_camera.mm */; };
+		1E1445FC4C454E60B78AC617 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/cap_ios.h */ = {isa = PBXBuildFile; fileRef = 5600D98C0CC94FC5B914E2A7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/cap_ios.h */; };
+		202B2059CFF242E28828EB90 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2F929FE722654A509F2DAD04 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/CMakeLists.txt */; };
+		2CC2A01C469D4AE7981EC61D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_video_camera.mm */ = {isa = PBXBuildFile; fileRef = 2E437FBE014E45C1811E8379 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_video_camera.mm */; };
+		2ED9B43992734C7BB50922D9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_decoder.cpp */ = {isa = PBXBuildFile; fileRef = 90A3BDF1BB1B440F85E61E35 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_decoder.cpp */; };
+		3DFF791DE9CD4F65BEDED233 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_photo_camera.mm */ = {isa = PBXBuildFile; fileRef = DD26D479B9A147159F44CAA0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_photo_camera.mm */; };
+		46B2073EC61A4518B5C91E80 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio_c.h */ = {isa = PBXBuildFile; fileRef = 25BB674B0A844FA8B09D7D1A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio_c.h */; };
+		4FEE3CF249FE44D090E45D0C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap.cpp */ = {isa = PBXBuildFile; fileRef = FC0DFBEF35AE4E17B5479947 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap.cpp */; };
+		5F02B3622E52458EBD9723E0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/legacy/constants_c.h */ = {isa = PBXBuildFile; fileRef = 241C3BD4CB7F41B0B6812960 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/legacy/constants_c.h */; };
+		6D88CA2691A141539C4973B5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_registry.cpp */ = {isa = PBXBuildFile; fileRef = 7553E5B645F041718BD688E6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_registry.cpp */; };
+		71D44A5233D544D4800B0833 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_static.cpp */ = {isa = PBXBuildFile; fileRef = CB949ADBC7334D78BF35F73C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_static.cpp */; };
+		7910F3025B1C479197C84395 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = F32839BE220442E9860F0A05 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */; };
+		822125BE93F648F5B7C6F06B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/registry.hpp */ = {isa = PBXBuildFile; fileRef = 8C10C5B832D94487B4A7402A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/registry.hpp */; };
+		894992D8AEB24DEDAA2B0A69 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_plugin.cpp */ = {isa = PBXBuildFile; fileRef = 8B8268D382054A45A189A33B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_plugin.cpp */; };
+		9D3CAA35AE34496381448783 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio.hpp */ = {isa = PBXBuildFile; fileRef = D3D391B0D0D54038885F5974 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio.hpp */; };
+		9D5E74CECAD64FF39A0E08E5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_images.cpp */ = {isa = PBXBuildFile; fileRef = AC7D72766D9948B7B1C40824 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_images.cpp */; };
+		9E60480CF04149228EC9C9B1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/container_avi.private.hpp */ = {isa = PBXBuildFile; fileRef = E5EE275D509840B793244BD3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/container_avi.private.hpp */; };
+		A1411C97733440E489D21DEB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/utils.private.hpp */ = {isa = PBXBuildFile; fileRef = 196DECE6304A4376A4B8B976 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/utils.private.hpp */; };
+		A427E909B4A64475B89EA54C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 558276477A224BF4A32F1E34 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */; };
+		B1B9668BEC1E43AFBBDBB196 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_encoder.cpp */ = {isa = PBXBuildFile; fileRef = CF67CAF7A67044A784EBEEAD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_encoder.cpp */; };
+		BC4CD9DEE8974C41A97D70D4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 0552AA11ABB843029D8DE0CC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/precomp.hpp */; };
+		CC01ECB2A3124ED6AD860458 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/videoio/CMakeFiles/opencv_videoio.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 6AB45C3CCB25430FB4E310DD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/videoio/CMakeFiles/opencv_videoio.dir/Info.plist */; };
+		DBF110A0D2FC4D14BC048258 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_avfoundation.mm */ = {isa = PBXBuildFile; fileRef = 11BE877D276C49139A1EC0F3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_avfoundation.mm */; };
+		E1F7B204CD3143F0915CFB59 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/container_avi.cpp */ = {isa = PBXBuildFile; fileRef = EC2EEBAA690D4E3A928228D2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/container_avi.cpp */; };
+		FBD18B949EBB46C28D878DC9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_c.cpp */ = {isa = PBXBuildFile; fileRef = 26DB832B26E0461BA36C0EE0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_c.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		0DEC1B66738F45F1B143F5D8 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		439B4ECF2EA14AACBE58A36C /* Release */ = {
+		03615241948B4A79920181D1 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		4AF7DD7F23884CA4903EA752 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		2CE95B74176F493D9A41E483 /* PBXContainerItemProxy */ = {
+		4713E5BD6EE0412BB99EA55B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B18FB80B600946EC8F2AA580 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 802FDDD075EC431F424D2375;
-			remoteInfo = opencv_videoio;
-		};
-		2D472100C3574F879354C6E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B18FB80B600946EC8F2AA580 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
-			remoteInfo = ZERO_CHECK;
-		};
-		6E1094A6D1C046998A22E508 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B18FB80B600946EC8F2AA580 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
-			remoteInfo = ZERO_CHECK;
-		};
-		976B2AD91CA5488D84F078B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B18FB80B600946EC8F2AA580 /* Project object */;
+			containerPortal = 3A2ED262E0B44C26BBE2D782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
 			remoteInfo = ALL_BUILD;
 		};
-		F623C0E892084CFCBE3BFAB8 /* PBXContainerItemProxy */ = {
+		86A7E3E03E704FC191B60270 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B18FB80B600946EC8F2AA580 /* Project object */;
+			containerPortal = 3A2ED262E0B44C26BBE2D782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802FDDD075EC431F424D2375;
+			remoteInfo = opencv_videoio;
+		};
+		A7AEA24BFB654F6CB0BD97DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A2ED262E0B44C26BBE2D782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
+			remoteInfo = ZERO_CHECK;
+		};
+		B79217C59ED943DD8F4DBC5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A2ED262E0B44C26BBE2D782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
+			remoteInfo = ZERO_CHECK;
+		};
+		DE8D48E91B4C4CFBAF1D648E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A2ED262E0B44C26BBE2D782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
 			remoteInfo = ALL_BUILD;
@@ -153,38 +153,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01BD6825F75044E18D988062 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/container_avi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = container_avi.cpp; path = src/container_avi.cpp; sourceTree = SOURCE_ROOT; };
-		0B56075C77FA4F798A515BAC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/videoio/CMakeFiles/opencv_videoio.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/videoio/CMakeFiles/opencv_videoio.dir/Info.plist"; sourceTree = "<absolute>"; };
-		0D29A003F8A54D258EEE6502 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_images.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cap_images.cpp; path = src/cap_images.cpp; sourceTree = SOURCE_ROOT; };
-		1F263657CB4040C8A1BF0D47 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_video_camera.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = cap_ios_video_camera.mm; path = src/cap_ios_video_camera.mm; sourceTree = SOURCE_ROOT; };
-		287F5D8C074545D69A80E0C3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_decoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cap_mjpeg_decoder.cpp; path = src/cap_mjpeg_decoder.cpp; sourceTree = SOURCE_ROOT; };
-		3479452497AE4BB4977C76E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_plugin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = backend_plugin.cpp; path = src/backend_plugin.cpp; sourceTree = SOURCE_ROOT; };
-		45680FE394244ECAAC28441D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
-		466B24B66B994F8B8B737584 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = videoio.hpp; path = include/opencv2/videoio.hpp; sourceTree = SOURCE_ROOT; };
-		4A1E69EFA17C4FABBC0DF5B8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_registry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = videoio_registry.cpp; path = src/videoio_registry.cpp; sourceTree = SOURCE_ROOT; };
-		4EB07D22C637402DAD5CE4CF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/cap_ios.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cap_ios.h; path = include/opencv2/videoio/cap_ios.h; sourceTree = SOURCE_ROOT; };
-		5F3F92F0D4D949A78D725F4B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = videoio_c.h; path = include/opencv2/videoio/videoio_c.h; sourceTree = SOURCE_ROOT; };
-		72BFCE525E794EFB98DA0278 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/legacy/constants_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = constants_c.h; path = include/opencv2/videoio/legacy/constants_c.h; sourceTree = SOURCE_ROOT; };
-		7F95D1202FAA4E14B438AE2A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_photo_camera.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = cap_ios_photo_camera.mm; path = src/cap_ios_photo_camera.mm; sourceTree = SOURCE_ROOT; };
-		916A5E367F964DD5A06D64BB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/container_avi.private.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = container_avi.private.hpp; path = include/opencv2/videoio/container_avi.private.hpp; sourceTree = SOURCE_ROOT; };
-		9351302802704CB196E69F91 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		97559C6D5D5E4DE0B7D202FB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_c.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = videoio_c.cpp; path = src/videoio_c.cpp; sourceTree = SOURCE_ROOT; };
-		B75265EAC12540D6BEF7188F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_static.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = backend_static.cpp; path = src/backend_static.cpp; sourceTree = SOURCE_ROOT; };
-		CDCFA3AD07684E96BBA2F9E5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/utils.private.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = utils.private.hpp; path = include/opencv2/videoio/utils.private.hpp; sourceTree = SOURCE_ROOT; };
-		D0CBC2D7C0064BF0AD959E2B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_abstract_camera.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = cap_ios_abstract_camera.mm; path = src/cap_ios_abstract_camera.mm; sourceTree = SOURCE_ROOT; };
-		D77436647E68425290E0A5B4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_avfoundation.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = cap_avfoundation.mm; path = src/cap_avfoundation.mm; sourceTree = SOURCE_ROOT; };
-		D8170A41918A4C168903DA86 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_encoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cap_mjpeg_encoder.cpp; path = src/cap_mjpeg_encoder.cpp; sourceTree = SOURCE_ROOT; };
-		DDAA692AFA2F4C3B9BD3D23B /* opencv_videoio */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_videoio.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEC913E966D049E3974FFA51 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cap.cpp; path = src/cap.cpp; sourceTree = SOURCE_ROOT; };
-		E05D61D8A5A64E9096ED2272 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h"; sourceTree = "<absolute>"; };
-		EBAFF1E1A4B0430084D42B6D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = videoio.hpp; path = include/opencv2/videoio/videoio.hpp; sourceTree = SOURCE_ROOT; };
-		EE1531D18D074C6485BC9623 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp"; sourceTree = "<absolute>"; };
-		F62081B7F8D045EEA7F34F3F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		FADB0B1AFBDF40C6BE1C9F90 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/registry.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = registry.hpp; path = include/opencv2/videoio/registry.hpp; sourceTree = SOURCE_ROOT; };
+		0552AA11ABB843029D8DE0CC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		11BE877D276C49139A1EC0F3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_avfoundation.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = cap_avfoundation.mm; path = src/cap_avfoundation.mm; sourceTree = SOURCE_ROOT; };
+		196DECE6304A4376A4B8B976 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/utils.private.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = utils.private.hpp; path = include/opencv2/videoio/utils.private.hpp; sourceTree = SOURCE_ROOT; };
+		1A500080549049A3B633F5A9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_abstract_camera.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = cap_ios_abstract_camera.mm; path = src/cap_ios_abstract_camera.mm; sourceTree = SOURCE_ROOT; };
+		241C3BD4CB7F41B0B6812960 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/legacy/constants_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = constants_c.h; path = include/opencv2/videoio/legacy/constants_c.h; sourceTree = SOURCE_ROOT; };
+		25BB674B0A844FA8B09D7D1A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = videoio_c.h; path = include/opencv2/videoio/videoio_c.h; sourceTree = SOURCE_ROOT; };
+		26DB832B26E0461BA36C0EE0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_c.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = videoio_c.cpp; path = src/videoio_c.cpp; sourceTree = SOURCE_ROOT; };
+		2E437FBE014E45C1811E8379 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_video_camera.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = cap_ios_video_camera.mm; path = src/cap_ios_video_camera.mm; sourceTree = SOURCE_ROOT; };
+		2F929FE722654A509F2DAD04 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		558276477A224BF4A32F1E34 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h"; sourceTree = "<absolute>"; };
+		5600D98C0CC94FC5B914E2A7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/cap_ios.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cap_ios.h; path = include/opencv2/videoio/cap_ios.h; sourceTree = SOURCE_ROOT; };
+		6A6D27C17A7945D485B38578 /* opencv_videoio */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_videoio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB45C3CCB25430FB4E310DD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/videoio/CMakeFiles/opencv_videoio.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/videoio/CMakeFiles/opencv_videoio.dir/Info.plist"; sourceTree = "<absolute>"; };
+		7553E5B645F041718BD688E6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_registry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = videoio_registry.cpp; path = src/videoio_registry.cpp; sourceTree = SOURCE_ROOT; };
+		8B8268D382054A45A189A33B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_plugin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = backend_plugin.cpp; path = src/backend_plugin.cpp; sourceTree = SOURCE_ROOT; };
+		8C10C5B832D94487B4A7402A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/registry.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = registry.hpp; path = include/opencv2/videoio/registry.hpp; sourceTree = SOURCE_ROOT; };
+		8DDCAAF6E0B24DE4A18E5E04 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = videoio.hpp; path = include/opencv2/videoio/videoio.hpp; sourceTree = SOURCE_ROOT; };
+		90A3BDF1BB1B440F85E61E35 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_decoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cap_mjpeg_decoder.cpp; path = src/cap_mjpeg_decoder.cpp; sourceTree = SOURCE_ROOT; };
+		A6AC562361E94A53BD8CD907 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AC7D72766D9948B7B1C40824 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_images.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cap_images.cpp; path = src/cap_images.cpp; sourceTree = SOURCE_ROOT; };
+		CB949ADBC7334D78BF35F73C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_static.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = backend_static.cpp; path = src/backend_static.cpp; sourceTree = SOURCE_ROOT; };
+		CF67CAF7A67044A784EBEEAD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_encoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cap_mjpeg_encoder.cpp; path = src/cap_mjpeg_encoder.cpp; sourceTree = SOURCE_ROOT; };
+		D3D391B0D0D54038885F5974 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = videoio.hpp; path = include/opencv2/videoio.hpp; sourceTree = SOURCE_ROOT; };
+		DD26D479B9A147159F44CAA0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_photo_camera.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = cap_ios_photo_camera.mm; path = src/cap_ios_photo_camera.mm; sourceTree = SOURCE_ROOT; };
+		E5EE275D509840B793244BD3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/container_avi.private.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = container_avi.private.hpp; path = include/opencv2/videoio/container_avi.private.hpp; sourceTree = SOURCE_ROOT; };
+		EC2EEBAA690D4E3A928228D2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/container_avi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = container_avi.cpp; path = src/container_avi.cpp; sourceTree = SOURCE_ROOT; };
+		F32839BE220442E9860F0A05 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp"; sourceTree = "<absolute>"; };
+		FC0DFBEF35AE4E17B5479947 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cap.cpp; path = src/cap.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FB452D7496154EF6BAD73EB0 /* Frameworks */ = {
+		78D765390AED472D88A9C9A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,126 +194,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06B905E44087475F9C9D54D9 /* Header Files */ = {
+		316FE3377EFF48548AB0034A = {
 			isa = PBXGroup;
 			children = (
-				466B24B66B994F8B8B737584 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio.hpp */,
-				4EB07D22C637402DAD5CE4CF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/cap_ios.h */,
-				916A5E367F964DD5A06D64BB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/container_avi.private.hpp */,
-				72BFCE525E794EFB98DA0278 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/legacy/constants_c.h */,
-				FADB0B1AFBDF40C6BE1C9F90 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/registry.hpp */,
-				CDCFA3AD07684E96BBA2F9E5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/utils.private.hpp */,
-				EBAFF1E1A4B0430084D42B6D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio.hpp */,
-				5F3F92F0D4D949A78D725F4B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio_c.h */,
-				45680FE394244ECAAC28441D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/precomp.hpp */,
+				7A62EC881DB84998971E33B7 /* modules */,
+				9CA708422B1946B9924C97F2 /* ALL_BUILD */,
+				7C61CE36EE2340638842A487 /* Products */,
+				6F21E169EFC0492684EC1C2A /* Frameworks */,
+				DB61FC4CBF2A48668C63F6AA /* Resources */,
 			);
-			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		290B6C06C3254729B0F9D155 /* Include */ = {
+		4F9A08B7A4D148F2A1D7EBCF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E05D61D8A5A64E9096ED2272 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */,
-				EE1531D18D074C6485BC9623 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */,
-			);
-			name = Include;
-			sourceTree = "<group>";
-		};
-		607EFF8031394A25BDDE5BAA /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				B2B1B7738F164D3488D66AC7 /* CMake Rules */,
-				F62081B7F8D045EEA7F34F3F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		67F975044E7C42C18107DE3D /* opencv_videoio */ = {
-			isa = PBXGroup;
-			children = (
-				06B905E44087475F9C9D54D9 /* Header Files */,
-				C1F9F72F21104076B936D32A /* Source Files */,
-				290B6C06C3254729B0F9D155 /* Include */,
-				731924FA3EBC495B9D5991FC /* Resources */,
-				9351302802704CB196E69F91 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/CMakeLists.txt */,
-			);
-			name = opencv_videoio;
-			sourceTree = "<group>";
-		};
-		731924FA3EBC495B9D5991FC /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0B56075C77FA4F798A515BAC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/videoio/CMakeFiles/opencv_videoio.dir/Info.plist */,
+				6AB45C3CCB25430FB4E310DD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/videoio/CMakeFiles/opencv_videoio.dir/Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		8A2ACE4A4FE74EF38789491C /* Frameworks */ = {
+		6F21E169EFC0492684EC1C2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		978441F1614747F69AE0B2E7 /* Products */ = {
+		7A62EC881DB84998971E33B7 /* modules */ = {
 			isa = PBXGroup;
 			children = (
-				DDAA692AFA2F4C3B9BD3D23B /* opencv_videoio */,
+				7BFC5A0674214944BFBCB0B7 /* opencv_videoio */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		7BFC5A0674214944BFBCB0B7 /* opencv_videoio */ = {
+			isa = PBXGroup;
+			children = (
+				A68CA3EF9C254BFC93BCE54B /* Header Files */,
+				C383ADF96DD040C5ADD4BC8D /* Source Files */,
+				88D462527AE441548965E7E8 /* Include */,
+				4F9A08B7A4D148F2A1D7EBCF /* Resources */,
+				2F929FE722654A509F2DAD04 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/CMakeLists.txt */,
+			);
+			name = opencv_videoio;
+			sourceTree = "<group>";
+		};
+		7C61CE36EE2340638842A487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A6D27C17A7945D485B38578 /* opencv_videoio */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B2B1B7738F164D3488D66AC7 /* CMake Rules */ = {
+		88D462527AE441548965E7E8 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				558276477A224BF4A32F1E34 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */,
+				F32839BE220442E9860F0A05 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		9CA708422B1946B9924C97F2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				AD7AA9141899486D875FCF22 /* CMake Rules */,
+				A6AC562361E94A53BD8CD907 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A68CA3EF9C254BFC93BCE54B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3D391B0D0D54038885F5974 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio.hpp */,
+				5600D98C0CC94FC5B914E2A7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/cap_ios.h */,
+				E5EE275D509840B793244BD3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/container_avi.private.hpp */,
+				241C3BD4CB7F41B0B6812960 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/legacy/constants_c.h */,
+				8C10C5B832D94487B4A7402A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/registry.hpp */,
+				196DECE6304A4376A4B8B976 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/utils.private.hpp */,
+				8DDCAAF6E0B24DE4A18E5E04 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio.hpp */,
+				25BB674B0A844FA8B09D7D1A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/include/opencv2/videoio/videoio_c.h */,
+				0552AA11ABB843029D8DE0CC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/precomp.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AD7AA9141899486D875FCF22 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		B4082CBD0F014C2E917E2CC7 /* Resources */ = {
+		C383ADF96DD040C5ADD4BC8D /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		C1F9F72F21104076B936D32A /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				3479452497AE4BB4977C76E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_plugin.cpp */,
-				B75265EAC12540D6BEF7188F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_static.cpp */,
-				DEC913E966D049E3974FFA51 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap.cpp */,
-				D77436647E68425290E0A5B4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_avfoundation.mm */,
-				0D29A003F8A54D258EEE6502 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_images.cpp */,
-				D0CBC2D7C0064BF0AD959E2B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_abstract_camera.mm */,
-				7F95D1202FAA4E14B438AE2A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_photo_camera.mm */,
-				1F263657CB4040C8A1BF0D47 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_video_camera.mm */,
-				287F5D8C074545D69A80E0C3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_decoder.cpp */,
-				D8170A41918A4C168903DA86 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_encoder.cpp */,
-				01BD6825F75044E18D988062 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/container_avi.cpp */,
-				97559C6D5D5E4DE0B7D202FB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_c.cpp */,
-				4A1E69EFA17C4FABBC0DF5B8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_registry.cpp */,
+				8B8268D382054A45A189A33B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_plugin.cpp */,
+				CB949ADBC7334D78BF35F73C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_static.cpp */,
+				FC0DFBEF35AE4E17B5479947 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap.cpp */,
+				11BE877D276C49139A1EC0F3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_avfoundation.mm */,
+				AC7D72766D9948B7B1C40824 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_images.cpp */,
+				1A500080549049A3B633F5A9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_abstract_camera.mm */,
+				DD26D479B9A147159F44CAA0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_photo_camera.mm */,
+				2E437FBE014E45C1811E8379 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_video_camera.mm */,
+				90A3BDF1BB1B440F85E61E35 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_decoder.cpp */,
+				CF67CAF7A67044A784EBEEAD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_encoder.cpp */,
+				EC2EEBAA690D4E3A928228D2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/container_avi.cpp */,
+				26DB832B26E0461BA36C0EE0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_c.cpp */,
+				7553E5B645F041718BD688E6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_registry.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		CE98D6D244014117ACF78003 /* modules */ = {
+		DB61FC4CBF2A48668C63F6AA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				67F975044E7C42C18107DE3D /* opencv_videoio */,
 			);
-			name = modules;
-			sourceTree = "<group>";
-		};
-		CEDD6DEA26EB4519B86AC9DB = {
-			isa = PBXGroup;
-			children = (
-				CE98D6D244014117ACF78003 /* modules */,
-				607EFF8031394A25BDDE5BAA /* ALL_BUILD */,
-				978441F1614747F69AE0B2E7 /* Products */,
-				8A2ACE4A4FE74EF38789491C /* Frameworks */,
-				B4082CBD0F014C2E917E2CC7 /* Resources */,
-			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,40 +321,40 @@
 /* Begin PBXNativeTarget section */
 		802FDDD075EC431F424D2375 /* opencv_videoio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 683B7A4C0AE745989BEF36F5 /* Build configuration list for PBXNativeTarget "opencv_videoio" */;
+			buildConfigurationList = 37FC025210C640CDB5CEC7C1 /* Build configuration list for PBXNativeTarget "opencv_videoio" */;
 			buildPhases = (
-				6B9392674BF044EEBF9EB95E /* Sources */,
-				FB452D7496154EF6BAD73EB0 /* Frameworks */,
+				21A9770694114D2AB75F9392 /* Sources */,
+				78D765390AED472D88A9C9A9 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1C5FD5AE20B44501992CD78F /* PBXTargetDependency */,
+				8757E9FF77AD4D7195F9046E /* PBXTargetDependency */,
 			);
 			name = opencv_videoio;
 			productName = opencv_videoio;
-			productReference = DDAA692AFA2F4C3B9BD3D23B /* opencv_videoio */;
+			productReference = 6A6D27C17A7945D485B38578 /* opencv_videoio */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B18FB80B600946EC8F2AA580 /* Project object */ = {
+		3A2ED262E0B44C26BBE2D782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 2620;
+				LastUpgradeCheck = 2630;
 			};
-			buildConfigurationList = BD83BEAF4DC8485DB1C26C7E /* Build configuration list for PBXProject "opencv_videoio" */;
+			buildConfigurationList = D028CC0B586E4D7AA3FC8EFD /* Build configuration list for PBXProject "opencv_videoio" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				0DEC1B66738F45F1B143F5D8 /* Debug */,
-				439B4ECF2EA14AACBE58A36C /* Release */,
+				4AF7DD7F23884CA4903EA752 /* Debug */,
+				03615241948B4A79920181D1 /* Release */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = CEDD6DEA26EB4519B86AC9DB;
+			mainGroup = 316FE3377EFF48548AB0034A;
 			projectDirPath = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio";
 			projectRoot = "";
 			targets = (
@@ -572,58 +572,58 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6B9392674BF044EEBF9EB95E /* Sources */ = {
+		21A9770694114D2AB75F9392 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AC3DA5CBD3B4722BEF24EB2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_plugin.cpp */,
-				2A462497E7134083B7ABB95D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_static.cpp */,
-				D137878673C9419F962AC216 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap.cpp */,
-				25B0495222E140F0862AE0DF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_avfoundation.mm */,
-				79127D0F6C934B0784A9E78A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_images.cpp */,
-				BAC99420E1BD4367BBBB7BF6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_abstract_camera.mm */,
-				12CA596B58F04E7587CCDCF2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_photo_camera.mm */,
-				093CBBEE9B264084B52B57E1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_video_camera.mm */,
-				841BB05CFEF34AE7B6304AA4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_decoder.cpp */,
-				89D352CBAFA24003A8D484EE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_encoder.cpp */,
-				F5FCD285B200401692E572BC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/container_avi.cpp */,
-				CA8F90A1B72445E4B1B3B1EE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_c.cpp */,
-				7349483E24CD40059B69699E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_registry.cpp */,
+				894992D8AEB24DEDAA2B0A69 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_plugin.cpp */,
+				71D44A5233D544D4800B0833 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/backend_static.cpp */,
+				4FEE3CF249FE44D090E45D0C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap.cpp */,
+				DBF110A0D2FC4D14BC048258 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_avfoundation.mm */,
+				9D5E74CECAD64FF39A0E08E5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_images.cpp */,
+				1271366FFBF24F86B67EEA48 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_abstract_camera.mm */,
+				3DFF791DE9CD4F65BEDED233 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_photo_camera.mm */,
+				2CC2A01C469D4AE7981EC61D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_ios_video_camera.mm */,
+				2ED9B43992734C7BB50922D9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_decoder.cpp */,
+				B1B9668BEC1E43AFBBDBB196 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/cap_mjpeg_encoder.cpp */,
+				E1F7B204CD3143F0915CFB59 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/container_avi.cpp */,
+				FBD18B949EBB46C28D878DC9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_c.cpp */,
+				6D88CA2691A141539C4973B5 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/videoio/src/videoio_registry.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		03AE21E70930469989DA932B /* PBXTargetDependency */ = {
+		80C520656EE843D9BBCB7606 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
-			targetProxy = F623C0E892084CFCBE3BFAB8 /* PBXContainerItemProxy */;
+			targetProxy = DE8D48E91B4C4CFBAF1D648E /* PBXContainerItemProxy */;
 		};
-		1C5FD5AE20B44501992CD78F /* PBXTargetDependency */ = {
+		849FED3D3A544A51AAD039F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
-			targetProxy = 6E1094A6D1C046998A22E508 /* PBXContainerItemProxy */;
+			targetProxy = A7AEA24BFB654F6CB0BD97DF /* PBXContainerItemProxy */;
 		};
-		4321F64CB4434842B6DA3D48 /* PBXTargetDependency */ = {
+		8757E9FF77AD4D7195F9046E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
-			targetProxy = 2D472100C3574F879354C6E8 /* PBXContainerItemProxy */;
+			targetProxy = B79217C59ED943DD8F4DBC5D /* PBXContainerItemProxy */;
 		};
-		5EEF79D4731D4E22841DC22C /* PBXTargetDependency */ = {
+		B6D213AC6E0240EC9500E97D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
-			targetProxy = 976B2AD91CA5488D84F078B9 /* PBXContainerItemProxy */;
+			targetProxy = 4713E5BD6EE0412BB99EA55B /* PBXContainerItemProxy */;
 		};
-		98CE003AB3714511A1C01087 /* PBXTargetDependency */ = {
+		D4D42C86F17D4D75988888AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 802FDDD075EC431F424D2375 /* opencv_videoio */;
-			targetProxy = 2CE95B74176F493D9A41E483 /* PBXContainerItemProxy */;
+			targetProxy = 86A7E3E03E704FC191B60270 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		019190464130429C8D6D62A0 /* Debug */ = {
+		3840F3F03EAB45FC8654CAC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -636,74 +636,14 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		07AC1BDDC1B84CADBB1E6775 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		1650B62939CB44D6B8363B66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		1E1458A152A743F8AE3FD3CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		1FF09F87662F4874B6DE93C8 /* Release */ = {
+		3E1E0F2F17AA45509080EDB5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -733,7 +673,117 @@ exit 0";
 			};
 			name = Release;
 		};
-		54FF7C8E4BD04ACF98685A47 /* Release */ = {
+		4784FFA0C03E4C48AEF43917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		54A7839C2E9948AA8645F978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		568C44538FD04738BDD5A5B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		64D2596A64414236AEC3733C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		67B4A331A42A4AC4BC975F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
+			};
+			name = Debug;
+		};
+		9B1500C0C4C1480C9C7A214A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B6028F4B85404641ABACFDA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -753,7 +803,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		7DC097A370C14F17BEBE4A03 /* Release */ = {
+		C1E8BD7DAE7B40A3AA6C142C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -766,24 +816,34 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		7E93FF9E92BD41508225B8BA /* Debug */ = {
+		C8AC0979F42147AFAECB607E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = arm64;
-				CODE_SIGNING_REQUIRED = NO;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = Release;
 		};
-		80079F39E96143EE9ACDE905 /* Debug */ = {
+		E1BA6B4A596B43E0A6FF3FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -813,7 +873,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		AB6362BDFC95400CBFF87AB9 /* Release */ = {
+		E777B90484564579A0CAB21A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -826,74 +886,14 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		D193CC7C9EB14B0081B303B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = RUN_TESTS;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		E08734376E6C4588B08667F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		E43E007D900340A38F55C169 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		FBEE9B02DF294B6CBE0AE14F /* Release */ = {
+		F2542992C9634AF2B82166F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -907,70 +907,70 @@ exit 0";
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08B4DAE3777B450D9AF9E59B /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+		121F9BDD48834E21BA8BD67B /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				019190464130429C8D6D62A0 /* Debug */,
-				54FF7C8E4BD04ACF98685A47 /* Release */,
+				E777B90484564579A0CAB21A /* Debug */,
+				B6028F4B85404641ABACFDA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		0D6947EBCB724EC5BB7FCF85 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		37FC025210C640CDB5CEC7C1 /* Build configuration list for PBXNativeTarget "opencv_videoio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07AC1BDDC1B84CADBB1E6775 /* Debug */,
-				AB6362BDFC95400CBFF87AB9 /* Release */,
+				E1BA6B4A596B43E0A6FF3FF7 /* Debug */,
+				3E1E0F2F17AA45509080EDB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		683B7A4C0AE745989BEF36F5 /* Build configuration list for PBXNativeTarget "opencv_videoio" */ = {
+		70F94351A19F49E9A9010AA6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80079F39E96143EE9ACDE905 /* Debug */,
-				1FF09F87662F4874B6DE93C8 /* Release */,
+				4784FFA0C03E4C48AEF43917 /* Debug */,
+				54A7839C2E9948AA8645F978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		87F0C7FC586D468E95D52960 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		7BD26584CBCE4BB4952CB4E5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E08734376E6C4588B08667F1 /* Debug */,
-				1650B62939CB44D6B8363B66 /* Release */,
+				9B1500C0C4C1480C9C7A214A /* Debug */,
+				3840F3F03EAB45FC8654CAC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BD082D6F88EF457F82FD22D7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		8DB257134B464128944D67C2 /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D193CC7C9EB14B0081B303B7 /* Debug */,
-				7DC097A370C14F17BEBE4A03 /* Release */,
+				568C44538FD04738BDD5A5B3 /* Debug */,
+				C8AC0979F42147AFAECB607E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BD83BEAF4DC8485DB1C26C7E /* Build configuration list for PBXProject "opencv_videoio" */ = {
+		D028CC0B586E4D7AA3FC8EFD /* Build configuration list for PBXProject "opencv_videoio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E93FF9E92BD41508225B8BA /* Debug */,
-				FBEE9B02DF294B6CBE0AE14F /* Release */,
+				67B4A331A42A4AC4BC975F4D /* Debug */,
+				F2542992C9634AF2B82166F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C645E5D247BB4AB6A94ED0FE /* Build configuration list for PBXAggregateTarget "package" */ = {
+		FDBCE488227041D9A815C577 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E43E007D900340A38F55C169 /* Debug */,
-				1E1458A152A743F8AE3FD3CB /* Release */,
+				64D2596A64414236AEC3733C /* Debug */,
+				C1E8BD7DAE7B40A3AA6C142C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B18FB80B600946EC8F2AA580 /* Project object */;
+	rootObject = 3A2ED262E0B44C26BBE2D782 /* Project object */;
 }

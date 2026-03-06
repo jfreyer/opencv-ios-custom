@@ -1,0 +1,4 @@
+module opencv2 {
+    header "opencv2/opencv.hpp"
+    export *
+}

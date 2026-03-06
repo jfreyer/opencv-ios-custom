@@ -2,15 +2,29 @@
 #
 # build_opencv_ios.sh
 #
-# Builds OpenCV for iOS as a static XCFramework
-#   - arm64 device
-#   - arm64 + x86_64 simulator
-#   - SIFT, imread/imwrite, full stitching pipeline
-#   - No Java bindings
+# Builds OpenCV for iOS as a static XCFramework using CMake + Ninja
+# (bypasses the broken Xcode generator in OpenCV's build_xcframework.py)
+#
+# Slices:
+#   - arm64 device        (iphoneos)
+#   - arm64 + x86_64 sim  (iphonesimulator, lipo'd into a fat binary)
+#
+# Modules: core, imgproc, imgcodecs, features2d, flann, calib3d, stitching, photo
+# Includes SIFT (nonfree) and full stitching pipeline.
+#
+# Usage:
+#   ./build_opencv_ios.sh
 #
 set -euo pipefail
 
+# ──────────────────────────────────────────────────────────────────────────────
+# Configuration
+# ──────────────────────────────────────────────────────────────────────────────
 OPENCV_VERSION="4.10.0"
+IOS_DEPLOYMENT_TARGET="13.0"
+
+# Modules to build (comma-separated for BUILD_LIST)
+OPENCV_MODULES="core,imgproc,imgcodecs,features2d,flann,calib3d,stitching,photo"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
@@ -18,6 +32,18 @@ WORK_DIR="${SCRIPT_DIR}/work"
 OPENCV_SRC="${WORK_DIR}/opencv-${OPENCV_VERSION}"
 OUTPUT_DIR="${PROJECT_ROOT}/output"
 
+PARALLEL_JOBS=$(sysctl -n hw.ncpu 2>/dev/null || echo 4)
+
+# The three slices we build separately, then combine
+SLICES=(
+    "arm64|iphoneos"
+    "arm64|iphonesimulator"
+    "x86_64|iphonesimulator"
+)
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Helpers
+# ──────────────────────────────────────────────────────────────────────────────
 log()  { echo -e "\n\033[1;32m>>> $*\033[0m"; }
 warn() { echo -e "\n\033[1;33m!!! $*\033[0m"; }
 err()  { echo -e "\n\033[1;31mERR $*\033[0m" >&2; exit 1; }
@@ -26,128 +52,204 @@ err()  { echo -e "\n\033[1;31mERR $*\033[0m" >&2; exit 1; }
 # Step 1: Check dependencies
 # ──────────────────────────────────────────────────────────────────────────────
 log "Checking dependencies..."
-for cmd in cmake python3 git xcodebuild; do
-    command -v "$cmd" &>/dev/null || err "Missing: $cmd — install via brew install $cmd"
+for cmd in cmake ninja python3 git xcodebuild lipo libtool; do
+    command -v "$cmd" &>/dev/null || err "Missing: $cmd"
 done
 xcodebuild -version &>/dev/null || err "Xcode not configured. Run: sudo xcode-select --switch /Applications/Xcode.app"
 
-PARALLEL_JOBS=$(sysctl -n hw.ncpu 2>/dev/null || echo 4)
 log "Using $PARALLEL_JOBS parallel jobs"
 mkdir -p "$WORK_DIR" "$OUTPUT_DIR"
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Step 2: Clone OpenCV
 # ──────────────────────────────────────────────────────────────────────────────
-if [ -d "$OPENCV_SRC" ]; then
-    if [ ! -f "${OPENCV_SRC}/platforms/apple/build_xcframework.py" ]; then
-        warn "Existing OpenCV source appears incomplete, removing..."
-        rm -rf "$OPENCV_SRC"
-    else
-        log "Using existing OpenCV source at $OPENCV_SRC"
-    fi
-fi
-
 if [ ! -d "$OPENCV_SRC" ]; then
     log "Cloning OpenCV ${OPENCV_VERSION}..."
     git clone --depth 1 --branch "${OPENCV_VERSION}" \
         https://github.com/opencv/opencv.git "$OPENCV_SRC"
 fi
 
-[ -f "${OPENCV_SRC}/platforms/apple/build_xcframework.py" ] \
-    || err "build_xcframework.py not found — clone may have failed"
-
 # ──────────────────────────────────────────────────────────────────────────────
-# Step 3: Build XCFramework (device + simulator)
+# Step 3: Build each slice with CMake + Ninja
 # ──────────────────────────────────────────────────────────────────────────────
-log "Building OpenCV XCFramework for iOS (arm64 device + arm64/x86_64 simulator)..."
-log "Note: This builds 3 slices and will take ~2x longer than device-only."
 
-BUILD_OUT="${WORK_DIR}/xcframework-build"
-rm -rf "$BUILD_OUT"
+# Resolve SDK paths once
+IPHONEOS_SDK=$(xcrun --sdk iphoneos --show-sdk-path)
+IPHONESIMULATOR_SDK=$(xcrun --sdk iphonesimulator --show-sdk-path)
+log "iPhoneOS SDK:        $IPHONEOS_SDK"
+log "iPhoneSimulator SDK: $IPHONESIMULATOR_SDK"
 
-python3 "${OPENCV_SRC}/platforms/apple/build_xcframework.py" \
-    --out "$BUILD_OUT" \
-    --iphoneos_archs arm64 \
-    --iphonesimulator_archs arm64,x86_64 \
-    --iphoneos_deployment_target 13.0 \
-    --disable-bitcode \
-    --build_only_specified_archs \
-    --enable_nonfree \
-    --without dnn \
-    --without gapi \
-    --without highgui \
-    --without java \
-    --without js \
-    --without ml \
-    --without objc \
-    --without objdetect \
-    --without python \
-    --without ts \
-    --without video \
-    --without world \
-    2>&1 | tee "${WORK_DIR}/build.log"
+build_slice() {
+    local ARCH="$1"
+    local PLATFORM="$2"   # iphoneos or iphonesimulator
 
-# ──────────────────────────────────────────────────────────────────────────────
-# Step 3b: Fix dangling Modules symlinks left by --without objc
-#
-# When objc is excluded, the build creates a versioned framework with a
-# Modules -> Versions/Current/Modules symlink but never populates the
-# target directory. This causes cp -r and zip -r to fail when they try
-# to follow the dangling symlink. We remove the dangling symlinks and
-# recreate proper module maps so the framework is importable in Xcode.
-# ──────────────────────────────────────────────────────────────────────────────
-log "Fixing module maps in xcframework..."
-XCFRAMEWORK=$(find "$BUILD_OUT" -name "opencv2.xcframework" -type d | head -1)
-[ -z "$XCFRAMEWORK" ] && err "opencv2.xcframework not found — check ${WORK_DIR}/build.log"
+    local BUILD_DIR="${WORK_DIR}/build-${PLATFORM}-${ARCH}"
+    local INSTALL_DIR="${WORK_DIR}/install-${PLATFORM}-${ARCH}"
 
-find "$XCFRAMEWORK" -name "opencv2.framework" -type d | while read -r fw; do
-    # Remove any dangling Modules symlinks
-    if [ -L "${fw}/Modules" ] && [ ! -e "${fw}/Modules" ]; then
-        rm "${fw}/Modules"
-        echo "  ✓ Removed dangling Modules symlink in $fw"
-    fi
-
-    # Determine the real content directory (versioned or flat layout)
-    if [ -d "${fw}/Versions/A/Headers" ]; then
-        content_dir="${fw}/Versions/A"
+    if [ "$PLATFORM" = "iphoneos" ]; then
+        local SDK_PATH="$IPHONEOS_SDK"
+        local CMAKE_SYSTEM_NAME="iOS"
     else
-        content_dir="${fw}"
+        local SDK_PATH="$IPHONESIMULATOR_SDK"
+        local CMAKE_SYSTEM_NAME="iOS"
     fi
 
-    # Create module map if missing
-    if [ ! -d "${content_dir}/Modules" ]; then
-        mkdir -p "${content_dir}/Modules"
-        cat > "${content_dir}/Modules/module.modulemap" <<'EOF'
-framework module opencv2 {
-    header "opencv2.h"
-    export *
+    log "Configuring: ${ARCH} / ${PLATFORM}"
+    rm -rf "$BUILD_DIR"
+    mkdir -p "$BUILD_DIR"
+
+    cmake -S "$OPENCV_SRC" -B "$BUILD_DIR" -G Ninja \
+        -DCMAKE_SYSTEM_NAME="${CMAKE_SYSTEM_NAME}" \
+        -DCMAKE_OSX_ARCHITECTURES="${ARCH}" \
+        -DCMAKE_OSX_SYSROOT="${SDK_PATH}" \
+        -DCMAKE_OSX_DEPLOYMENT_TARGET="${IOS_DEPLOYMENT_TARGET}" \
+        -DCMAKE_INSTALL_PREFIX="$INSTALL_DIR" \
+        -DCMAKE_BUILD_TYPE=Release \
+        \
+        -DENABLE_BITCODE=OFF \
+        -DENABLE_ARC=ON \
+        -DENABLE_VISIBILITY=OFF \
+        \
+        -DAPPLE_FRAMEWORK=ON \
+        -DBUILD_LIST="${OPENCV_MODULES}" \
+        \
+        -DBUILD_SHARED_LIBS=OFF \
+        -DBUILD_DOCS=OFF \
+        -DBUILD_TESTS=OFF \
+        -DBUILD_PERF_TESTS=OFF \
+        -DBUILD_EXAMPLES=OFF \
+        -DBUILD_opencv_apps=OFF \
+        -DBUILD_opencv_world=OFF \
+        -DBUILD_opencv_highgui=OFF \
+        -DBUILD_JAVA=OFF \
+        -DBUILD_opencv_python2=OFF \
+        -DBUILD_opencv_python3=OFF \
+        \
+        -DOPENCV_ENABLE_NONFREE=ON \
+        \
+        -DBUILD_ZLIB=ON \
+        -DBUILD_PNG=ON \
+        -DBUILD_JPEG=ON \
+        -DBUILD_WEBP=ON \
+        -DBUILD_TIFF=ON \
+        -DBUILD_OPENJPEG=ON \
+        \
+        -DWITH_OPENCL=OFF \
+        -DWITH_IPP=OFF \
+        -DWITH_TBB=OFF \
+        -DWITH_PTHREADS_PF=ON \
+        \
+        2>&1 | tee "${BUILD_DIR}/cmake_configure.log"
+
+    log "Building: ${ARCH} / ${PLATFORM}"
+    cmake --build "$BUILD_DIR" --config Release -j "$PARALLEL_JOBS" \
+        2>&1 | tee "${BUILD_DIR}/build.log"
+
+    cmake --install "$BUILD_DIR" --config Release \
+        2>&1 | tee "${BUILD_DIR}/install.log"
+
+    log "✓ ${ARCH} / ${PLATFORM} done"
 }
-EOF
-        echo "  ✓ Created Modules/module.modulemap in ${content_dir}"
-    fi
 
-    # For versioned layout, ensure top-level Modules symlink exists
-    if [ -d "${fw}/Versions" ] && [ ! -e "${fw}/Modules" ]; then
-        ln -s "Versions/Current/Modules" "${fw}/Modules"
-        echo "  ✓ Created Modules symlink in $fw"
-    fi
+for slice in "${SLICES[@]}"; do
+    IFS='|' read -r ARCH PLATFORM <<< "$slice"
+    build_slice "$ARCH" "$PLATFORM"
 done
 
 # ──────────────────────────────────────────────────────────────────────────────
-# Step 4: Copy XCFramework to output
+# Step 4: Collect static libraries and create fat simulator lib
 # ──────────────────────────────────────────────────────────────────────────────
-log "Found XCFramework at: $XCFRAMEWORK"
+log "Collecting static libraries..."
 
-echo "  Actual slices:"
-ls "${XCFRAMEWORK}/" | grep -v "Info.plist" | while read -r s; do echo "    - $s"; done
+# Each install dir has: lib/opencv4/3rdparty/*.a and lib/*.a
+# We'll merge all .a files per slice into one fat .a using libtool
 
-rm -rf "${OUTPUT_DIR}/opencv2.xcframework"
-cp -a "$XCFRAMEWORK" "$OUTPUT_DIR/"
+merge_libs() {
+    local INSTALL_DIR="$1"
+    local OUTPUT_LIB="$2"
+
+    local ALL_LIBS=()
+    while IFS= read -r -d '' lib; do
+        ALL_LIBS+=("$lib")
+    done < <(find "$INSTALL_DIR" -name "*.a" -print0)
+
+    if [ ${#ALL_LIBS[@]} -eq 0 ]; then
+        err "No .a files found in $INSTALL_DIR"
+    fi
+
+    log "  Merging ${#ALL_LIBS[@]} static libs -> $(basename "$OUTPUT_LIB")"
+    libtool -static -no_warning_for_no_symbols -o "$OUTPUT_LIB" "${ALL_LIBS[@]}"
+}
+
+STAGING="${WORK_DIR}/staging"
+rm -rf "$STAGING"
+mkdir -p "$STAGING"/{device-arm64,sim-arm64,sim-x86_64,sim-fat}
+
+# Merge each slice
+merge_libs "${WORK_DIR}/install-iphoneos-arm64"        "${STAGING}/device-arm64/libopencv_all.a"
+merge_libs "${WORK_DIR}/install-iphonesimulator-arm64"  "${STAGING}/sim-arm64/libopencv_all.a"
+merge_libs "${WORK_DIR}/install-iphonesimulator-x86_64" "${STAGING}/sim-x86_64/libopencv_all.a"
+
+# Lipo the two simulator slices into one fat binary
+log "Creating fat simulator library (arm64 + x86_64)..."
+lipo -create \
+    "${STAGING}/sim-arm64/libopencv_all.a" \
+    "${STAGING}/sim-x86_64/libopencv_all.a" \
+    -output "${STAGING}/sim-fat/libopencv_all.a"
+
+lipo -info "${STAGING}/sim-fat/libopencv_all.a"
 
 # ──────────────────────────────────────────────────────────────────────────────
-# Step 5: Zip for GitHub release
+# Step 5: Build the XCFramework
 # ──────────────────────────────────────────────────────────────────────────────
-log "Creating zip for GitHub release..."
+log "Assembling XCFramework..."
+
+# Collect headers from any install dir (they're the same across all slices)
+HEADER_SRC="${WORK_DIR}/install-iphoneos-arm64/include/opencv4"
+[ -d "$HEADER_SRC" ] || HEADER_SRC="${WORK_DIR}/install-iphoneos-arm64/include"
+[ -d "$HEADER_SRC" ] || err "Cannot find installed headers"
+
+# Copy headers to staging
+HEADERS_DIR="${STAGING}/headers"
+rm -rf "$HEADERS_DIR"
+cp -a "$HEADER_SRC" "$HEADERS_DIR"
+
+XCFRAMEWORK="${OUTPUT_DIR}/opencv2.xcframework"
+rm -rf "$XCFRAMEWORK"
+
+xcodebuild -create-xcframework \
+    -library "${STAGING}/device-arm64/libopencv_all.a" \
+    -headers "$HEADERS_DIR" \
+    -library "${STAGING}/sim-fat/libopencv_all.a" \
+    -headers "$HEADERS_DIR" \
+    -output "$XCFRAMEWORK"
+
+log "XCFramework created at: $XCFRAMEWORK"
+
+# Show contents
+echo "  Slices:"
+ls "$XCFRAMEWORK" | grep -v Info.plist | while read -r s; do echo "    - $s"; done
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Step 6: Create module map (for Swift / Clang module imports)
+# ──────────────────────────────────────────────────────────────────────────────
+log "Adding module maps..."
+find "$XCFRAMEWORK" -type d -name "Headers" | while read -r hdir; do
+    MODULES_DIR="$(dirname "$hdir")/Modules"
+    mkdir -p "$MODULES_DIR"
+    cat > "${MODULES_DIR}/module.modulemap" <<'EOF'
+module opencv2 {
+    header "opencv2/opencv.hpp"
+    export *
+}
+EOF
+    echo "  ✓ $(dirname "$hdir" | sed "s|$XCFRAMEWORK/||")"
+done
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Step 7: Zip for distribution
+# ──────────────────────────────────────────────────────────────────────────────
+log "Creating zip for distribution..."
 cd "$OUTPUT_DIR"
 rm -f opencv2.xcframework.zip
 zip -ry opencv2.xcframework.zip opencv2.xcframework
@@ -156,10 +258,17 @@ CHECKSUM=$(swift package compute-checksum opencv2.xcframework.zip 2>/dev/null \
     || shasum -a 256 opencv2.xcframework.zip | awk '{print $1}')
 
 echo "$CHECKSUM" > opencv2.xcframework.zip.sha256
-log "Checksum (save this for the podspec): $CHECKSUM"
+log "Checksum: $CHECKSUM"
 
-log "Done!"
+# ──────────────────────────────────────────────────────────────────────────────
+# Done
+# ──────────────────────────────────────────────────────────────────────────────
+log "Build complete!"
 echo ""
 echo "Artifacts in ${OUTPUT_DIR}:"
+echo "  opencv2.xcframework/"
 echo "  opencv2.xcframework.zip"
 echo "  opencv2.xcframework.zip.sha256"
+echo ""
+echo "To use in Xcode: drag opencv2.xcframework into your project,"
+echo "or reference it as a Swift Package binary target with the checksum above."

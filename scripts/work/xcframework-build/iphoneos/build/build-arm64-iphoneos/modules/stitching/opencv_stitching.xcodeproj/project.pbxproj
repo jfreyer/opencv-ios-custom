@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		01C65101F907E9BB1C14098B /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 600B2D10F5E14E37877BD7A6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 6B47EC4C400148E5A9A70AB8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				FAC39FA6B1A595F2D2FC38D1 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,32 +20,32 @@
 		};
 		771FD8AEB39D811E2BC9B426 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 6B45781F58B04E06B01BA151 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = F2C60B96736A4631A2D8DF13 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				CF531855972D45549935E121 /* PBXTargetDependency */,
+				3EBACC33872744008E0FB620 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		86736DDDED1F0A92597C9165 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 3D35F8CA985A4A648C76234C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 0CD7D932992C4182AB54DD2F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				25EB4F774F791555B6D0E390 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				9E5FC8117D364244BD0AD397 /* PBXTargetDependency */,
-				6BDD1364482541359EF68E4F /* PBXTargetDependency */,
+				C19B23765D73478587846756 /* PBXTargetDependency */,
+				DB1E30D0D775410E80043D2B /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		A0A668F13D19F048AB9F8B68 /* RUN_TESTS */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 455C9CB6AC2249D48EFA8F51 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildConfigurationList = 024319204D304A7C9167A0F8 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
 			buildPhases = (
 				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
 			);
@@ -56,12 +56,12 @@
 		};
 		E3A0E307AE475F45B5997A27 /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B1A1C5E674A54C9196F6D985 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = 7027AA23B0E44A7DA5CFD2F9 /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				6F8D84478C3B411A869A7D7B /* PBXTargetDependency */,
+				2EE2539B1DAC44A68A16D5E7 /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
@@ -69,54 +69,54 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0043540212384A7C9C651E36 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */ = {isa = PBXBuildFile; fileRef = E3647DBADD714AA897AADB23 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */; };
-		06E3904623854939B4D7783E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers_cuda.cpp */ = {isa = PBXBuildFile; fileRef = B4449C9394D14ABE8786C16E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers_cuda.cpp */; };
-		0945B3DB9E5848138EF39943 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp.rule */ = {isa = PBXBuildFile; fileRef = 0A7E1D8B7CCC4E0AA30210F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp.rule */; };
-		1D22BBB7DEC94D42BFCAABCF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/camera.cpp */ = {isa = PBXBuildFile; fileRef = C72FCC6E359648D8A94E1538 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/camera.cpp */; };
-		2D44E2AD5848433299FB6C7B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/warpers.hpp */ = {isa = PBXBuildFile; fileRef = B65E4A94C1D745698B5894BE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/warpers.hpp */; };
-		36605516A0E647098FAF0F6F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */ = {isa = PBXBuildFile; fileRef = FA7D0CF256A041D7A840DFE1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */; };
-		377A813D5DC841BD837DC736 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util.cpp */ = {isa = PBXBuildFile; fileRef = 4FE6C7FD5E2546A1BBB2BAE7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util.cpp */; };
-		3DD7A9947952414DB4497B19 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching.hpp */ = {isa = PBXBuildFile; fileRef = 0FC1555AFF4844838CCDE531 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching.hpp */; };
-		42F476DBD63046D198F0AF18 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */ = {isa = PBXBuildFile; fileRef = 88AD46E6011346C9B6E0EA6F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */; };
-		47A3B4CDDC414A76BCF48368 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util_log.hpp */ = {isa = PBXBuildFile; fileRef = 023C678C4CD54F4BA5382162 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util_log.hpp */; };
-		5772CEC289D941BD96AB301E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers.cpp */ = {isa = PBXBuildFile; fileRef = 87675AB309A24A71BE692EA2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers.cpp */; };
-		5C095A47E44C46B2AEE64052 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */ = {isa = PBXBuildFile; fileRef = A1FFC2B80B834576A836DFDB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */; };
-		61896C579942488D944662D3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/multibandblend.cl */ = {isa = PBXBuildFile; fileRef = 6E41C5E2B4834380A3C35091 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/multibandblend.cl */; };
-		650887DAD4084FCBA37C7679 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */ = {isa = PBXBuildFile; fileRef = 435C89C3D19D40ACBA935639 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */; };
-		740FBFF45EB74A2BBBD43358 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */ = {isa = PBXBuildFile; fileRef = C8F709D70EFA435AB73671DB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */; };
-		7B4458E7CC95401A8AB9AAA0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */ = {isa = PBXBuildFile; fileRef = C4E83162C22A40D9B567AA7E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */; };
-		852B8269C03A44659E299E2F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/timelapsers.cpp */ = {isa = PBXBuildFile; fileRef = 7816CD01EDB5400DB141E991 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/timelapsers.cpp */; };
-		8965B8346E66493AB880E6F7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */ = {isa = PBXBuildFile; fileRef = 06DAA6992AEE40949240E5CC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */; };
-		9049AAFAB08D45C68840A6B0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp */ = {isa = PBXBuildFile; fileRef = 4912063E326B4B22AA60E77C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp */; };
-		92ABE7FD85D5482DA6924B7A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/blenders.cpp */ = {isa = PBXBuildFile; fileRef = 89348AEE606B4A289CFAF9F9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/blenders.cpp */; };
-		9DB8895354364EF382D77932 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/exposure_compensate.cpp */ = {isa = PBXBuildFile; fileRef = FACC43C0033D441ABB47B55F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/exposure_compensate.cpp */; };
-		ABBB567024AB499AB4532364 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/stitcher.cpp */ = {isa = PBXBuildFile; fileRef = BDC40988E7C1480E9C6ECB8C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/stitcher.cpp */; };
-		AC23EA27B3004C099A65F5BD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/matchers.cpp */ = {isa = PBXBuildFile; fileRef = 240D5F660CDF4C27B7A6588A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/matchers.cpp */; };
-		B542BA8447094B7BB4E9F1C2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 374B11A873AB4FC7BE5B56C1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */; };
-		B7FE2E35CDB2436BA5C5E673 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/camera.hpp */ = {isa = PBXBuildFile; fileRef = 474F565716E94BAC96865B8E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/camera.hpp */; };
-		C90E89C1CCE648F88F5EDD70 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/seam_finders.cpp */ = {isa = PBXBuildFile; fileRef = CCF91C840CFA4794BDCDFE9E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/seam_finders.cpp */; };
-		CA1EFCA87112422CB5E055FB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/motion_estimators.cpp */ = {isa = PBXBuildFile; fileRef = B5C5FFAB5C4C49C396B38EB0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/motion_estimators.cpp */; };
-		CA997428E4D94A53A9E482D0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 84A9B24D648D4FC390285E34 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/CMakeLists.txt */; };
-		D0350382248B43D2AAAF05E8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/autocalib.cpp */ = {isa = PBXBuildFile; fileRef = DA94A57CD55B4FDE88028B17 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/autocalib.cpp */; };
-		D8370DBB2AA44564851786B3 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/CMakeFiles/opencv_stitching.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 814E241770E44ECA81B4DB12 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/CMakeFiles/opencv_stitching.dir/Info.plist */; };
-		DDD41454400F487AA90741D0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 51B62350D8444364A37E1533 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/precomp.hpp */; };
-		E51BEB954D2643DF8B709F70 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */ = {isa = PBXBuildFile; fileRef = 93526DDCFFA047449B54A0C0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */; };
-		E7AE69D133664F34AC61B2FF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util.hpp */ = {isa = PBXBuildFile; fileRef = 9985CBE4F2FE402CA2432C5C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util.hpp */; };
-		F4857C8B3DB141409EF7A533 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */ = {isa = PBXBuildFile; fileRef = 2550FC6D82654B19A1067E0F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */; };
-		F8490BB24CAF4661B892C2D7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */ = {isa = PBXBuildFile; fileRef = 51547D2E044B421B88AE8EC4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */; };
-		FDCB03225CA543609374BCA1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/warpers.cl */ = {isa = PBXBuildFile; fileRef = E1638C4FDB8349E2B0905E30 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/warpers.cl */; };
-		FE52AADEF2814715AEA3FD7B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.hpp */ = {isa = PBXBuildFile; fileRef = 8F20A7CD14F143F282BBB983 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.hpp */; };
+		0DE9720B6F714257BBECE55F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2043C8BD35C64E54A7A0C3F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/CMakeLists.txt */; };
+		11857760D1A5446A8BE97FDB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/blenders.cpp */ = {isa = PBXBuildFile; fileRef = FECA28120E944D6F926276E7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/blenders.cpp */; };
+		19E09C6EA9414DB2B570CF6A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/warpers.cl */ = {isa = PBXBuildFile; fileRef = 4AF911F1C4EB4483BCE4EBD0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/warpers.cl */; };
+		1B0AF8E9815D48F0BF1B969B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/matchers.cpp */ = {isa = PBXBuildFile; fileRef = BAFCA6681EEF4E5580B7F0E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/matchers.cpp */; };
+		2A091762135345C49035531F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers.cpp */ = {isa = PBXBuildFile; fileRef = A06E6338361E445DA72BE8B9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers.cpp */; };
+		2E963AEDD13545BCAB0BD57F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */ = {isa = PBXBuildFile; fileRef = 462F377D0CF7445E9D26532D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */; };
+		34E6DA7661B942C490F56334 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 19F801AA09D648F5A882669F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */; };
+		3E3EA636F2CF4D5BAA3A0B1D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util.hpp */ = {isa = PBXBuildFile; fileRef = 4F260825C72B4BE79F7B521A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util.hpp */; };
+		3E4A50D6040748489DAE6D5A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util.cpp */ = {isa = PBXBuildFile; fileRef = 44C033DCB27044E1A4A21FFC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util.cpp */; };
+		43B9AB7B688643C4927CB34A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */ = {isa = PBXBuildFile; fileRef = 3040D2BF4D424BC78699D837 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */; };
+		4F548DC7A3BB4A5F918E77DB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */ = {isa = PBXBuildFile; fileRef = D626D226951648D5AA0357FE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */; };
+		4F705BF3DD3A44D0B66567F1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/seam_finders.cpp */ = {isa = PBXBuildFile; fileRef = BB96519DD8114C6983C31966 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/seam_finders.cpp */; };
+		5CA19D252D064C3EA4981DAC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/timelapsers.cpp */ = {isa = PBXBuildFile; fileRef = F79601A0541B4067AB76311A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/timelapsers.cpp */; };
+		67574EB4368A4B68B08F8710 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/exposure_compensate.cpp */ = {isa = PBXBuildFile; fileRef = 14F3D3709A614C38AFB8977C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/exposure_compensate.cpp */; };
+		69E973A33EA1412BBE35F595 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */ = {isa = PBXBuildFile; fileRef = 05FB85630B5A4A30BA1A0DDA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */; };
+		740A7F7C95554570B9394C5A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp.rule */ = {isa = PBXBuildFile; fileRef = 89BDBEB1E6094570ADC08275 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp.rule */; };
+		76E1F81A85DE4848ABB28D5D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */ = {isa = PBXBuildFile; fileRef = E9C2AEC2B8EC42F4B9750AD9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */; };
+		8DBB615A9C4242FB93E2785D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */ = {isa = PBXBuildFile; fileRef = 9A80087371FA4E17BCB2EB72 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */; };
+		8EB1FA500CBB434F871B9E16 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/CMakeFiles/opencv_stitching.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 71ABA891EBA94F4CA699611D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/CMakeFiles/opencv_stitching.dir/Info.plist */; };
+		9567B3970733499E8EA6ED66 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers_cuda.cpp */ = {isa = PBXBuildFile; fileRef = 80F313384278438D8B862FDD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers_cuda.cpp */; };
+		966D4BFF9ABA451CA44FFCDB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */ = {isa = PBXBuildFile; fileRef = 48E9799D020147E8B261BA8B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */; };
+		9E11356E0E264929BF4E1B81 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/motion_estimators.cpp */ = {isa = PBXBuildFile; fileRef = C61442E10A0448EEB8EEDB8A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/motion_estimators.cpp */; };
+		A03B788C926C4C9E89443792 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */ = {isa = PBXBuildFile; fileRef = 74E1F724561647099DF57214 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */; };
+		B8186EF80BE946AB82827D74 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp */ = {isa = PBXBuildFile; fileRef = 92973428B3A040B69D2F455F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp */; };
+		B8882968D3324F649679F661 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/warpers.hpp */ = {isa = PBXBuildFile; fileRef = 75F61F4959B84E7BA2FCA7C4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/warpers.hpp */; };
+		BB98E7E3CAC1489E862F0EBC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/autocalib.cpp */ = {isa = PBXBuildFile; fileRef = 275BAFBC0A75411C8708CED6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/autocalib.cpp */; };
+		BFA7732F17124D58AE337B18 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */ = {isa = PBXBuildFile; fileRef = FEA349B786F243C69FE3FD21 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */; };
+		C66F1BA20EE14BC99D96DE95 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 17E793F84D394ECBB111637F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */; };
+		CB6152A9D8C04FF5A3C1C78A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/camera.cpp */ = {isa = PBXBuildFile; fileRef = 6015E35262A444F9BF669237 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/camera.cpp */; };
+		D43330D6DF4C4945BF89E38A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = C67176BE505E42DF8F345D15 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/precomp.hpp */; };
+		DA9C033631FE46B3BB54248B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching.hpp */ = {isa = PBXBuildFile; fileRef = B07DFAD50B4143D1B8A9F9EC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching.hpp */; };
+		E05CE9DC3B294968930F9A86 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.hpp */ = {isa = PBXBuildFile; fileRef = 15BBAB2D42C6459AA1A50AFA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.hpp */; };
+		F37224A68199482D990BE6BA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util_log.hpp */ = {isa = PBXBuildFile; fileRef = 32CBAA1BCAF9473E9B43E89E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util_log.hpp */; };
+		F3C59A5E4CC149789DBCD6A9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */ = {isa = PBXBuildFile; fileRef = E9FC05722EE8499B972140F4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */; };
+		F9FB141DF7CA43B291C530B0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/stitcher.cpp */ = {isa = PBXBuildFile; fileRef = 60DD8A2E5308415AA011D10B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/stitcher.cpp */; };
+		FDB6314A21F1464C99F78C2F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/multibandblend.cl */ = {isa = PBXBuildFile; fileRef = 427007C6489D471EBBBFFFC8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/multibandblend.cl */; };
+		FE94DF243EFA4EC9BCE1D265 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/camera.hpp */ = {isa = PBXBuildFile; fileRef = 414927245CE7406D8F98D3F7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/camera.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		3501528E96C54A3D906A63C2 /* Release */ = {
+		3B8423CD0A9344D7BB7EF647 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		97F54B412CE14CC8A7AFD5B2 /* Debug */ = {
+		BA0B2B6E72CB45AB901A84A6 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -126,37 +126,37 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		31D391019E584C1DA7FD3C3B /* PBXContainerItemProxy */ = {
+		27863EF0861B4DA78EE0882F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7C84CE8919E04E0686687E36 /* Project object */;
+			containerPortal = D80AAB0F627244578D570BC1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
 			remoteInfo = ZERO_CHECK;
 		};
-		3977F91FE1B547FC888625CC /* PBXContainerItemProxy */ = {
+		4F82D00114184E1E979A1798 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7C84CE8919E04E0686687E36 /* Project object */;
+			containerPortal = D80AAB0F627244578D570BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
+			remoteInfo = ZERO_CHECK;
+		};
+		7BA3F50936D44B9F844B139E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80AAB0F627244578D570BC1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 53B02A38B8EC63BDFDFEAF50;
 			remoteInfo = opencv_stitching;
 		};
-		6B18D10DB0474282B36C818E /* PBXContainerItemProxy */ = {
+		92B0E427130049418A266492 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7C84CE8919E04E0686687E36 /* Project object */;
+			containerPortal = D80AAB0F627244578D570BC1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
 			remoteInfo = ALL_BUILD;
 		};
-		7BA7F2D3A8264D3CA393F038 /* PBXContainerItemProxy */ = {
+		FADD5FE36122483F962C310F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7C84CE8919E04E0686687E36 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
-			remoteInfo = ZERO_CHECK;
-		};
-		C250918009874AA09E5FD303 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7C84CE8919E04E0686687E36 /* Project object */;
+			containerPortal = D80AAB0F627244578D570BC1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
 			remoteInfo = ALL_BUILD;
@@ -164,49 +164,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		023C678C4CD54F4BA5382162 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util_log.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = util_log.hpp; path = src/util_log.hpp; sourceTree = SOURCE_ROOT; };
-		06DAA6992AEE40949240E5CC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = blenders.hpp; path = include/opencv2/stitching/detail/blenders.hpp; sourceTree = SOURCE_ROOT; };
-		0A7E1D8B7CCC4E0AA30210F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp.rule */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = opencl_kernels_stitching.cpp.rule; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp.rule"; sourceTree = "<absolute>"; };
-		0FC1555AFF4844838CCDE531 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stitching.hpp; path = include/opencv2/stitching.hpp; sourceTree = SOURCE_ROOT; };
-		240D5F660CDF4C27B7A6588A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/matchers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matchers.cpp; path = src/matchers.cpp; sourceTree = SOURCE_ROOT; };
-		2550FC6D82654B19A1067E0F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = exposure_compensate.hpp; path = include/opencv2/stitching/detail/exposure_compensate.hpp; sourceTree = SOURCE_ROOT; };
-		2DC9C6148F554308BD650DCC /* opencv_stitching */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_stitching.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		374B11A873AB4FC7BE5B56C1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp"; sourceTree = "<absolute>"; };
-		435C89C3D19D40ACBA935639 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = autocalib.hpp; path = include/opencv2/stitching/detail/autocalib.hpp; sourceTree = SOURCE_ROOT; };
-		474F565716E94BAC96865B8E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/camera.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = camera.hpp; path = include/opencv2/stitching/detail/camera.hpp; sourceTree = SOURCE_ROOT; };
-		4912063E326B4B22AA60E77C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_stitching.cpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp"; sourceTree = "<absolute>"; };
-		4FE6C7FD5E2546A1BBB2BAE7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = src/util.cpp; sourceTree = SOURCE_ROOT; };
-		51547D2E044B421B88AE8EC4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers_inl.hpp; path = include/opencv2/stitching/detail/warpers_inl.hpp; sourceTree = SOURCE_ROOT; };
-		51B62350D8444364A37E1533 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
-		6E41C5E2B4834380A3C35091 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/multibandblend.cl */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = multibandblend.cl; path = src/opencl/multibandblend.cl; sourceTree = SOURCE_ROOT; };
-		7816CD01EDB5400DB141E991 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/timelapsers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timelapsers.cpp; path = src/timelapsers.cpp; sourceTree = SOURCE_ROOT; };
-		814E241770E44ECA81B4DB12 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/CMakeFiles/opencv_stitching.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/CMakeFiles/opencv_stitching.dir/Info.plist"; sourceTree = "<absolute>"; };
-		84A9B24D648D4FC390285E34 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		87675AB309A24A71BE692EA2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = warpers.cpp; path = src/warpers.cpp; sourceTree = SOURCE_ROOT; };
-		88AD46E6011346C9B6E0EA6F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = seam_finders.hpp; path = include/opencv2/stitching/detail/seam_finders.hpp; sourceTree = SOURCE_ROOT; };
-		89348AEE606B4A289CFAF9F9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/blenders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blenders.cpp; path = src/blenders.cpp; sourceTree = SOURCE_ROOT; };
-		8F20A7CD14F143F282BBB983 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_stitching.hpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.hpp"; sourceTree = "<absolute>"; };
-		93526DDCFFA047449B54A0C0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = util_inl.hpp; path = include/opencv2/stitching/detail/util_inl.hpp; sourceTree = SOURCE_ROOT; };
-		9985CBE4F2FE402CA2432C5C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = util.hpp; path = include/opencv2/stitching/detail/util.hpp; sourceTree = SOURCE_ROOT; };
-		A1FFC2B80B834576A836DFDB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = motion_estimators.hpp; path = include/opencv2/stitching/detail/motion_estimators.hpp; sourceTree = SOURCE_ROOT; };
-		B4449C9394D14ABE8786C16E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers_cuda.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = warpers_cuda.cpp; path = src/warpers_cuda.cpp; sourceTree = SOURCE_ROOT; };
-		B5C5FFAB5C4C49C396B38EB0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/motion_estimators.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = motion_estimators.cpp; path = src/motion_estimators.cpp; sourceTree = SOURCE_ROOT; };
-		B65E4A94C1D745698B5894BE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/warpers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers.hpp; path = include/opencv2/stitching/warpers.hpp; sourceTree = SOURCE_ROOT; };
-		BDC40988E7C1480E9C6ECB8C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/stitcher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stitcher.cpp; path = src/stitcher.cpp; sourceTree = SOURCE_ROOT; };
-		C342C148035A480CB0211BAB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		C4E83162C22A40D9B567AA7E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers.hpp; path = include/opencv2/stitching/detail/warpers.hpp; sourceTree = SOURCE_ROOT; };
-		C72FCC6E359648D8A94E1538 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = src/camera.cpp; sourceTree = SOURCE_ROOT; };
-		C8F709D70EFA435AB73671DB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h"; sourceTree = "<absolute>"; };
-		CCF91C840CFA4794BDCDFE9E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/seam_finders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = seam_finders.cpp; path = src/seam_finders.cpp; sourceTree = SOURCE_ROOT; };
-		DA94A57CD55B4FDE88028B17 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/autocalib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = autocalib.cpp; path = src/autocalib.cpp; sourceTree = SOURCE_ROOT; };
-		E1638C4FDB8349E2B0905E30 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/warpers.cl */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = warpers.cl; path = src/opencl/warpers.cl; sourceTree = SOURCE_ROOT; };
-		E3647DBADD714AA897AADB23 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matchers.hpp; path = include/opencv2/stitching/detail/matchers.hpp; sourceTree = SOURCE_ROOT; };
-		FA7D0CF256A041D7A840DFE1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = timelapsers.hpp; path = include/opencv2/stitching/detail/timelapsers.hpp; sourceTree = SOURCE_ROOT; };
-		FACC43C0033D441ABB47B55F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/exposure_compensate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exposure_compensate.cpp; path = src/exposure_compensate.cpp; sourceTree = SOURCE_ROOT; };
+		05FB85630B5A4A30BA1A0DDA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = autocalib.hpp; path = include/opencv2/stitching/detail/autocalib.hpp; sourceTree = SOURCE_ROOT; };
+		14F3D3709A614C38AFB8977C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/exposure_compensate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exposure_compensate.cpp; path = src/exposure_compensate.cpp; sourceTree = SOURCE_ROOT; };
+		15BBAB2D42C6459AA1A50AFA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_stitching.hpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.hpp"; sourceTree = "<absolute>"; };
+		17E793F84D394ECBB111637F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp"; sourceTree = "<absolute>"; };
+		19F801AA09D648F5A882669F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h"; sourceTree = "<absolute>"; };
+		2043C8BD35C64E54A7A0C3F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		275BAFBC0A75411C8708CED6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/autocalib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = autocalib.cpp; path = src/autocalib.cpp; sourceTree = SOURCE_ROOT; };
+		3040D2BF4D424BC78699D837 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers_inl.hpp; path = include/opencv2/stitching/detail/warpers_inl.hpp; sourceTree = SOURCE_ROOT; };
+		32CBAA1BCAF9473E9B43E89E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util_log.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = util_log.hpp; path = src/util_log.hpp; sourceTree = SOURCE_ROOT; };
+		414927245CE7406D8F98D3F7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/camera.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = camera.hpp; path = include/opencv2/stitching/detail/camera.hpp; sourceTree = SOURCE_ROOT; };
+		427007C6489D471EBBBFFFC8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/multibandblend.cl */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = multibandblend.cl; path = src/opencl/multibandblend.cl; sourceTree = SOURCE_ROOT; };
+		44C033DCB27044E1A4A21FFC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = src/util.cpp; sourceTree = SOURCE_ROOT; };
+		462F377D0CF7445E9D26532D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers.hpp; path = include/opencv2/stitching/detail/warpers.hpp; sourceTree = SOURCE_ROOT; };
+		48E9799D020147E8B261BA8B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matchers.hpp; path = include/opencv2/stitching/detail/matchers.hpp; sourceTree = SOURCE_ROOT; };
+		4AF911F1C4EB4483BCE4EBD0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/warpers.cl */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = warpers.cl; path = src/opencl/warpers.cl; sourceTree = SOURCE_ROOT; };
+		4F260825C72B4BE79F7B521A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = util.hpp; path = include/opencv2/stitching/detail/util.hpp; sourceTree = SOURCE_ROOT; };
+		6015E35262A444F9BF669237 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = src/camera.cpp; sourceTree = SOURCE_ROOT; };
+		60DD8A2E5308415AA011D10B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/stitcher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stitcher.cpp; path = src/stitcher.cpp; sourceTree = SOURCE_ROOT; };
+		71ABA891EBA94F4CA699611D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/CMakeFiles/opencv_stitching.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/CMakeFiles/opencv_stitching.dir/Info.plist"; sourceTree = "<absolute>"; };
+		74E1F724561647099DF57214 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = util_inl.hpp; path = include/opencv2/stitching/detail/util_inl.hpp; sourceTree = SOURCE_ROOT; };
+		75F61F4959B84E7BA2FCA7C4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/warpers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers.hpp; path = include/opencv2/stitching/warpers.hpp; sourceTree = SOURCE_ROOT; };
+		78FE0A08FEA7456691C0D266 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		80F313384278438D8B862FDD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers_cuda.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = warpers_cuda.cpp; path = src/warpers_cuda.cpp; sourceTree = SOURCE_ROOT; };
+		89BDBEB1E6094570ADC08275 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp.rule */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = opencl_kernels_stitching.cpp.rule; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp.rule"; sourceTree = "<absolute>"; };
+		92973428B3A040B69D2F455F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_stitching.cpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp"; sourceTree = "<absolute>"; };
+		9A80087371FA4E17BCB2EB72 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = blenders.hpp; path = include/opencv2/stitching/detail/blenders.hpp; sourceTree = SOURCE_ROOT; };
+		A06E6338361E445DA72BE8B9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = warpers.cpp; path = src/warpers.cpp; sourceTree = SOURCE_ROOT; };
+		B07DFAD50B4143D1B8A9F9EC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stitching.hpp; path = include/opencv2/stitching.hpp; sourceTree = SOURCE_ROOT; };
+		BAFCA6681EEF4E5580B7F0E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/matchers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matchers.cpp; path = src/matchers.cpp; sourceTree = SOURCE_ROOT; };
+		BB96519DD8114C6983C31966 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/seam_finders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = seam_finders.cpp; path = src/seam_finders.cpp; sourceTree = SOURCE_ROOT; };
+		C61442E10A0448EEB8EEDB8A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/motion_estimators.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = motion_estimators.cpp; path = src/motion_estimators.cpp; sourceTree = SOURCE_ROOT; };
+		C67176BE505E42DF8F345D15 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		D0D32EA1811947F881B0AB2D /* opencv_stitching */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_stitching.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D626D226951648D5AA0357FE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = seam_finders.hpp; path = include/opencv2/stitching/detail/seam_finders.hpp; sourceTree = SOURCE_ROOT; };
+		E9C2AEC2B8EC42F4B9750AD9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = exposure_compensate.hpp; path = include/opencv2/stitching/detail/exposure_compensate.hpp; sourceTree = SOURCE_ROOT; };
+		E9FC05722EE8499B972140F4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = timelapsers.hpp; path = include/opencv2/stitching/detail/timelapsers.hpp; sourceTree = SOURCE_ROOT; };
+		F79601A0541B4067AB76311A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/timelapsers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timelapsers.cpp; path = src/timelapsers.cpp; sourceTree = SOURCE_ROOT; };
+		FEA349B786F243C69FE3FD21 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = motion_estimators.hpp; path = include/opencv2/stitching/detail/motion_estimators.hpp; sourceTree = SOURCE_ROOT; };
+		FECA28120E944D6F926276E7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/blenders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blenders.cpp; path = src/blenders.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FAE6C605BF3648C3800DD823 /* Frameworks */ = {
+		68862E78DD0F4F8185C0C72C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -216,185 +216,185 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0013D8EDAD9F427F8927D7F1 = {
+		01B53FC59BE14E529FB45833 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				60AFADA67FB844F2A78309CE /* modules */,
-				D1D6977C46AE48608B2E2A2B /* ALL_BUILD */,
-				55F7D21356734E31A6DD733B /* Products */,
-				36E54B7CA12544159E9E5AC1 /* Frameworks */,
-				DD5A3905EE3746C7AECE8BA7 /* Resources */,
+				7EB4637382F64FC89869EFBE /* CMake Rules */,
+				78FE0A08FEA7456691C0D266 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/CMakeLists.txt */,
 			);
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		01AE379A711440A7B995D215 /* Include */ = {
+		08986597EEA042B887C56BAB /* Include */ = {
 			isa = PBXGroup;
 			children = (
-				4288ECAB6BAF4EDB80A0E3F2 /* opencv2 */,
-				C8F709D70EFA435AB73671DB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */,
-				374B11A873AB4FC7BE5B56C1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */,
+				F6542794BAD44DC2AD53E08F /* opencv2 */,
+				19F801AA09D648F5A882669F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/cvconfig.h */,
+				17E793F84D394ECBB111637F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */,
 			);
 			name = Include;
 			sourceTree = "<group>";
 		};
-		0535F90FA05A4E44980EE3D8 /* Src */ = {
+		17D5EBD2E25348B1B05E7E32 /* opencv_stitching */ = {
 			isa = PBXGroup;
 			children = (
-				972D334817524054BF4A2715 /* opencl */,
-				DA94A57CD55B4FDE88028B17 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/autocalib.cpp */,
-				89348AEE606B4A289CFAF9F9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/blenders.cpp */,
-				C72FCC6E359648D8A94E1538 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/camera.cpp */,
-				FACC43C0033D441ABB47B55F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/exposure_compensate.cpp */,
-				240D5F660CDF4C27B7A6588A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/matchers.cpp */,
-				B5C5FFAB5C4C49C396B38EB0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/motion_estimators.cpp */,
-				51B62350D8444364A37E1533 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/precomp.hpp */,
-				CCF91C840CFA4794BDCDFE9E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/seam_finders.cpp */,
-				BDC40988E7C1480E9C6ECB8C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/stitcher.cpp */,
-				7816CD01EDB5400DB141E991 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/timelapsers.cpp */,
-				4FE6C7FD5E2546A1BBB2BAE7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util.cpp */,
-				023C678C4CD54F4BA5382162 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util_log.hpp */,
-				87675AB309A24A71BE692EA2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers.cpp */,
-				B4449C9394D14ABE8786C16E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers_cuda.cpp */,
+				08986597EEA042B887C56BAB /* Include */,
+				CA920386E5DD4D688387F12D /* Src */,
+				2DE7E63A4D2F4B418F6196B8 /* CMake Rules */,
+				3880BAC8B8474A3AB836AF51 /* Resources */,
+				2043C8BD35C64E54A7A0C3F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/CMakeLists.txt */,
 			);
-			name = Src;
+			name = opencv_stitching;
 			sourceTree = "<group>";
 		};
-		11B82D70E277433A95D27516 /* Resources */ = {
+		17FD98121D9E4C54ADD2453F /* kernels */ = {
 			isa = PBXGroup;
 			children = (
-				814E241770E44ECA81B4DB12 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/CMakeFiles/opencv_stitching.dir/Info.plist */,
+				5BFD1F1B51C44085B2BD7F14 /* autogenerated */,
+				427007C6489D471EBBBFFFC8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/multibandblend.cl */,
+				4AF911F1C4EB4483BCE4EBD0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/warpers.cl */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		2DE7E63A4D2F4B418F6196B8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				89BDBEB1E6094570ADC08275 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3880BAC8B8474A3AB836AF51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71ABA891EBA94F4CA699611D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/CMakeFiles/opencv_stitching.dir/Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		271D33B4E61543479606B5C6 /* detail */ = {
-			isa = PBXGroup;
-			children = (
-				435C89C3D19D40ACBA935639 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */,
-				06DAA6992AEE40949240E5CC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */,
-				474F565716E94BAC96865B8E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/camera.hpp */,
-				2550FC6D82654B19A1067E0F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */,
-				E3647DBADD714AA897AADB23 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */,
-				A1FFC2B80B834576A836DFDB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */,
-				88AD46E6011346C9B6E0EA6F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */,
-				FA7D0CF256A041D7A840DFE1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */,
-				9985CBE4F2FE402CA2432C5C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util.hpp */,
-				93526DDCFFA047449B54A0C0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */,
-				C4E83162C22A40D9B567AA7E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */,
-				51547D2E044B421B88AE8EC4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */,
-			);
-			name = detail;
-			sourceTree = "<group>";
-		};
-		36E54B7CA12544159E9E5AC1 /* Frameworks */ = {
+		551275D7307E429796C6EB17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4288ECAB6BAF4EDB80A0E3F2 /* opencv2 */ = {
+		5BFD1F1B51C44085B2BD7F14 /* autogenerated */ = {
 			isa = PBXGroup;
 			children = (
-				516CE4078FB8410CBE1B9843 /* stitching */,
-				0FC1555AFF4844838CCDE531 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching.hpp */,
-			);
-			name = opencv2;
-			sourceTree = "<group>";
-		};
-		516CE4078FB8410CBE1B9843 /* stitching */ = {
-			isa = PBXGroup;
-			children = (
-				271D33B4E61543479606B5C6 /* detail */,
-				B65E4A94C1D745698B5894BE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/warpers.hpp */,
-			);
-			name = stitching;
-			sourceTree = "<group>";
-		};
-		55F7D21356734E31A6DD733B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2DC9C6148F554308BD650DCC /* opencv_stitching */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		60AFADA67FB844F2A78309CE /* modules */ = {
-			isa = PBXGroup;
-			children = (
-				7BD64C888BE443109AD8B844 /* opencv_stitching */,
-			);
-			name = modules;
-			sourceTree = "<group>";
-		};
-		7BD64C888BE443109AD8B844 /* opencv_stitching */ = {
-			isa = PBXGroup;
-			children = (
-				01AE379A711440A7B995D215 /* Include */,
-				0535F90FA05A4E44980EE3D8 /* Src */,
-				D6BA6910ECE84A5CA0AD510E /* CMake Rules */,
-				11B82D70E277433A95D27516 /* Resources */,
-				84A9B24D648D4FC390285E34 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/CMakeLists.txt */,
-			);
-			name = opencv_stitching;
-			sourceTree = "<group>";
-		};
-		8276B72A33D044059D766FF9 /* autogenerated */ = {
-			isa = PBXGroup;
-			children = (
-				4912063E326B4B22AA60E77C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp */,
-				8F20A7CD14F143F282BBB983 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.hpp */,
+				92973428B3A040B69D2F455F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp */,
+				15BBAB2D42C6459AA1A50AFA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.hpp */,
 			);
 			name = autogenerated;
 			sourceTree = "<group>";
 		};
-		9534B34A28D5432FBCC6342E /* CMake Rules */ = {
+		7350EFC5292842A9A3C1C7B3 /* stitching */ = {
+			isa = PBXGroup;
+			children = (
+				7A33D246770A47E788173FD9 /* detail */,
+				75F61F4959B84E7BA2FCA7C4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/warpers.hpp */,
+			);
+			name = stitching;
+			sourceTree = "<group>";
+		};
+		7A33D246770A47E788173FD9 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				05FB85630B5A4A30BA1A0DDA /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */,
+				9A80087371FA4E17BCB2EB72 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */,
+				414927245CE7406D8F98D3F7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/camera.hpp */,
+				E9C2AEC2B8EC42F4B9750AD9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */,
+				48E9799D020147E8B261BA8B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */,
+				FEA349B786F243C69FE3FD21 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */,
+				D626D226951648D5AA0357FE /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */,
+				E9FC05722EE8499B972140F4 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */,
+				4F260825C72B4BE79F7B521A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util.hpp */,
+				74E1F724561647099DF57214 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */,
+				462F377D0CF7445E9D26532D /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */,
+				3040D2BF4D424BC78699D837 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */,
+			);
+			name = detail;
+			sourceTree = "<group>";
+		};
+		7EB4637382F64FC89869EFBE /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		972D334817524054BF4A2715 /* opencl */ = {
+		940A4C012FC0457D8ED95CEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F36244631944C28B8120A8E /* kernels */,
+				D0D32EA1811947F881B0AB2D /* opencv_stitching */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3332427BBE74608B2AEE836 = {
+			isa = PBXGroup;
+			children = (
+				C017ED4967124568AF866818 /* modules */,
+				01B53FC59BE14E529FB45833 /* ALL_BUILD */,
+				940A4C012FC0457D8ED95CEB /* Products */,
+				551275D7307E429796C6EB17 /* Frameworks */,
+				F28D78958E174C278BA30B34 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		B40ECC4463E846FAB3786CC3 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				17FD98121D9E4C54ADD2453F /* kernels */,
 			);
 			name = opencl;
 			sourceTree = "<group>";
 		};
-		9F36244631944C28B8120A8E /* kernels */ = {
+		C017ED4967124568AF866818 /* modules */ = {
 			isa = PBXGroup;
 			children = (
-				8276B72A33D044059D766FF9 /* autogenerated */,
-				6E41C5E2B4834380A3C35091 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/multibandblend.cl */,
-				E1638C4FDB8349E2B0905E30 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/opencl/warpers.cl */,
+				17D5EBD2E25348B1B05E7E32 /* opencv_stitching */,
 			);
-			name = kernels;
+			name = modules;
 			sourceTree = "<group>";
 		};
-		D1D6977C46AE48608B2E2A2B /* ALL_BUILD */ = {
+		CA920386E5DD4D688387F12D /* Src */ = {
 			isa = PBXGroup;
 			children = (
-				9534B34A28D5432FBCC6342E /* CMake Rules */,
-				C342C148035A480CB0211BAB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/CMakeLists.txt */,
+				B40ECC4463E846FAB3786CC3 /* opencl */,
+				275BAFBC0A75411C8708CED6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/autocalib.cpp */,
+				FECA28120E944D6F926276E7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/blenders.cpp */,
+				6015E35262A444F9BF669237 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/camera.cpp */,
+				14F3D3709A614C38AFB8977C /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/exposure_compensate.cpp */,
+				BAFCA6681EEF4E5580B7F0E2 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/matchers.cpp */,
+				C61442E10A0448EEB8EEDB8A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/motion_estimators.cpp */,
+				C67176BE505E42DF8F345D15 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/precomp.hpp */,
+				BB96519DD8114C6983C31966 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/seam_finders.cpp */,
+				60DD8A2E5308415AA011D10B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/stitcher.cpp */,
+				F79601A0541B4067AB76311A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/timelapsers.cpp */,
+				44C033DCB27044E1A4A21FFC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util.cpp */,
+				32CBAA1BCAF9473E9B43E89E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util_log.hpp */,
+				A06E6338361E445DA72BE8B9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers.cpp */,
+				80F313384278438D8B862FDD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers_cuda.cpp */,
 			);
-			name = ALL_BUILD;
+			name = Src;
 			sourceTree = "<group>";
 		};
-		D6BA6910ECE84A5CA0AD510E /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-				0A7E1D8B7CCC4E0AA30210F6 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp.rule */,
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		DD5A3905EE3746C7AECE8BA7 /* Resources */ = {
+		F28D78958E174C278BA30B34 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		F6542794BAD44DC2AD53E08F /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				7350EFC5292842A9A3C1C7B3 /* stitching */,
+				B07DFAD50B4143D1B8A9F9EC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include/opencv2/stitching.hpp */,
+			);
+			name = opencv2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,41 +402,41 @@
 /* Begin PBXNativeTarget section */
 		53B02A38B8EC63BDFDFEAF50 /* opencv_stitching */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCD72451FE4C4EF7A3C0AD13 /* Build configuration list for PBXNativeTarget "opencv_stitching" */;
+			buildConfigurationList = F02FB5945D764C0CB7EBFA3D /* Build configuration list for PBXNativeTarget "opencv_stitching" */;
 			buildPhases = (
 				4E94987FA4BC3E9FEF5D1448 /* Generate opencl_kernels_stitching.cpp */,
-				100368CA348445A98A1A17BC /* Sources */,
-				FAE6C605BF3648C3800DD823 /* Frameworks */,
+				692D7EB14FE547C286F63F10 /* Sources */,
+				68862E78DD0F4F8185C0C72C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				08B1500DDAB3484886347A2B /* PBXTargetDependency */,
+				2FE6A66C94A0429EA421B731 /* PBXTargetDependency */,
 			);
 			name = opencv_stitching;
 			productName = opencv_stitching;
-			productReference = 2DC9C6148F554308BD650DCC /* opencv_stitching */;
+			productReference = D0D32EA1811947F881B0AB2D /* opencv_stitching */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7C84CE8919E04E0686687E36 /* Project object */ = {
+		D80AAB0F627244578D570BC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 2620;
+				LastUpgradeCheck = 2630;
 			};
-			buildConfigurationList = D5E4B7629C18457E94D6BA25 /* Build configuration list for PBXProject "opencv_stitching" */;
+			buildConfigurationList = 2B2FF1A4D3D640B697B46813 /* Build configuration list for PBXProject "opencv_stitching" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				97F54B412CE14CC8A7AFD5B2 /* Debug */,
-				3501528E96C54A3D906A63C2 /* Release */,
+				BA0B2B6E72CB45AB901A84A6 /* Debug */,
+				3B8423CD0A9344D7BB7EF647 /* Release */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 0013D8EDAD9F427F8927D7F1;
+			mainGroup = B3332427BBE74608B2AEE836;
 			projectDirPath = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching";
 			projectRoot = "";
 			targets = (
@@ -678,229 +678,58 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		100368CA348445A98A1A17BC /* Sources */ = {
+		692D7EB14FE547C286F63F10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0350382248B43D2AAAF05E8 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/autocalib.cpp */,
-				92ABE7FD85D5482DA6924B7A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/blenders.cpp */,
-				1D22BBB7DEC94D42BFCAABCF /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/camera.cpp */,
-				9DB8895354364EF382D77932 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/exposure_compensate.cpp */,
-				AC23EA27B3004C099A65F5BD /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/matchers.cpp */,
-				CA1EFCA87112422CB5E055FB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/motion_estimators.cpp */,
-				C90E89C1CCE648F88F5EDD70 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/seam_finders.cpp */,
-				ABBB567024AB499AB4532364 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/stitcher.cpp */,
-				852B8269C03A44659E299E2F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/timelapsers.cpp */,
-				377A813D5DC841BD837DC736 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util.cpp */,
-				5772CEC289D941BD96AB301E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers.cpp */,
-				06E3904623854939B4D7783E /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers_cuda.cpp */,
-				9049AAFAB08D45C68840A6B0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp */,
+				BB98E7E3CAC1489E862F0EBC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/autocalib.cpp */,
+				11857760D1A5446A8BE97FDB /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/blenders.cpp */,
+				CB6152A9D8C04FF5A3C1C78A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/camera.cpp */,
+				67574EB4368A4B68B08F8710 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/exposure_compensate.cpp */,
+				1B0AF8E9815D48F0BF1B969B /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/matchers.cpp */,
+				9E11356E0E264929BF4E1B81 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/motion_estimators.cpp */,
+				4F705BF3DD3A44D0B66567F1 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/seam_finders.cpp */,
+				F9FB141DF7CA43B291C530B0 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/stitcher.cpp */,
+				5CA19D252D064C3EA4981DAC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/timelapsers.cpp */,
+				3E4A50D6040748489DAE6D5A /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/util.cpp */,
+				2A091762135345C49035531F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers.cpp */,
+				9567B3970733499E8EA6ED66 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/src/warpers_cuda.cpp */,
+				B8186EF80BE946AB82827D74 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching/opencl_kernels_stitching.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		08B1500DDAB3484886347A2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
-			targetProxy = 31D391019E584C1DA7FD3C3B /* PBXContainerItemProxy */;
-		};
-		6BDD1364482541359EF68E4F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
-			targetProxy = 7BA7F2D3A8264D3CA393F038 /* PBXContainerItemProxy */;
-		};
-		6F8D84478C3B411A869A7D7B /* PBXTargetDependency */ = {
+		2EE2539B1DAC44A68A16D5E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
-			targetProxy = 6B18D10DB0474282B36C818E /* PBXContainerItemProxy */;
+			targetProxy = FADD5FE36122483F962C310F /* PBXContainerItemProxy */;
 		};
-		9E5FC8117D364244BD0AD397 /* PBXTargetDependency */ = {
+		2FE6A66C94A0429EA421B731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
+			targetProxy = 4F82D00114184E1E979A1798 /* PBXContainerItemProxy */;
+		};
+		3EBACC33872744008E0FB620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
+			targetProxy = 92B0E427130049418A266492 /* PBXContainerItemProxy */;
+		};
+		C19B23765D73478587846756 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 53B02A38B8EC63BDFDFEAF50 /* opencv_stitching */;
-			targetProxy = 3977F91FE1B547FC888625CC /* PBXContainerItemProxy */;
+			targetProxy = 7BA3F50936D44B9F844B139E /* PBXContainerItemProxy */;
 		};
-		CF531855972D45549935E121 /* PBXTargetDependency */ = {
+		DB1E30D0D775410E80043D2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
-			targetProxy = C250918009874AA09E5FD303 /* PBXContainerItemProxy */;
+			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
+			targetProxy = 27863EF0861B4DA78EE0882F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0EC44D4D2EBC4A06B8ECD9BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		104A7076F88F455E8B48D2F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		1A78403BBE954A09BC583FDE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		4D81633BCBD44797B255D5EF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/lib/Debug";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,"'__OPENCV_BUILD=1'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/flann/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/imgproc/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/features2d/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated-copy         -DDEBUG -D_DEBUG '-std=c++11' -fPIC ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = opencv_stitching;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos","$(inherited)");
-				TARGET_TEMP_DIR = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build/opencv_stitching.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		569D1CFF16DF424EAF65966A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		65C9E0DF7CAC4E13AD6EB680 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CODE_SIGNING_REQUIRED = NO;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
-			};
-			name = Release;
-		};
-		721C5D2520C34E1AB4FB9496 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		890A4FD4787B4185841DCF3C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		AE89A8392A424684BB35C685 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CODE_SIGNING_REQUIRED = NO;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
-			};
-			name = Debug;
-		};
-		AECDEAC0144D43418058F82B /* Release */ = {
+		075B33B67BDE441A96B57F91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -920,27 +749,7 @@ fi
 			};
 			name = Release;
 		};
-		BE10B39523F1411EA09D1DA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		C7FA6A9D93CC486C8CE50EC1 /* Release */ = {
+		434D453B970B42168A28223B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -960,7 +769,128 @@ fi
 			};
 			name = Release;
 		};
-		C8A015EB9CCB4818A5A16561 /* Release */ = {
+		49B0E74842E44B16BFDA395F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
+			};
+			name = Release;
+		};
+		53F4902C6D874D798D5A28F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		54BD26E334854FF2AB2F7174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
+			};
+			name = Debug;
+		};
+		611DED88AA704B928FD61C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		64682A2ADECA470BB3DEE73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7B686BF0AC4B497DAFC2B8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A6FE7516C43243BA90C5B3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A76836937DC44C779DC724C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -990,7 +920,27 @@ fi
 			};
 			name = Release;
 		};
-		F9A349BC51094ED0BD613C14 /* Debug */ = {
+		B9F5815D742A49E8BE1A3172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F7EF4EA31B0443FF9B3E3218 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1010,73 +960,123 @@ fi
 			};
 			name = Debug;
 		};
+		FB1080E00AB0485DBC9E450C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FC6A702672B447A28BA3FC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,"'__OPENCV_BUILD=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/stitching/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/modules/stitching","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/core/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/flann/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/imgproc/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/features2d/include","/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/calib3d/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated-copy         -DDEBUG -D_DEBUG '-std=c++11' -fPIC ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_stitching;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build/opencv_stitching.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D35F8CA985A4A648C76234C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		024319204D304A7C9167A0F8 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9A349BC51094ED0BD613C14 /* Debug */,
-				AECDEAC0144D43418058F82B /* Release */,
+				53F4902C6D874D798D5A28F0 /* Debug */,
+				434D453B970B42168A28223B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		455C9CB6AC2249D48EFA8F51 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+		0CD7D932992C4182AB54DD2F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE10B39523F1411EA09D1DA1 /* Debug */,
-				C7FA6A9D93CC486C8CE50EC1 /* Release */,
+				F7EF4EA31B0443FF9B3E3218 /* Debug */,
+				075B33B67BDE441A96B57F91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		600B2D10F5E14E37877BD7A6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		2B2FF1A4D3D640B697B46813 /* Build configuration list for PBXProject "opencv_stitching" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				104A7076F88F455E8B48D2F0 /* Debug */,
-				569D1CFF16DF424EAF65966A /* Release */,
+				54BD26E334854FF2AB2F7174 /* Debug */,
+				49B0E74842E44B16BFDA395F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		6B45781F58B04E06B01BA151 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		6B47EC4C400148E5A9A70AB8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A78403BBE954A09BC583FDE /* Debug */,
-				0EC44D4D2EBC4A06B8ECD9BA /* Release */,
+				7B686BF0AC4B497DAFC2B8DD /* Debug */,
+				64682A2ADECA470BB3DEE73E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B1A1C5E674A54C9196F6D985 /* Build configuration list for PBXAggregateTarget "package" */ = {
+		7027AA23B0E44A7DA5CFD2F9 /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				721C5D2520C34E1AB4FB9496 /* Debug */,
-				890A4FD4787B4185841DCF3C /* Release */,
+				A6FE7516C43243BA90C5B3D4 /* Debug */,
+				FB1080E00AB0485DBC9E450C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D5E4B7629C18457E94D6BA25 /* Build configuration list for PBXProject "opencv_stitching" */ = {
+		F02FB5945D764C0CB7EBFA3D /* Build configuration list for PBXNativeTarget "opencv_stitching" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE89A8392A424684BB35C685 /* Debug */,
-				65C9E0DF7CAC4E13AD6EB680 /* Release */,
+				FC6A702672B447A28BA3FC02 /* Debug */,
+				A76836937DC44C779DC724C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		FCD72451FE4C4EF7A3C0AD13 /* Build configuration list for PBXNativeTarget "opencv_stitching" */ = {
+		F2C60B96736A4631A2D8DF13 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D81633BCBD44797B255D5EF /* Debug */,
-				C8A015EB9CCB4818A5A16561 /* Release */,
+				611DED88AA704B928FD61C6C /* Debug */,
+				B9F5815D742A49E8BE1A3172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7C84CE8919E04E0686687E36 /* Project object */;
+	rootObject = D80AAB0F627244578D570BC1 /* Project object */;
 }

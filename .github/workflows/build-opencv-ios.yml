@@ -39,6 +39,13 @@ jobs:
           chmod +x scripts/build_opencv_ios.sh
           scripts/build_opencv_ios.sh
 
+      - name: Verify XCFramework
+        run: |
+          test -d output/opencv2.xcframework || { echo "XCFramework not found"; exit 1; }
+          test -f output/opencv2.xcframework.zip || { echo "Zip not found"; exit 1; }
+          echo "XCFramework slices:"
+          ls output/opencv2.xcframework/ | grep -v Info.plist
+
       - name: Compute checksum
         run: |
           cd output
@@ -61,12 +68,14 @@ jobs:
           body: |
             OpenCV ${{ env.OPENCV_VERSION }} for iOS as XCFramework.
 
+            **Built with:** CMake + Ninja (no Xcode generator)
+
             **Includes:**
             - Full stitching detail pipeline
             - SIFT feature detection
             - imread/imwrite (JPEG, PNG, WebP, TIFF)
             - arm64 device + arm64/x86_64 simulator
-            - iOS 13.0+ deployment target
+            - iOS ${{ env.IOS_DEPLOYMENT_TARGET || '13.0' }}+ deployment target
 
             **Checksum (sha256):** `${{ env.CHECKSUM }}`
 

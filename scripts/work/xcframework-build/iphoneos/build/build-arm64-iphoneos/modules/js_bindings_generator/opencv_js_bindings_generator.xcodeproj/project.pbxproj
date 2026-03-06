@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		01C65101F907E9BB1C14098B /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E9696499E8C14D55B1C328D9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 3E23CC9ED6E2453289C82168 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				9DD42667A87B8B64A5C7FC9B /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,44 +20,44 @@
 		};
 		1F1E88B9840A02738E348DD5 /* gen_opencv_js_source */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 46B3950E8389474B8BC3B3C5 /* Build configuration list for PBXAggregateTarget "gen_opencv_js_source" */;
+			buildConfigurationList = 9C613E2F37944F7FB3AD85F0 /* Build configuration list for PBXAggregateTarget "gen_opencv_js_source" */;
 			buildPhases = (
 				49054EE42DA472B888AAD609 /* Generate ../../CMakeFiles/dephelper/gen_opencv_js_source */,
 				F8DB31F41E419AD309585A15 /* Generate CMakeFiles/gen_opencv_js_source */,
 			);
 			dependencies = (
-				E07EEF3E1E674813B70923D5 /* PBXTargetDependency */,
+				4AD81962822844B797E449D8 /* PBXTargetDependency */,
 			);
 			name = gen_opencv_js_source;
 			productName = gen_opencv_js_source;
 		};
 		771FD8AEB39D811E2BC9B426 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 39FC203379E444E48B74D427 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = BE8B01F06B9C4163AC0D4E27 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				936E62F9A03D4801AA71E4EA /* PBXTargetDependency */,
+				AFB96C16C2C7450584203F72 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		86736DDDED1F0A92597C9165 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D57518F5C81F470494186B91 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 2021D3BA85094C9E9CA8109D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				DD66B1BA37389A51644640D6 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				8BBE179AD0E54C3F8FE824EA /* PBXTargetDependency */,
+				F0C575D60A6A40708320E174 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		A0A668F13D19F048AB9F8B68 /* RUN_TESTS */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 5B1BC0861AB14884BF5A6BC4 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildConfigurationList = E4C09EE0F4EB47129AF17BC7 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
 			buildPhases = (
 				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
 			);
@@ -68,12 +68,12 @@
 		};
 		E3A0E307AE475F45B5997A27 /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C943F8EF0ABC462DA7C1A6F1 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = 9A6A47FD91BF4C69AD7A4E4E /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				C54C54ECF06F430AAED27F8F /* PBXTargetDependency */,
+				8BA5241F9BBB445791AB3845 /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
@@ -81,14 +81,14 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildStyle section */
-		F2803A220D664FA49C176FC9 /* Debug */ = {
+		1F140A54DB86444C89E5D7F1 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		FC552C8CD3C842E19B0877E8 /* Release */ = {
+		30599D3EEEF54EBA92E0F301 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -98,139 +98,139 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		047493370A4A49FA9935C96D /* PBXContainerItemProxy */ = {
+		3D844F67DBCB49528626FA80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 54A0718FAD7A46568671A95D /* Project object */;
+			containerPortal = 4B980B2FEF654DC78C19E6B5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
 			remoteInfo = ALL_BUILD;
 		};
-		0E95D0AD777E48C3B3A3E56E /* PBXContainerItemProxy */ = {
+		620B57AE293549B3BBBAE9CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 54A0718FAD7A46568671A95D /* Project object */;
+			containerPortal = 4B980B2FEF654DC78C19E6B5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
 			remoteInfo = ZERO_CHECK;
 		};
-		25D1849C4DC7430B9108F49B /* PBXContainerItemProxy */ = {
+		A450F16AAA924CA7BCDC417F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 54A0718FAD7A46568671A95D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
-			remoteInfo = ZERO_CHECK;
-		};
-		334D5A6DD2EB417A94BE74EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54A0718FAD7A46568671A95D /* Project object */;
+			containerPortal = 4B980B2FEF654DC78C19E6B5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86736DDDED1F0A92597C9165;
 			remoteInfo = ALL_BUILD;
+		};
+		BFBEAD8516944927B74E8E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B980B2FEF654DC78C19E6B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C65101F907E9BB1C14098B;
+			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E65A50B59274FB08BF4DA67 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/embindgen.py */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = embindgen.py; path = embindgen.py; sourceTree = SOURCE_ROOT; };
-		7919BA040F7D4D10ADD8D391 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/src/core_bindings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = core_bindings.cpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/src/core_bindings.cpp"; sourceTree = "<absolute>"; };
-		B431E1C7F6C644C3A405BC50 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		C1A346938D004271BF957144 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/templates.py */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = templates.py; path = templates.py; sourceTree = SOURCE_ROOT; };
-		D67941D918104ADA86047063 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		19033029B75046688D3DC06F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		39F91C029EC34792B5136D88 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		843699EC5026445B85048EB9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/embindgen.py */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = embindgen.py; path = embindgen.py; sourceTree = SOURCE_ROOT; };
+		A0FBE0BCCE134B85B64DC2DC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/templates.py */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = templates.py; path = templates.py; sourceTree = SOURCE_ROOT; };
+		A2B61FF3149E4F3298BE2BF7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/src/core_bindings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = core_bindings.cpp; path = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/src/core_bindings.cpp"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		00D2411F40E1441CAD594739 /* Frameworks */ = {
+		0B001A48AE8E41F7BA6433AA /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Frameworks;
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		06328DAC4F9B420F8AE16CBB /* gen_opencv_js_source */ = {
+		2DC96C29C40E4FB687FD9214 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				323EC494937A4481BF97FD93 /* Source Files */,
-				A99256E1D65E444EB3E89D6E /* CMake Rules */,
-				0E65A50B59274FB08BF4DA67 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/embindgen.py */,
-				C1A346938D004271BF957144 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/templates.py */,
-				B431E1C7F6C644C3A405BC50 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/CMakeLists.txt */,
+				A2B61FF3149E4F3298BE2BF7 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/src/core_bindings.cpp */,
 			);
-			name = gen_opencv_js_source;
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		224D43DAE2E54BBB876FBF77 /* Products */ = {
+		4B3EC66440904C238D3A36FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		323EC494937A4481BF97FD93 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				7919BA040F7D4D10ADD8D391 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/src/core_bindings.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		32FAC3D57D85481899A06D78 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		491EE184ADF24561B417511B /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				32FAC3D57D85481899A06D78 /* CMake Rules */,
-				D67941D918104ADA86047063 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		4EDB0472E91344B39CF31918 /* Resources */ = {
+		590953E2FA39433EA15D3C70 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		641EEADDDFCE42478CAC9DE2 = {
+		9993919F56CF485AAED0B880 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				06328DAC4F9B420F8AE16CBB /* gen_opencv_js_source */,
-				491EE184ADF24561B417511B /* ALL_BUILD */,
-				224D43DAE2E54BBB876FBF77 /* Products */,
-				00D2411F40E1441CAD594739 /* Frameworks */,
-				4EDB0472E91344B39CF31918 /* Resources */,
+				CF8C0E2522704E18A0FF3D0D /* CMake Rules */,
+				19033029B75046688D3DC06F /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		B0C38D22F3F44D40A704B449 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDAEA8C0FBD44DFCB1DF29AA = {
+			isa = PBXGroup;
+			children = (
+				EE296E00F1C54AFD8220E572 /* gen_opencv_js_source */,
+				9993919F56CF485AAED0B880 /* ALL_BUILD */,
+				4B3EC66440904C238D3A36FD /* Products */,
+				B0C38D22F3F44D40A704B449 /* Frameworks */,
+				590953E2FA39433EA15D3C70 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
-		A99256E1D65E444EB3E89D6E /* CMake Rules */ = {
+		CF8C0E2522704E18A0FF3D0D /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
+		EE296E00F1C54AFD8220E572 /* gen_opencv_js_source */ = {
+			isa = PBXGroup;
+			children = (
+				2DC96C29C40E4FB687FD9214 /* Source Files */,
+				0B001A48AE8E41F7BA6433AA /* CMake Rules */,
+				843699EC5026445B85048EB9 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/embindgen.py */,
+				A0FBE0BCCE134B85B64DC2DC /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/templates.py */,
+				39F91C029EC34792B5136D88 /* /Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator/CMakeLists.txt */,
+			);
+			name = gen_opencv_js_source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
-		54A0718FAD7A46568671A95D /* Project object */ = {
+		4B980B2FEF654DC78C19E6B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 2620;
+				LastUpgradeCheck = 2630;
 			};
-			buildConfigurationList = 037F07873F4B4605ADAE74B2 /* Build configuration list for PBXProject "opencv_js_bindings_generator" */;
+			buildConfigurationList = 42B08E1419B34FCF95484443 /* Build configuration list for PBXProject "opencv_js_bindings_generator" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				F2803A220D664FA49C176FC9 /* Debug */,
-				FC552C8CD3C842E19B0877E8 /* Release */,
+				1F140A54DB86444C89E5D7F1 /* Debug */,
+				30599D3EEEF54EBA92E0F301 /* Release */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 641EEADDDFCE42478CAC9DE2;
+			mainGroup = BDAEA8C0FBD44DFCB1DF29AA;
 			projectDirPath = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/opencv-4.10.0/modules/js/generator";
 			projectRoot = "";
 			targets = (
@@ -512,30 +512,50 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8BBE179AD0E54C3F8FE824EA /* PBXTargetDependency */ = {
+		4AD81962822844B797E449D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
-			targetProxy = 0E95D0AD777E48C3B3A3E56E /* PBXContainerItemProxy */;
+			targetProxy = BFBEAD8516944927B74E8E88 /* PBXContainerItemProxy */;
 		};
-		936E62F9A03D4801AA71E4EA /* PBXTargetDependency */ = {
+		8BA5241F9BBB445791AB3845 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
-			targetProxy = 334D5A6DD2EB417A94BE74EA /* PBXContainerItemProxy */;
+			targetProxy = A450F16AAA924CA7BCDC417F /* PBXContainerItemProxy */;
 		};
-		C54C54ECF06F430AAED27F8F /* PBXTargetDependency */ = {
+		AFB96C16C2C7450584203F72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 86736DDDED1F0A92597C9165 /* ALL_BUILD */;
-			targetProxy = 047493370A4A49FA9935C96D /* PBXContainerItemProxy */;
+			targetProxy = 3D844F67DBCB49528626FA80 /* PBXContainerItemProxy */;
 		};
-		E07EEF3E1E674813B70923D5 /* PBXTargetDependency */ = {
+		F0C575D60A6A40708320E174 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 01C65101F907E9BB1C14098B /* ZERO_CHECK */;
-			targetProxy = 25D1849C4DC7430B9108F49B /* PBXContainerItemProxy */;
+			targetProxy = 620B57AE293549B3BBBAE9CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C974112149049DCABF44E7D /* Release */ = {
+		0B3F1FD27F3C4DA59063EE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		234C781D27F04D22A5C6F822 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -555,7 +575,27 @@ fi
 			};
 			name = Release;
 		};
-		151E426570DE43B9BA24782E /* Release */ = {
+		379AA1845C8541CBA8F622AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3DA28BA68439418592978575 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -575,78 +615,7 @@ fi
 			};
 			name = Release;
 		};
-		3E9E203B2D544C06A05FA0E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		4898ADD5239F402B86BF2361 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CODE_SIGNING_REQUIRED = NO;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
-			};
-			name = Release;
-		};
-		557FE81D10E54FEC96EBD932 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gen_opencv_js_source;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		679EC61514B94FC49417F036 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		85794FCB44884554B3F9E59F /* Debug */ = {
+		454B6975FB67472DA5FA538D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -666,7 +635,37 @@ fi
 			};
 			name = Debug;
 		};
-		85E75DCA99F84E9F9CBCD7EE /* Debug */ = {
+		4B0C644D50294B0D9AC66675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
+			};
+			name = Debug;
+		};
+		7E4C8949BAFE44EDA4E0EA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		876FB4EEB1D94A6B83F33416 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -686,67 +685,7 @@ fi
 			};
 			name = Debug;
 		};
-		86A6006405F8434F8716F628 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		8EF1A35B5C054AF0A5890C01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		989494ED4D994AF99D1C5080 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		BF06436FCB2742B29FD78B2D /* Release */ = {
+		9C68C0C536104F48A79C34D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -766,17 +705,78 @@ fi
 			};
 			name = Release;
 		};
-		D1EF40BBED6C43C1A5AD4AD2 /* Debug */ = {
+		A48DB12922C846A8912181B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BD3B1171AC0B41799CEBECAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
 				CODE_SIGNING_REQUIRED = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "/Users/j.freyer/Desktop/opencv-ios-custom/scripts/work/xcframework-build/iphoneos/build/build-arm64-iphoneos/build";
+			};
+			name = Release;
+		};
+		D2A2230BB0B144C8A9F1B3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		D3F2FFEC66544039A1DFFE5A /* Debug */ = {
+		D7D652925CB945B79312BC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gen_opencv_js_source;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F085B9716C8944BEBBB7609E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -799,70 +799,70 @@ fi
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		037F07873F4B4605ADAE74B2 /* Build configuration list for PBXProject "opencv_js_bindings_generator" */ = {
+		2021D3BA85094C9E9CA8109D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1EF40BBED6C43C1A5AD4AD2 /* Debug */,
-				4898ADD5239F402B86BF2361 /* Release */,
+				F085B9716C8944BEBBB7609E /* Debug */,
+				3DA28BA68439418592978575 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		39FC203379E444E48B74D427 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		3E23CC9ED6E2453289C82168 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				679EC61514B94FC49417F036 /* Debug */,
-				BF06436FCB2742B29FD78B2D /* Release */,
+				454B6975FB67472DA5FA538D /* Debug */,
+				234C781D27F04D22A5C6F822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		46B3950E8389474B8BC3B3C5 /* Build configuration list for PBXAggregateTarget "gen_opencv_js_source" */ = {
+		42B08E1419B34FCF95484443 /* Build configuration list for PBXProject "opencv_js_bindings_generator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85E75DCA99F84E9F9CBCD7EE /* Debug */,
-				557FE81D10E54FEC96EBD932 /* Release */,
+				4B0C644D50294B0D9AC66675 /* Debug */,
+				BD3B1171AC0B41799CEBECAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		5B1BC0861AB14884BF5A6BC4 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+		9A6A47FD91BF4C69AD7A4E4E /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EF1A35B5C054AF0A5890C01 /* Debug */,
-				3E9E203B2D544C06A05FA0E1 /* Release */,
+				D2A2230BB0B144C8A9F1B3AF /* Debug */,
+				7E4C8949BAFE44EDA4E0EA19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C943F8EF0ABC462DA7C1A6F1 /* Build configuration list for PBXAggregateTarget "package" */ = {
+		9C613E2F37944F7FB3AD85F0 /* Build configuration list for PBXAggregateTarget "gen_opencv_js_source" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86A6006405F8434F8716F628 /* Debug */,
-				989494ED4D994AF99D1C5080 /* Release */,
+				876FB4EEB1D94A6B83F33416 /* Debug */,
+				D7D652925CB945B79312BC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D57518F5C81F470494186B91 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		BE8B01F06B9C4163AC0D4E27 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3F2FFEC66544039A1DFFE5A /* Debug */,
-				151E426570DE43B9BA24782E /* Release */,
+				379AA1845C8541CBA8F622AD /* Debug */,
+				9C68C0C536104F48A79C34D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E9696499E8C14D55B1C328D9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		E4C09EE0F4EB47129AF17BC7 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85794FCB44884554B3F9E59F /* Debug */,
-				0C974112149049DCABF44E7D /* Release */,
+				A48DB12922C846A8912181B8 /* Debug */,
+				0B3F1FD27F3C4DA59063EE70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 54A0718FAD7A46568671A95D /* Project object */;
+	rootObject = 4B980B2FEF654DC78C19E6B5 /* Project object */;
 }
