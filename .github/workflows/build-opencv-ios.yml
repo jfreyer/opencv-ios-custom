@@ -36,17 +36,21 @@ jobs:
 
       - name: Download OpenCV source
         run: |
-          mkdir -p scripts/work
-          cd scripts/work
-          if [ ! -f "opencv-${{ env.OPENCV_VERSION }}/CMakeLists.txt" ]; then
+          WORK_DIR="scripts/work"
+          OPENCV_DIR="${WORK_DIR}/opencv-${{ env.OPENCV_VERSION }}"
+          mkdir -p "$WORK_DIR"
+          if [ ! -f "${OPENCV_DIR}/CMakeLists.txt" ]; then
             echo "Downloading OpenCV ${{ env.OPENCV_VERSION }} source tarball..."
-            curl -L -o opencv.tar.gz \
+            rm -rf "$OPENCV_DIR"
+            curl -L -o "${WORK_DIR}/opencv.tar.gz" \
               "https://github.com/opencv/opencv/archive/refs/tags/${{ env.OPENCV_VERSION }}.tar.gz"
-            tar xzf opencv.tar.gz
-            rm opencv.tar.gz
+            tar xzf "${WORK_DIR}/opencv.tar.gz" -C "$WORK_DIR"
+            rm -f "${WORK_DIR}/opencv.tar.gz"
           fi
           echo "Verifying source..."
-          ls -la "opencv-${{ env.OPENCV_VERSION }}/CMakeLists.txt"
+          ls -la "${OPENCV_DIR}/CMakeLists.txt"
+          echo "Source directory contents:"
+          ls "${OPENCV_DIR}/"
 
       - name: Build OpenCV XCFramework
         run: |
