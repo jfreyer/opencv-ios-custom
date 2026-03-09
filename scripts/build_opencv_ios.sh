@@ -21,8 +21,15 @@ set -euo pipefail
 # ──────────────────────────────────────────────────────────────────────────────
 # Configuration
 # ──────────────────────────────────────────────────────────────────────────────
-OPENCV_VERSION="4.10.0"
 IOS_DEPLOYMENT_TARGET="13.0"
+
+# Read version from version.env if available, otherwise default
+SCRIPT_DIR_TMP="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+VERSION_ENV="$(dirname "$SCRIPT_DIR_TMP")/version.env"
+if [ -f "$VERSION_ENV" ]; then
+    source "$VERSION_ENV"
+fi
+OPENCV_VERSION="${OPENCV_VERSION:-4.10.0}"
 
 # Debug symbols: set DEBUG_SYMBOLS=1 to build with debug info and generate
 # dSYM bundles for crash symbolication (e.g. Firebase Crashlytics).
