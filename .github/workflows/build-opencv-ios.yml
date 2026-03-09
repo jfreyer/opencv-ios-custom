@@ -51,7 +51,7 @@ jobs:
       - name: Build OpenCV XCFramework
         run: |
           chmod +x scripts/build_opencv_ios.sh
-          scripts/build_opencv_ios.sh
+          DEBUG_SYMBOLS=1 scripts/build_opencv_ios.sh
 
       - name: Verify XCFramework
         run: |
@@ -59,6 +59,13 @@ jobs:
           test -f output/opencv2.xcframework.zip || { echo "Zip not found"; exit 1; }
           echo "XCFramework slices:"
           ls output/opencv2.xcframework/ | grep -v Info.plist
+
+      - name: Verify debug symbols
+        run: |
+          test -d output/debug-symbols || { echo "Debug symbols not found"; exit 1; }
+          test -f output/debug-symbols.zip || { echo "Debug symbols zip not found"; exit 1; }
+          echo "Debug symbol slices:"
+          find output/debug-symbols -name "*.a" -exec ls -lh {} \;
 
       - name: Compute checksum
         run: |
@@ -90,6 +97,7 @@ jobs:
             - imread/imwrite (JPEG, PNG, WebP, TIFF)
             - arm64 device + arm64/x86_64 simulator
             - iOS ${{ env.IOS_DEPLOYMENT_TARGET || '13.0' }}+ deployment target
+            - Debug symbols for crash symbolication
 
             **Checksum (sha256):** `${{ env.CHECKSUM }}`
 
@@ -97,8 +105,15 @@ jobs:
             ```ruby
             pod 'opencv-ios-custom', '~> ${{ env.RELEASE_TAG }}'
             ```
+
+            **Debug symbols:**
+            Download `debug-symbols.zip` and upload to Firebase Crashlytics:
+            ```bash
+            firebase crashlytics:symbols:upload --app=YOUR_APP_ID debug-symbols/
+            ```
           files: |
             output/opencv2.xcframework.zip
+            output/debug-symbols.zip
           draft: false
           prerelease: false
 
